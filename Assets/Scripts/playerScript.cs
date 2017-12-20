@@ -1,0 +1,79 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class playerScript : MonoBehaviour {
+
+    /*
+     * This is the value that determines how high chance will jump
+     */
+    public float jumpPower = 10.0f;
+
+    /*
+     * This is the Rigidbody reference to the chance rigidbody.
+     */
+    Rigidbody2D myRigidBody;
+
+    /*
+     * This is the jump constant used to move the character up. Only change to tweak power.
+     */
+    private float JUMP_CONSTANT = 20.0f;
+
+    /*
+     * Bool to determine if 1 jump per click. 
+     */
+    public bool isGrounded = false;
+
+    public float MOVEMENT_CONSTANT = 10.0f;
+
+
+
+    // Use this for initialization
+    void Start () {
+        myRigidBody = transform.GetComponent<Rigidbody2D>();
+	}
+	
+	// Update is called once per frame
+	void Update () {
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        {
+            myRigidBody.AddForce(Vector3.up * (jumpPower * myRigidBody.mass * JUMP_CONSTANT));
+            isGrounded = false;
+        }
+        transform.Translate(Vector3.right * MOVEMENT_CONSTANT * Time.deltaTime);
+    }
+
+    /**
+     * This Function changes the boolean tag once the character hits the ground to 
+     * continue movement else double jumping might happen.
+     */
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.collider.tag == "Ground")
+        {
+            isGrounded = true;
+        }
+    }
+
+    /*
+     *This function also does the same thing as the function above.
+     */
+    void OnCollisionStay2D(Collision2D other)
+    {
+        if (other.collider.tag == "Ground")
+        {
+            isGrounded = true;
+        }
+    }
+
+    /*
+     * This turns the boolean off after chance leaves the platform.
+     */
+    void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.collider.tag == "Ground")
+        {
+            isGrounded = false;
+        }
+    }
+}
