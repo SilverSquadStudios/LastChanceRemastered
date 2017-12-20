@@ -17,9 +17,8 @@ public class spawnPlatform : MonoBehaviour {
     //Vertical discrepency max
     public float verticalMax = 6;
 
-
+    //Vector to base the platforms off of.
     private Vector2 originPosition;
-
 
     void Start()
     {
@@ -35,7 +34,7 @@ public class spawnPlatform : MonoBehaviour {
         for (int i = 0; i < maxPlatforms; i++)
         {
             //Creates a new vector within the ranges of horizontal min/max and vertical min/max
-            Vector2 pos = originPosition + new Vector2(Random.Range(horizontalMin, horizontalMax), Random.Range(verticalMin, verticalMax));
+            Vector2 pos = originPosition + new Vector2(Random.Range(horizontalMin, horizontalMax), (Random.Range(verticalMin, verticalMax)-originPosition.y));
             //Creates a new object with properties from the vector.
             Instantiate(platform, pos, Quaternion.identity);
             //Sets original position as vector.

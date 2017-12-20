@@ -17,9 +17,6 @@ public class deathRestart : MonoBehaviour {
 
     void OnTriggerEnter2D (Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            SceneManager.LoadScene("game");
-        }            
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

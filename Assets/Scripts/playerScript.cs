@@ -24,7 +24,8 @@ public class playerScript : MonoBehaviour {
      */
     public bool isGrounded = false;
 
-    public float MOVEMENT_CONSTANT = 10.0f;
+    //This is the movement constant that the camera and chance uses. Can be used to speed up or slow down.
+    private static float MOVEMENT_CONSTANT = 20.0f;
 
 
 
@@ -41,6 +42,22 @@ public class playerScript : MonoBehaviour {
             isGrounded = false;
         }
         transform.Translate(Vector3.right * MOVEMENT_CONSTANT * Time.deltaTime);
+    }
+
+    /**
+     * Getter for the MOVEMENT_CONSTANT
+     */
+    public static float getMovement()
+    {
+        return MOVEMENT_CONSTANT;
+    }
+
+    /**
+     * Setter for the MOVEMENT_CONSTANT
+     */
+     public void setMovement(float value)
+    {
+        MOVEMENT_CONSTANT = value;
     }
 
     /**
