@@ -34,15 +34,9 @@ We use [GitHub](https://github.com/) for versioning. For the versions available,
 * **Pradeep Senthil** - *Backend Dev* - [pradeepsen99](https://github.com/pradeepsen99)
 * **Mohammed Zaiduddin** - *Frontend Dev* - [Sadbunny1](https://github.com/Sadbunny1)
 * **David Martinez** - *Graphics* - [Dmartz218](https://github.com/Dmartz218)
-* **Tomas Bindokas** - *hi* - [tbindokas13](https://github.com/tbindokas13)
+* **Tomas Bindokas** - *Dev* - [tbindokas13](https://github.com/tbindokas13)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
 
