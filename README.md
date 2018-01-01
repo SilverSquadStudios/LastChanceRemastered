@@ -23,7 +23,7 @@ After cloned, open unity and direct it to the folder where you cloned the reposi
 
 * [Unity](https://unity3d.com/) - Framework used
 * [C#](https://maven.apache.org/) - Scripting language
-* [Illustrator](http://www.adobe.com/products/illustrator.html) - Used to generate RSS Feeds
+* [Illustrator](http://www.adobe.com/products/illustrator.html) - Used to make the graphics
 
 ## Versioning
 
