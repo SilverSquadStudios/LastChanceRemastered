@@ -31,10 +31,10 @@ We use [GitHub](https://github.com/) for versioning. For the versions available,
 
 ## Authors
 
-* **Pradeep Senthil** - *Backend Dev* - [pradeepsen99](https://github.com/pradeepsen99)
-* **Mohammed Zaiduddin** - *Frontend Dev* - [Sadbunny1](https://github.com/Sadbunny1)
-* **David Martinez** - *Graphics* - [Dmartz218](https://github.com/Dmartz218)
-* **Tomas Bindokas** - *Dev* - [tbindokas13](https://github.com/tbindokas13)
+* **Pradeep Senthil** - [pradeepsen99](https://github.com/pradeepsen99)
+* **Mohammed Zaiduddin** - [Sadbunny1](https://github.com/Sadbunny1)
+* **David Martinez** - [Dmartz218](https://github.com/Dmartz218)
+* **Tomas Bindokas** - [tbindokas13](https://github.com/tbindokas13)
 
 ## License
 
