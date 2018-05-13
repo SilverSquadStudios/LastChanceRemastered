@@ -456,6 +456,14 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.RemoteConfigSettings
 
+	//Start Registrations for type : UnityEngine.Renderer
+
+		//System.Void UnityEngine.Renderer::get_bounds_Injected(UnityEngine.Bounds&)
+		void Register_UnityEngine_Renderer_get_bounds_Injected();
+		Register_UnityEngine_Renderer_get_bounds_Injected();
+
+	//End Registrations for type : UnityEngine.Renderer
+
 	//Start Registrations for type : UnityEngine.Rigidbody2D
 
 		//System.Single UnityEngine.Rigidbody2D::get_mass()

@@ -14480,15 +14480,15 @@ struct  Type_t  : public MemberInfo_t
 {
 public:
 	// System.RuntimeTypeHandle System.Type::_impl
-	RuntimeTypeHandle_t3027515415  ____impl_0;
+	RuntimeTypeHandle_t3027515415  ____impl_1;
 
 public:
-	inline static int32_t get_offset_of__impl_0() { return static_cast<int32_t>(offsetof(Type_t, ____impl_0)); }
-	inline RuntimeTypeHandle_t3027515415  get__impl_0() const { return ____impl_0; }
-	inline RuntimeTypeHandle_t3027515415 * get_address_of__impl_0() { return &____impl_0; }
-	inline void set__impl_0(RuntimeTypeHandle_t3027515415  value)
+	inline static int32_t get_offset_of__impl_1() { return static_cast<int32_t>(offsetof(Type_t, ____impl_1)); }
+	inline RuntimeTypeHandle_t3027515415  get__impl_1() const { return ____impl_1; }
+	inline RuntimeTypeHandle_t3027515415 * get_address_of__impl_1() { return &____impl_1; }
+	inline void set__impl_1(RuntimeTypeHandle_t3027515415  value)
 	{
-		____impl_0 = value;
+		____impl_1 = value;
 	}
 };
 
@@ -14496,70 +14496,70 @@ struct Type_t_StaticFields
 {
 public:
 	// System.Char System.Type::Delimiter
-	Il2CppChar ___Delimiter_1;
+	Il2CppChar ___Delimiter_2;
 	// System.Type[] System.Type::EmptyTypes
-	TypeU5BU5D_t3940880105* ___EmptyTypes_2;
+	TypeU5BU5D_t3940880105* ___EmptyTypes_3;
 	// System.Reflection.MemberFilter System.Type::FilterAttribute
-	MemberFilter_t426314064 * ___FilterAttribute_3;
+	MemberFilter_t426314064 * ___FilterAttribute_4;
 	// System.Reflection.MemberFilter System.Type::FilterName
-	MemberFilter_t426314064 * ___FilterName_4;
+	MemberFilter_t426314064 * ___FilterName_5;
 	// System.Reflection.MemberFilter System.Type::FilterNameIgnoreCase
-	MemberFilter_t426314064 * ___FilterNameIgnoreCase_5;
+	MemberFilter_t426314064 * ___FilterNameIgnoreCase_6;
 	// System.Object System.Type::Missing
-	RuntimeObject * ___Missing_6;
+	RuntimeObject * ___Missing_7;
 
 public:
-	inline static int32_t get_offset_of_Delimiter_1() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___Delimiter_1)); }
-	inline Il2CppChar get_Delimiter_1() const { return ___Delimiter_1; }
-	inline Il2CppChar* get_address_of_Delimiter_1() { return &___Delimiter_1; }
-	inline void set_Delimiter_1(Il2CppChar value)
+	inline static int32_t get_offset_of_Delimiter_2() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___Delimiter_2)); }
+	inline Il2CppChar get_Delimiter_2() const { return ___Delimiter_2; }
+	inline Il2CppChar* get_address_of_Delimiter_2() { return &___Delimiter_2; }
+	inline void set_Delimiter_2(Il2CppChar value)
 	{
-		___Delimiter_1 = value;
+		___Delimiter_2 = value;
 	}
 
-	inline static int32_t get_offset_of_EmptyTypes_2() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___EmptyTypes_2)); }
-	inline TypeU5BU5D_t3940880105* get_EmptyTypes_2() const { return ___EmptyTypes_2; }
-	inline TypeU5BU5D_t3940880105** get_address_of_EmptyTypes_2() { return &___EmptyTypes_2; }
-	inline void set_EmptyTypes_2(TypeU5BU5D_t3940880105* value)
+	inline static int32_t get_offset_of_EmptyTypes_3() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___EmptyTypes_3)); }
+	inline TypeU5BU5D_t3940880105* get_EmptyTypes_3() const { return ___EmptyTypes_3; }
+	inline TypeU5BU5D_t3940880105** get_address_of_EmptyTypes_3() { return &___EmptyTypes_3; }
+	inline void set_EmptyTypes_3(TypeU5BU5D_t3940880105* value)
 	{
-		___EmptyTypes_2 = value;
-		Il2CppCodeGenWriteBarrier((&___EmptyTypes_2), value);
+		___EmptyTypes_3 = value;
+		Il2CppCodeGenWriteBarrier((&___EmptyTypes_3), value);
 	}
 
-	inline static int32_t get_offset_of_FilterAttribute_3() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___FilterAttribute_3)); }
-	inline MemberFilter_t426314064 * get_FilterAttribute_3() const { return ___FilterAttribute_3; }
-	inline MemberFilter_t426314064 ** get_address_of_FilterAttribute_3() { return &___FilterAttribute_3; }
-	inline void set_FilterAttribute_3(MemberFilter_t426314064 * value)
+	inline static int32_t get_offset_of_FilterAttribute_4() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___FilterAttribute_4)); }
+	inline MemberFilter_t426314064 * get_FilterAttribute_4() const { return ___FilterAttribute_4; }
+	inline MemberFilter_t426314064 ** get_address_of_FilterAttribute_4() { return &___FilterAttribute_4; }
+	inline void set_FilterAttribute_4(MemberFilter_t426314064 * value)
 	{
-		___FilterAttribute_3 = value;
-		Il2CppCodeGenWriteBarrier((&___FilterAttribute_3), value);
+		___FilterAttribute_4 = value;
+		Il2CppCodeGenWriteBarrier((&___FilterAttribute_4), value);
 	}
 
-	inline static int32_t get_offset_of_FilterName_4() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___FilterName_4)); }
-	inline MemberFilter_t426314064 * get_FilterName_4() const { return ___FilterName_4; }
-	inline MemberFilter_t426314064 ** get_address_of_FilterName_4() { return &___FilterName_4; }
-	inline void set_FilterName_4(MemberFilter_t426314064 * value)
+	inline static int32_t get_offset_of_FilterName_5() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___FilterName_5)); }
+	inline MemberFilter_t426314064 * get_FilterName_5() const { return ___FilterName_5; }
+	inline MemberFilter_t426314064 ** get_address_of_FilterName_5() { return &___FilterName_5; }
+	inline void set_FilterName_5(MemberFilter_t426314064 * value)
 	{
-		___FilterName_4 = value;
-		Il2CppCodeGenWriteBarrier((&___FilterName_4), value);
+		___FilterName_5 = value;
+		Il2CppCodeGenWriteBarrier((&___FilterName_5), value);
 	}
 
-	inline static int32_t get_offset_of_FilterNameIgnoreCase_5() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___FilterNameIgnoreCase_5)); }
-	inline MemberFilter_t426314064 * get_FilterNameIgnoreCase_5() const { return ___FilterNameIgnoreCase_5; }
-	inline MemberFilter_t426314064 ** get_address_of_FilterNameIgnoreCase_5() { return &___FilterNameIgnoreCase_5; }
-	inline void set_FilterNameIgnoreCase_5(MemberFilter_t426314064 * value)
+	inline static int32_t get_offset_of_FilterNameIgnoreCase_6() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___FilterNameIgnoreCase_6)); }
+	inline MemberFilter_t426314064 * get_FilterNameIgnoreCase_6() const { return ___FilterNameIgnoreCase_6; }
+	inline MemberFilter_t426314064 ** get_address_of_FilterNameIgnoreCase_6() { return &___FilterNameIgnoreCase_6; }
+	inline void set_FilterNameIgnoreCase_6(MemberFilter_t426314064 * value)
 	{
-		___FilterNameIgnoreCase_5 = value;
-		Il2CppCodeGenWriteBarrier((&___FilterNameIgnoreCase_5), value);
+		___FilterNameIgnoreCase_6 = value;
+		Il2CppCodeGenWriteBarrier((&___FilterNameIgnoreCase_6), value);
 	}
 
-	inline static int32_t get_offset_of_Missing_6() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___Missing_6)); }
-	inline RuntimeObject * get_Missing_6() const { return ___Missing_6; }
-	inline RuntimeObject ** get_address_of_Missing_6() { return &___Missing_6; }
-	inline void set_Missing_6(RuntimeObject * value)
+	inline static int32_t get_offset_of_Missing_7() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___Missing_7)); }
+	inline RuntimeObject * get_Missing_7() const { return ___Missing_7; }
+	inline RuntimeObject ** get_address_of_Missing_7() { return &___Missing_7; }
+	inline void set_Missing_7(RuntimeObject * value)
 	{
-		___Missing_6 = value;
-		Il2CppCodeGenWriteBarrier((&___Missing_6), value);
+		___Missing_7 = value;
+		Il2CppCodeGenWriteBarrier((&___Missing_7), value);
 	}
 };
 
@@ -14970,27 +14970,27 @@ struct  EnumBuilder_t2400448213  : public Type_t
 {
 public:
 	// System.Reflection.Emit.TypeBuilder System.Reflection.Emit.EnumBuilder::_tb
-	TypeBuilder_t1073948154 * ____tb_7;
+	TypeBuilder_t1073948154 * ____tb_8;
 	// System.Type System.Reflection.Emit.EnumBuilder::_underlyingType
-	Type_t * ____underlyingType_8;
+	Type_t * ____underlyingType_9;
 
 public:
-	inline static int32_t get_offset_of__tb_7() { return static_cast<int32_t>(offsetof(EnumBuilder_t2400448213, ____tb_7)); }
-	inline TypeBuilder_t1073948154 * get__tb_7() const { return ____tb_7; }
-	inline TypeBuilder_t1073948154 ** get_address_of__tb_7() { return &____tb_7; }
-	inline void set__tb_7(TypeBuilder_t1073948154 * value)
+	inline static int32_t get_offset_of__tb_8() { return static_cast<int32_t>(offsetof(EnumBuilder_t2400448213, ____tb_8)); }
+	inline TypeBuilder_t1073948154 * get__tb_8() const { return ____tb_8; }
+	inline TypeBuilder_t1073948154 ** get_address_of__tb_8() { return &____tb_8; }
+	inline void set__tb_8(TypeBuilder_t1073948154 * value)
 	{
-		____tb_7 = value;
-		Il2CppCodeGenWriteBarrier((&____tb_7), value);
+		____tb_8 = value;
+		Il2CppCodeGenWriteBarrier((&____tb_8), value);
 	}
 
-	inline static int32_t get_offset_of__underlyingType_8() { return static_cast<int32_t>(offsetof(EnumBuilder_t2400448213, ____underlyingType_8)); }
-	inline Type_t * get__underlyingType_8() const { return ____underlyingType_8; }
-	inline Type_t ** get_address_of__underlyingType_8() { return &____underlyingType_8; }
-	inline void set__underlyingType_8(Type_t * value)
+	inline static int32_t get_offset_of__underlyingType_9() { return static_cast<int32_t>(offsetof(EnumBuilder_t2400448213, ____underlyingType_9)); }
+	inline Type_t * get__underlyingType_9() const { return ____underlyingType_9; }
+	inline Type_t ** get_address_of__underlyingType_9() { return &____underlyingType_9; }
+	inline void set__underlyingType_9(Type_t * value)
 	{
-		____underlyingType_8 = value;
-		Il2CppCodeGenWriteBarrier((&____underlyingType_8), value);
+		____underlyingType_9 = value;
+		Il2CppCodeGenWriteBarrier((&____underlyingType_9), value);
 	}
 };
 
@@ -15011,16 +15011,16 @@ struct  MonoType_t  : public Type_t
 {
 public:
 	// System.MonoTypeInfo System.MonoType::type_info
-	MonoTypeInfo_t3366989025 * ___type_info_7;
+	MonoTypeInfo_t3366989025 * ___type_info_8;
 
 public:
-	inline static int32_t get_offset_of_type_info_7() { return static_cast<int32_t>(offsetof(MonoType_t, ___type_info_7)); }
-	inline MonoTypeInfo_t3366989025 * get_type_info_7() const { return ___type_info_7; }
-	inline MonoTypeInfo_t3366989025 ** get_address_of_type_info_7() { return &___type_info_7; }
-	inline void set_type_info_7(MonoTypeInfo_t3366989025 * value)
+	inline static int32_t get_offset_of_type_info_8() { return static_cast<int32_t>(offsetof(MonoType_t, ___type_info_8)); }
+	inline MonoTypeInfo_t3366989025 * get_type_info_8() const { return ___type_info_8; }
+	inline MonoTypeInfo_t3366989025 ** get_address_of_type_info_8() { return &___type_info_8; }
+	inline void set_type_info_8(MonoTypeInfo_t3366989025 * value)
 	{
-		___type_info_7 = value;
-		Il2CppCodeGenWriteBarrier((&___type_info_7), value);
+		___type_info_8 = value;
+		Il2CppCodeGenWriteBarrier((&___type_info_8), value);
 	}
 };
 
@@ -15041,49 +15041,49 @@ struct  GenericTypeParameterBuilder_t1988827940  : public Type_t
 {
 public:
 	// System.Reflection.Emit.TypeBuilder System.Reflection.Emit.GenericTypeParameterBuilder::tbuilder
-	TypeBuilder_t1073948154 * ___tbuilder_7;
+	TypeBuilder_t1073948154 * ___tbuilder_8;
 	// System.Reflection.Emit.MethodBuilder System.Reflection.Emit.GenericTypeParameterBuilder::mbuilder
-	MethodBuilder_t2807316753 * ___mbuilder_8;
+	MethodBuilder_t2807316753 * ___mbuilder_9;
 	// System.String System.Reflection.Emit.GenericTypeParameterBuilder::name
-	String_t* ___name_9;
+	String_t* ___name_10;
 	// System.Type System.Reflection.Emit.GenericTypeParameterBuilder::base_type
-	Type_t * ___base_type_10;
+	Type_t * ___base_type_11;
 
 public:
-	inline static int32_t get_offset_of_tbuilder_7() { return static_cast<int32_t>(offsetof(GenericTypeParameterBuilder_t1988827940, ___tbuilder_7)); }
-	inline TypeBuilder_t1073948154 * get_tbuilder_7() const { return ___tbuilder_7; }
-	inline TypeBuilder_t1073948154 ** get_address_of_tbuilder_7() { return &___tbuilder_7; }
-	inline void set_tbuilder_7(TypeBuilder_t1073948154 * value)
+	inline static int32_t get_offset_of_tbuilder_8() { return static_cast<int32_t>(offsetof(GenericTypeParameterBuilder_t1988827940, ___tbuilder_8)); }
+	inline TypeBuilder_t1073948154 * get_tbuilder_8() const { return ___tbuilder_8; }
+	inline TypeBuilder_t1073948154 ** get_address_of_tbuilder_8() { return &___tbuilder_8; }
+	inline void set_tbuilder_8(TypeBuilder_t1073948154 * value)
 	{
-		___tbuilder_7 = value;
-		Il2CppCodeGenWriteBarrier((&___tbuilder_7), value);
+		___tbuilder_8 = value;
+		Il2CppCodeGenWriteBarrier((&___tbuilder_8), value);
 	}
 
-	inline static int32_t get_offset_of_mbuilder_8() { return static_cast<int32_t>(offsetof(GenericTypeParameterBuilder_t1988827940, ___mbuilder_8)); }
-	inline MethodBuilder_t2807316753 * get_mbuilder_8() const { return ___mbuilder_8; }
-	inline MethodBuilder_t2807316753 ** get_address_of_mbuilder_8() { return &___mbuilder_8; }
-	inline void set_mbuilder_8(MethodBuilder_t2807316753 * value)
+	inline static int32_t get_offset_of_mbuilder_9() { return static_cast<int32_t>(offsetof(GenericTypeParameterBuilder_t1988827940, ___mbuilder_9)); }
+	inline MethodBuilder_t2807316753 * get_mbuilder_9() const { return ___mbuilder_9; }
+	inline MethodBuilder_t2807316753 ** get_address_of_mbuilder_9() { return &___mbuilder_9; }
+	inline void set_mbuilder_9(MethodBuilder_t2807316753 * value)
 	{
-		___mbuilder_8 = value;
-		Il2CppCodeGenWriteBarrier((&___mbuilder_8), value);
+		___mbuilder_9 = value;
+		Il2CppCodeGenWriteBarrier((&___mbuilder_9), value);
 	}
 
-	inline static int32_t get_offset_of_name_9() { return static_cast<int32_t>(offsetof(GenericTypeParameterBuilder_t1988827940, ___name_9)); }
-	inline String_t* get_name_9() const { return ___name_9; }
-	inline String_t** get_address_of_name_9() { return &___name_9; }
-	inline void set_name_9(String_t* value)
+	inline static int32_t get_offset_of_name_10() { return static_cast<int32_t>(offsetof(GenericTypeParameterBuilder_t1988827940, ___name_10)); }
+	inline String_t* get_name_10() const { return ___name_10; }
+	inline String_t** get_address_of_name_10() { return &___name_10; }
+	inline void set_name_10(String_t* value)
 	{
-		___name_9 = value;
-		Il2CppCodeGenWriteBarrier((&___name_9), value);
+		___name_10 = value;
+		Il2CppCodeGenWriteBarrier((&___name_10), value);
 	}
 
-	inline static int32_t get_offset_of_base_type_10() { return static_cast<int32_t>(offsetof(GenericTypeParameterBuilder_t1988827940, ___base_type_10)); }
-	inline Type_t * get_base_type_10() const { return ___base_type_10; }
-	inline Type_t ** get_address_of_base_type_10() { return &___base_type_10; }
-	inline void set_base_type_10(Type_t * value)
+	inline static int32_t get_offset_of_base_type_11() { return static_cast<int32_t>(offsetof(GenericTypeParameterBuilder_t1988827940, ___base_type_11)); }
+	inline Type_t * get_base_type_11() const { return ___base_type_11; }
+	inline Type_t ** get_address_of_base_type_11() { return &___base_type_11; }
+	inline void set_base_type_11(Type_t * value)
 	{
-		___base_type_10 = value;
-		Il2CppCodeGenWriteBarrier((&___base_type_10), value);
+		___base_type_11 = value;
+		Il2CppCodeGenWriteBarrier((&___base_type_11), value);
 	}
 };
 
@@ -15375,283 +15375,283 @@ struct  TypeBuilder_t1073948154  : public Type_t
 {
 public:
 	// System.String System.Reflection.Emit.TypeBuilder::tname
-	String_t* ___tname_7;
+	String_t* ___tname_8;
 	// System.String System.Reflection.Emit.TypeBuilder::nspace
-	String_t* ___nspace_8;
+	String_t* ___nspace_9;
 	// System.Type System.Reflection.Emit.TypeBuilder::parent
-	Type_t * ___parent_9;
+	Type_t * ___parent_10;
 	// System.Type System.Reflection.Emit.TypeBuilder::nesting_type
-	Type_t * ___nesting_type_10;
+	Type_t * ___nesting_type_11;
 	// System.Type[] System.Reflection.Emit.TypeBuilder::interfaces
-	TypeU5BU5D_t3940880105* ___interfaces_11;
+	TypeU5BU5D_t3940880105* ___interfaces_12;
 	// System.Int32 System.Reflection.Emit.TypeBuilder::num_methods
-	int32_t ___num_methods_12;
+	int32_t ___num_methods_13;
 	// System.Reflection.Emit.MethodBuilder[] System.Reflection.Emit.TypeBuilder::methods
-	MethodBuilderU5BU5D_t3705301900* ___methods_13;
+	MethodBuilderU5BU5D_t3705301900* ___methods_14;
 	// System.Reflection.Emit.ConstructorBuilder[] System.Reflection.Emit.TypeBuilder::ctors
-	ConstructorBuilderU5BU5D_t3223009221* ___ctors_14;
+	ConstructorBuilderU5BU5D_t3223009221* ___ctors_15;
 	// System.Reflection.Emit.PropertyBuilder[] System.Reflection.Emit.TypeBuilder::properties
-	PropertyBuilderU5BU5D_t4023329206* ___properties_15;
+	PropertyBuilderU5BU5D_t4023329206* ___properties_16;
 	// System.Int32 System.Reflection.Emit.TypeBuilder::num_fields
-	int32_t ___num_fields_16;
+	int32_t ___num_fields_17;
 	// System.Reflection.Emit.FieldBuilder[] System.Reflection.Emit.TypeBuilder::fields
-	FieldBuilderU5BU5D_t138311604* ___fields_17;
+	FieldBuilderU5BU5D_t138311604* ___fields_18;
 	// System.Reflection.Emit.EventBuilder[] System.Reflection.Emit.TypeBuilder::events
-	EventBuilderU5BU5D_t3902749141* ___events_18;
+	EventBuilderU5BU5D_t3902749141* ___events_19;
 	// System.Reflection.Emit.CustomAttributeBuilder[] System.Reflection.Emit.TypeBuilder::cattrs
-	CustomAttributeBuilderU5BU5D_t2951373564* ___cattrs_19;
+	CustomAttributeBuilderU5BU5D_t2951373564* ___cattrs_20;
 	// System.Reflection.Emit.TypeBuilder[] System.Reflection.Emit.TypeBuilder::subtypes
-	TypeBuilderU5BU5D_t786280671* ___subtypes_20;
+	TypeBuilderU5BU5D_t786280671* ___subtypes_21;
 	// System.Reflection.TypeAttributes System.Reflection.Emit.TypeBuilder::attrs
-	int32_t ___attrs_21;
+	int32_t ___attrs_22;
 	// System.Int32 System.Reflection.Emit.TypeBuilder::table_idx
-	int32_t ___table_idx_22;
+	int32_t ___table_idx_23;
 	// System.Reflection.Emit.ModuleBuilder System.Reflection.Emit.TypeBuilder::pmodule
-	ModuleBuilder_t731887691 * ___pmodule_23;
+	ModuleBuilder_t731887691 * ___pmodule_24;
 	// System.Int32 System.Reflection.Emit.TypeBuilder::class_size
-	int32_t ___class_size_24;
+	int32_t ___class_size_25;
 	// System.Reflection.Emit.PackingSize System.Reflection.Emit.TypeBuilder::packing_size
-	int32_t ___packing_size_25;
+	int32_t ___packing_size_26;
 	// System.IntPtr System.Reflection.Emit.TypeBuilder::generic_container
-	intptr_t ___generic_container_26;
+	intptr_t ___generic_container_27;
 	// System.Reflection.Emit.GenericTypeParameterBuilder[] System.Reflection.Emit.TypeBuilder::generic_params
-	GenericTypeParameterBuilderU5BU5D_t3780444109* ___generic_params_27;
+	GenericTypeParameterBuilderU5BU5D_t3780444109* ___generic_params_28;
 	// System.Reflection.Emit.RefEmitPermissionSet[] System.Reflection.Emit.TypeBuilder::permissions
-	RefEmitPermissionSetU5BU5D_t567451178* ___permissions_28;
+	RefEmitPermissionSetU5BU5D_t567451178* ___permissions_29;
 	// System.Type System.Reflection.Emit.TypeBuilder::created
-	Type_t * ___created_29;
+	Type_t * ___created_30;
 	// System.String System.Reflection.Emit.TypeBuilder::fullname
-	String_t* ___fullname_30;
+	String_t* ___fullname_31;
 	// System.Boolean System.Reflection.Emit.TypeBuilder::createTypeCalled
-	bool ___createTypeCalled_31;
+	bool ___createTypeCalled_32;
 	// System.Type System.Reflection.Emit.TypeBuilder::underlying_type
-	Type_t * ___underlying_type_32;
+	Type_t * ___underlying_type_33;
 
 public:
-	inline static int32_t get_offset_of_tname_7() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___tname_7)); }
-	inline String_t* get_tname_7() const { return ___tname_7; }
-	inline String_t** get_address_of_tname_7() { return &___tname_7; }
-	inline void set_tname_7(String_t* value)
+	inline static int32_t get_offset_of_tname_8() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___tname_8)); }
+	inline String_t* get_tname_8() const { return ___tname_8; }
+	inline String_t** get_address_of_tname_8() { return &___tname_8; }
+	inline void set_tname_8(String_t* value)
 	{
-		___tname_7 = value;
-		Il2CppCodeGenWriteBarrier((&___tname_7), value);
+		___tname_8 = value;
+		Il2CppCodeGenWriteBarrier((&___tname_8), value);
 	}
 
-	inline static int32_t get_offset_of_nspace_8() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___nspace_8)); }
-	inline String_t* get_nspace_8() const { return ___nspace_8; }
-	inline String_t** get_address_of_nspace_8() { return &___nspace_8; }
-	inline void set_nspace_8(String_t* value)
+	inline static int32_t get_offset_of_nspace_9() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___nspace_9)); }
+	inline String_t* get_nspace_9() const { return ___nspace_9; }
+	inline String_t** get_address_of_nspace_9() { return &___nspace_9; }
+	inline void set_nspace_9(String_t* value)
 	{
-		___nspace_8 = value;
-		Il2CppCodeGenWriteBarrier((&___nspace_8), value);
+		___nspace_9 = value;
+		Il2CppCodeGenWriteBarrier((&___nspace_9), value);
 	}
 
-	inline static int32_t get_offset_of_parent_9() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___parent_9)); }
-	inline Type_t * get_parent_9() const { return ___parent_9; }
-	inline Type_t ** get_address_of_parent_9() { return &___parent_9; }
-	inline void set_parent_9(Type_t * value)
+	inline static int32_t get_offset_of_parent_10() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___parent_10)); }
+	inline Type_t * get_parent_10() const { return ___parent_10; }
+	inline Type_t ** get_address_of_parent_10() { return &___parent_10; }
+	inline void set_parent_10(Type_t * value)
 	{
-		___parent_9 = value;
-		Il2CppCodeGenWriteBarrier((&___parent_9), value);
+		___parent_10 = value;
+		Il2CppCodeGenWriteBarrier((&___parent_10), value);
 	}
 
-	inline static int32_t get_offset_of_nesting_type_10() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___nesting_type_10)); }
-	inline Type_t * get_nesting_type_10() const { return ___nesting_type_10; }
-	inline Type_t ** get_address_of_nesting_type_10() { return &___nesting_type_10; }
-	inline void set_nesting_type_10(Type_t * value)
+	inline static int32_t get_offset_of_nesting_type_11() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___nesting_type_11)); }
+	inline Type_t * get_nesting_type_11() const { return ___nesting_type_11; }
+	inline Type_t ** get_address_of_nesting_type_11() { return &___nesting_type_11; }
+	inline void set_nesting_type_11(Type_t * value)
 	{
-		___nesting_type_10 = value;
-		Il2CppCodeGenWriteBarrier((&___nesting_type_10), value);
+		___nesting_type_11 = value;
+		Il2CppCodeGenWriteBarrier((&___nesting_type_11), value);
 	}
 
-	inline static int32_t get_offset_of_interfaces_11() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___interfaces_11)); }
-	inline TypeU5BU5D_t3940880105* get_interfaces_11() const { return ___interfaces_11; }
-	inline TypeU5BU5D_t3940880105** get_address_of_interfaces_11() { return &___interfaces_11; }
-	inline void set_interfaces_11(TypeU5BU5D_t3940880105* value)
+	inline static int32_t get_offset_of_interfaces_12() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___interfaces_12)); }
+	inline TypeU5BU5D_t3940880105* get_interfaces_12() const { return ___interfaces_12; }
+	inline TypeU5BU5D_t3940880105** get_address_of_interfaces_12() { return &___interfaces_12; }
+	inline void set_interfaces_12(TypeU5BU5D_t3940880105* value)
 	{
-		___interfaces_11 = value;
-		Il2CppCodeGenWriteBarrier((&___interfaces_11), value);
+		___interfaces_12 = value;
+		Il2CppCodeGenWriteBarrier((&___interfaces_12), value);
 	}
 
-	inline static int32_t get_offset_of_num_methods_12() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___num_methods_12)); }
-	inline int32_t get_num_methods_12() const { return ___num_methods_12; }
-	inline int32_t* get_address_of_num_methods_12() { return &___num_methods_12; }
-	inline void set_num_methods_12(int32_t value)
+	inline static int32_t get_offset_of_num_methods_13() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___num_methods_13)); }
+	inline int32_t get_num_methods_13() const { return ___num_methods_13; }
+	inline int32_t* get_address_of_num_methods_13() { return &___num_methods_13; }
+	inline void set_num_methods_13(int32_t value)
 	{
-		___num_methods_12 = value;
+		___num_methods_13 = value;
 	}
 
-	inline static int32_t get_offset_of_methods_13() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___methods_13)); }
-	inline MethodBuilderU5BU5D_t3705301900* get_methods_13() const { return ___methods_13; }
-	inline MethodBuilderU5BU5D_t3705301900** get_address_of_methods_13() { return &___methods_13; }
-	inline void set_methods_13(MethodBuilderU5BU5D_t3705301900* value)
+	inline static int32_t get_offset_of_methods_14() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___methods_14)); }
+	inline MethodBuilderU5BU5D_t3705301900* get_methods_14() const { return ___methods_14; }
+	inline MethodBuilderU5BU5D_t3705301900** get_address_of_methods_14() { return &___methods_14; }
+	inline void set_methods_14(MethodBuilderU5BU5D_t3705301900* value)
 	{
-		___methods_13 = value;
-		Il2CppCodeGenWriteBarrier((&___methods_13), value);
+		___methods_14 = value;
+		Il2CppCodeGenWriteBarrier((&___methods_14), value);
 	}
 
-	inline static int32_t get_offset_of_ctors_14() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___ctors_14)); }
-	inline ConstructorBuilderU5BU5D_t3223009221* get_ctors_14() const { return ___ctors_14; }
-	inline ConstructorBuilderU5BU5D_t3223009221** get_address_of_ctors_14() { return &___ctors_14; }
-	inline void set_ctors_14(ConstructorBuilderU5BU5D_t3223009221* value)
+	inline static int32_t get_offset_of_ctors_15() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___ctors_15)); }
+	inline ConstructorBuilderU5BU5D_t3223009221* get_ctors_15() const { return ___ctors_15; }
+	inline ConstructorBuilderU5BU5D_t3223009221** get_address_of_ctors_15() { return &___ctors_15; }
+	inline void set_ctors_15(ConstructorBuilderU5BU5D_t3223009221* value)
 	{
-		___ctors_14 = value;
-		Il2CppCodeGenWriteBarrier((&___ctors_14), value);
+		___ctors_15 = value;
+		Il2CppCodeGenWriteBarrier((&___ctors_15), value);
 	}
 
-	inline static int32_t get_offset_of_properties_15() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___properties_15)); }
-	inline PropertyBuilderU5BU5D_t4023329206* get_properties_15() const { return ___properties_15; }
-	inline PropertyBuilderU5BU5D_t4023329206** get_address_of_properties_15() { return &___properties_15; }
-	inline void set_properties_15(PropertyBuilderU5BU5D_t4023329206* value)
+	inline static int32_t get_offset_of_properties_16() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___properties_16)); }
+	inline PropertyBuilderU5BU5D_t4023329206* get_properties_16() const { return ___properties_16; }
+	inline PropertyBuilderU5BU5D_t4023329206** get_address_of_properties_16() { return &___properties_16; }
+	inline void set_properties_16(PropertyBuilderU5BU5D_t4023329206* value)
 	{
-		___properties_15 = value;
-		Il2CppCodeGenWriteBarrier((&___properties_15), value);
+		___properties_16 = value;
+		Il2CppCodeGenWriteBarrier((&___properties_16), value);
 	}
 
-	inline static int32_t get_offset_of_num_fields_16() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___num_fields_16)); }
-	inline int32_t get_num_fields_16() const { return ___num_fields_16; }
-	inline int32_t* get_address_of_num_fields_16() { return &___num_fields_16; }
-	inline void set_num_fields_16(int32_t value)
+	inline static int32_t get_offset_of_num_fields_17() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___num_fields_17)); }
+	inline int32_t get_num_fields_17() const { return ___num_fields_17; }
+	inline int32_t* get_address_of_num_fields_17() { return &___num_fields_17; }
+	inline void set_num_fields_17(int32_t value)
 	{
-		___num_fields_16 = value;
+		___num_fields_17 = value;
 	}
 
-	inline static int32_t get_offset_of_fields_17() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___fields_17)); }
-	inline FieldBuilderU5BU5D_t138311604* get_fields_17() const { return ___fields_17; }
-	inline FieldBuilderU5BU5D_t138311604** get_address_of_fields_17() { return &___fields_17; }
-	inline void set_fields_17(FieldBuilderU5BU5D_t138311604* value)
+	inline static int32_t get_offset_of_fields_18() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___fields_18)); }
+	inline FieldBuilderU5BU5D_t138311604* get_fields_18() const { return ___fields_18; }
+	inline FieldBuilderU5BU5D_t138311604** get_address_of_fields_18() { return &___fields_18; }
+	inline void set_fields_18(FieldBuilderU5BU5D_t138311604* value)
 	{
-		___fields_17 = value;
-		Il2CppCodeGenWriteBarrier((&___fields_17), value);
+		___fields_18 = value;
+		Il2CppCodeGenWriteBarrier((&___fields_18), value);
 	}
 
-	inline static int32_t get_offset_of_events_18() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___events_18)); }
-	inline EventBuilderU5BU5D_t3902749141* get_events_18() const { return ___events_18; }
-	inline EventBuilderU5BU5D_t3902749141** get_address_of_events_18() { return &___events_18; }
-	inline void set_events_18(EventBuilderU5BU5D_t3902749141* value)
+	inline static int32_t get_offset_of_events_19() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___events_19)); }
+	inline EventBuilderU5BU5D_t3902749141* get_events_19() const { return ___events_19; }
+	inline EventBuilderU5BU5D_t3902749141** get_address_of_events_19() { return &___events_19; }
+	inline void set_events_19(EventBuilderU5BU5D_t3902749141* value)
 	{
-		___events_18 = value;
-		Il2CppCodeGenWriteBarrier((&___events_18), value);
+		___events_19 = value;
+		Il2CppCodeGenWriteBarrier((&___events_19), value);
 	}
 
-	inline static int32_t get_offset_of_cattrs_19() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___cattrs_19)); }
-	inline CustomAttributeBuilderU5BU5D_t2951373564* get_cattrs_19() const { return ___cattrs_19; }
-	inline CustomAttributeBuilderU5BU5D_t2951373564** get_address_of_cattrs_19() { return &___cattrs_19; }
-	inline void set_cattrs_19(CustomAttributeBuilderU5BU5D_t2951373564* value)
+	inline static int32_t get_offset_of_cattrs_20() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___cattrs_20)); }
+	inline CustomAttributeBuilderU5BU5D_t2951373564* get_cattrs_20() const { return ___cattrs_20; }
+	inline CustomAttributeBuilderU5BU5D_t2951373564** get_address_of_cattrs_20() { return &___cattrs_20; }
+	inline void set_cattrs_20(CustomAttributeBuilderU5BU5D_t2951373564* value)
 	{
-		___cattrs_19 = value;
-		Il2CppCodeGenWriteBarrier((&___cattrs_19), value);
+		___cattrs_20 = value;
+		Il2CppCodeGenWriteBarrier((&___cattrs_20), value);
 	}
 
-	inline static int32_t get_offset_of_subtypes_20() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___subtypes_20)); }
-	inline TypeBuilderU5BU5D_t786280671* get_subtypes_20() const { return ___subtypes_20; }
-	inline TypeBuilderU5BU5D_t786280671** get_address_of_subtypes_20() { return &___subtypes_20; }
-	inline void set_subtypes_20(TypeBuilderU5BU5D_t786280671* value)
+	inline static int32_t get_offset_of_subtypes_21() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___subtypes_21)); }
+	inline TypeBuilderU5BU5D_t786280671* get_subtypes_21() const { return ___subtypes_21; }
+	inline TypeBuilderU5BU5D_t786280671** get_address_of_subtypes_21() { return &___subtypes_21; }
+	inline void set_subtypes_21(TypeBuilderU5BU5D_t786280671* value)
 	{
-		___subtypes_20 = value;
-		Il2CppCodeGenWriteBarrier((&___subtypes_20), value);
+		___subtypes_21 = value;
+		Il2CppCodeGenWriteBarrier((&___subtypes_21), value);
 	}
 
-	inline static int32_t get_offset_of_attrs_21() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___attrs_21)); }
-	inline int32_t get_attrs_21() const { return ___attrs_21; }
-	inline int32_t* get_address_of_attrs_21() { return &___attrs_21; }
-	inline void set_attrs_21(int32_t value)
+	inline static int32_t get_offset_of_attrs_22() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___attrs_22)); }
+	inline int32_t get_attrs_22() const { return ___attrs_22; }
+	inline int32_t* get_address_of_attrs_22() { return &___attrs_22; }
+	inline void set_attrs_22(int32_t value)
 	{
-		___attrs_21 = value;
+		___attrs_22 = value;
 	}
 
-	inline static int32_t get_offset_of_table_idx_22() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___table_idx_22)); }
-	inline int32_t get_table_idx_22() const { return ___table_idx_22; }
-	inline int32_t* get_address_of_table_idx_22() { return &___table_idx_22; }
-	inline void set_table_idx_22(int32_t value)
+	inline static int32_t get_offset_of_table_idx_23() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___table_idx_23)); }
+	inline int32_t get_table_idx_23() const { return ___table_idx_23; }
+	inline int32_t* get_address_of_table_idx_23() { return &___table_idx_23; }
+	inline void set_table_idx_23(int32_t value)
 	{
-		___table_idx_22 = value;
+		___table_idx_23 = value;
 	}
 
-	inline static int32_t get_offset_of_pmodule_23() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___pmodule_23)); }
-	inline ModuleBuilder_t731887691 * get_pmodule_23() const { return ___pmodule_23; }
-	inline ModuleBuilder_t731887691 ** get_address_of_pmodule_23() { return &___pmodule_23; }
-	inline void set_pmodule_23(ModuleBuilder_t731887691 * value)
+	inline static int32_t get_offset_of_pmodule_24() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___pmodule_24)); }
+	inline ModuleBuilder_t731887691 * get_pmodule_24() const { return ___pmodule_24; }
+	inline ModuleBuilder_t731887691 ** get_address_of_pmodule_24() { return &___pmodule_24; }
+	inline void set_pmodule_24(ModuleBuilder_t731887691 * value)
 	{
-		___pmodule_23 = value;
-		Il2CppCodeGenWriteBarrier((&___pmodule_23), value);
+		___pmodule_24 = value;
+		Il2CppCodeGenWriteBarrier((&___pmodule_24), value);
 	}
 
-	inline static int32_t get_offset_of_class_size_24() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___class_size_24)); }
-	inline int32_t get_class_size_24() const { return ___class_size_24; }
-	inline int32_t* get_address_of_class_size_24() { return &___class_size_24; }
-	inline void set_class_size_24(int32_t value)
+	inline static int32_t get_offset_of_class_size_25() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___class_size_25)); }
+	inline int32_t get_class_size_25() const { return ___class_size_25; }
+	inline int32_t* get_address_of_class_size_25() { return &___class_size_25; }
+	inline void set_class_size_25(int32_t value)
 	{
-		___class_size_24 = value;
+		___class_size_25 = value;
 	}
 
-	inline static int32_t get_offset_of_packing_size_25() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___packing_size_25)); }
-	inline int32_t get_packing_size_25() const { return ___packing_size_25; }
-	inline int32_t* get_address_of_packing_size_25() { return &___packing_size_25; }
-	inline void set_packing_size_25(int32_t value)
+	inline static int32_t get_offset_of_packing_size_26() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___packing_size_26)); }
+	inline int32_t get_packing_size_26() const { return ___packing_size_26; }
+	inline int32_t* get_address_of_packing_size_26() { return &___packing_size_26; }
+	inline void set_packing_size_26(int32_t value)
 	{
-		___packing_size_25 = value;
+		___packing_size_26 = value;
 	}
 
-	inline static int32_t get_offset_of_generic_container_26() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___generic_container_26)); }
-	inline intptr_t get_generic_container_26() const { return ___generic_container_26; }
-	inline intptr_t* get_address_of_generic_container_26() { return &___generic_container_26; }
-	inline void set_generic_container_26(intptr_t value)
+	inline static int32_t get_offset_of_generic_container_27() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___generic_container_27)); }
+	inline intptr_t get_generic_container_27() const { return ___generic_container_27; }
+	inline intptr_t* get_address_of_generic_container_27() { return &___generic_container_27; }
+	inline void set_generic_container_27(intptr_t value)
 	{
-		___generic_container_26 = value;
+		___generic_container_27 = value;
 	}
 
-	inline static int32_t get_offset_of_generic_params_27() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___generic_params_27)); }
-	inline GenericTypeParameterBuilderU5BU5D_t3780444109* get_generic_params_27() const { return ___generic_params_27; }
-	inline GenericTypeParameterBuilderU5BU5D_t3780444109** get_address_of_generic_params_27() { return &___generic_params_27; }
-	inline void set_generic_params_27(GenericTypeParameterBuilderU5BU5D_t3780444109* value)
+	inline static int32_t get_offset_of_generic_params_28() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___generic_params_28)); }
+	inline GenericTypeParameterBuilderU5BU5D_t3780444109* get_generic_params_28() const { return ___generic_params_28; }
+	inline GenericTypeParameterBuilderU5BU5D_t3780444109** get_address_of_generic_params_28() { return &___generic_params_28; }
+	inline void set_generic_params_28(GenericTypeParameterBuilderU5BU5D_t3780444109* value)
 	{
-		___generic_params_27 = value;
-		Il2CppCodeGenWriteBarrier((&___generic_params_27), value);
+		___generic_params_28 = value;
+		Il2CppCodeGenWriteBarrier((&___generic_params_28), value);
 	}
 
-	inline static int32_t get_offset_of_permissions_28() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___permissions_28)); }
-	inline RefEmitPermissionSetU5BU5D_t567451178* get_permissions_28() const { return ___permissions_28; }
-	inline RefEmitPermissionSetU5BU5D_t567451178** get_address_of_permissions_28() { return &___permissions_28; }
-	inline void set_permissions_28(RefEmitPermissionSetU5BU5D_t567451178* value)
+	inline static int32_t get_offset_of_permissions_29() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___permissions_29)); }
+	inline RefEmitPermissionSetU5BU5D_t567451178* get_permissions_29() const { return ___permissions_29; }
+	inline RefEmitPermissionSetU5BU5D_t567451178** get_address_of_permissions_29() { return &___permissions_29; }
+	inline void set_permissions_29(RefEmitPermissionSetU5BU5D_t567451178* value)
 	{
-		___permissions_28 = value;
-		Il2CppCodeGenWriteBarrier((&___permissions_28), value);
+		___permissions_29 = value;
+		Il2CppCodeGenWriteBarrier((&___permissions_29), value);
 	}
 
-	inline static int32_t get_offset_of_created_29() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___created_29)); }
-	inline Type_t * get_created_29() const { return ___created_29; }
-	inline Type_t ** get_address_of_created_29() { return &___created_29; }
-	inline void set_created_29(Type_t * value)
+	inline static int32_t get_offset_of_created_30() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___created_30)); }
+	inline Type_t * get_created_30() const { return ___created_30; }
+	inline Type_t ** get_address_of_created_30() { return &___created_30; }
+	inline void set_created_30(Type_t * value)
 	{
-		___created_29 = value;
-		Il2CppCodeGenWriteBarrier((&___created_29), value);
+		___created_30 = value;
+		Il2CppCodeGenWriteBarrier((&___created_30), value);
 	}
 
-	inline static int32_t get_offset_of_fullname_30() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___fullname_30)); }
-	inline String_t* get_fullname_30() const { return ___fullname_30; }
-	inline String_t** get_address_of_fullname_30() { return &___fullname_30; }
-	inline void set_fullname_30(String_t* value)
+	inline static int32_t get_offset_of_fullname_31() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___fullname_31)); }
+	inline String_t* get_fullname_31() const { return ___fullname_31; }
+	inline String_t** get_address_of_fullname_31() { return &___fullname_31; }
+	inline void set_fullname_31(String_t* value)
 	{
-		___fullname_30 = value;
-		Il2CppCodeGenWriteBarrier((&___fullname_30), value);
+		___fullname_31 = value;
+		Il2CppCodeGenWriteBarrier((&___fullname_31), value);
 	}
 
-	inline static int32_t get_offset_of_createTypeCalled_31() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___createTypeCalled_31)); }
-	inline bool get_createTypeCalled_31() const { return ___createTypeCalled_31; }
-	inline bool* get_address_of_createTypeCalled_31() { return &___createTypeCalled_31; }
-	inline void set_createTypeCalled_31(bool value)
+	inline static int32_t get_offset_of_createTypeCalled_32() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___createTypeCalled_32)); }
+	inline bool get_createTypeCalled_32() const { return ___createTypeCalled_32; }
+	inline bool* get_address_of_createTypeCalled_32() { return &___createTypeCalled_32; }
+	inline void set_createTypeCalled_32(bool value)
 	{
-		___createTypeCalled_31 = value;
+		___createTypeCalled_32 = value;
 	}
 
-	inline static int32_t get_offset_of_underlying_type_32() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___underlying_type_32)); }
-	inline Type_t * get_underlying_type_32() const { return ___underlying_type_32; }
-	inline Type_t ** get_address_of_underlying_type_32() { return &___underlying_type_32; }
-	inline void set_underlying_type_32(Type_t * value)
+	inline static int32_t get_offset_of_underlying_type_33() { return static_cast<int32_t>(offsetof(TypeBuilder_t1073948154, ___underlying_type_33)); }
+	inline Type_t * get_underlying_type_33() const { return ___underlying_type_33; }
+	inline Type_t ** get_address_of_underlying_type_33() { return &___underlying_type_33; }
+	inline void set_underlying_type_33(Type_t * value)
 	{
-		___underlying_type_32 = value;
-		Il2CppCodeGenWriteBarrier((&___underlying_type_32), value);
+		___underlying_type_33 = value;
+		Il2CppCodeGenWriteBarrier((&___underlying_type_33), value);
 	}
 };
 
@@ -23814,7 +23814,7 @@ extern "C"  ConstructorInfo_t5769829 * MonoType_GetDefaultConstructor_m161685258
 	ConstructorInfo_t5769829 * V_2 = NULL;
 	{
 		V_0 = (ConstructorInfo_t5769829 *)NULL;
-		MonoTypeInfo_t3366989025 * L_0 = __this->get_type_info_7();
+		MonoTypeInfo_t3366989025 * L_0 = __this->get_type_info_8();
 		if (L_0)
 		{
 			goto IL_0018;
@@ -23823,12 +23823,12 @@ extern "C"  ConstructorInfo_t5769829 * MonoType_GetDefaultConstructor_m161685258
 	{
 		MonoTypeInfo_t3366989025 * L_1 = (MonoTypeInfo_t3366989025 *)il2cpp_codegen_object_new(MonoTypeInfo_t3366989025_il2cpp_TypeInfo_var);
 		MonoTypeInfo__ctor_m3401216922(L_1, /*hidden argument*/NULL);
-		__this->set_type_info_7(L_1);
+		__this->set_type_info_8(L_1);
 	}
 
 IL_0018:
 	{
-		MonoTypeInfo_t3366989025 * L_2 = __this->get_type_info_7();
+		MonoTypeInfo_t3366989025 * L_2 = __this->get_type_info_8();
 		ConstructorInfo_t5769829 * L_3 = L_2->get_default_ctor_1();
 		ConstructorInfo_t5769829 * L_4 = L_3;
 		V_0 = L_4;
@@ -23838,9 +23838,9 @@ IL_0018:
 		}
 	}
 	{
-		MonoTypeInfo_t3366989025 * L_5 = __this->get_type_info_7();
+		MonoTypeInfo_t3366989025 * L_5 = __this->get_type_info_8();
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t3940880105* L_6 = ((Type_t_StaticFields*)il2cpp_codegen_static_fields_for(Type_t_il2cpp_TypeInfo_var))->get_EmptyTypes_2();
+		TypeU5BU5D_t3940880105* L_6 = ((Type_t_StaticFields*)il2cpp_codegen_static_fields_for(Type_t_il2cpp_TypeInfo_var))->get_EmptyTypes_3();
 		ConstructorInfo_t5769829 * L_7 = Type_GetConstructor_m1195697116(__this, ((int32_t)52), (Binder_t2999457153 *)NULL, 3, L_6, (ParameterModifierU5BU5D_t2943407543*)(ParameterModifierU5BU5D_t2943407543*)NULL, /*hidden argument*/NULL);
 		ConstructorInfo_t5769829 * L_8 = L_7;
 		V_2 = L_8;
@@ -25774,7 +25774,7 @@ extern "C"  String_t* MonoType_get_FullName_m3242181132 (MonoType_t * __this, co
 	String_t* V_0 = NULL;
 	String_t* V_1 = NULL;
 	{
-		MonoTypeInfo_t3366989025 * L_0 = __this->get_type_info_7();
+		MonoTypeInfo_t3366989025 * L_0 = __this->get_type_info_8();
 		if (L_0)
 		{
 			goto IL_0016;
@@ -25783,12 +25783,12 @@ extern "C"  String_t* MonoType_get_FullName_m3242181132 (MonoType_t * __this, co
 	{
 		MonoTypeInfo_t3366989025 * L_1 = (MonoTypeInfo_t3366989025 *)il2cpp_codegen_object_new(MonoTypeInfo_t3366989025_il2cpp_TypeInfo_var);
 		MonoTypeInfo__ctor_m3401216922(L_1, /*hidden argument*/NULL);
-		__this->set_type_info_7(L_1);
+		__this->set_type_info_8(L_1);
 	}
 
 IL_0016:
 	{
-		MonoTypeInfo_t3366989025 * L_2 = __this->get_type_info_7();
+		MonoTypeInfo_t3366989025 * L_2 = __this->get_type_info_8();
 		String_t* L_3 = L_2->get_full_name_0();
 		String_t* L_4 = L_3;
 		V_0 = L_4;
@@ -25798,7 +25798,7 @@ IL_0016:
 		}
 	}
 	{
-		MonoTypeInfo_t3366989025 * L_5 = __this->get_type_info_7();
+		MonoTypeInfo_t3366989025 * L_5 = __this->get_type_info_8();
 		String_t* L_6 = MonoType_getFullName_m837685882(__this, (bool)1, (bool)0, /*hidden argument*/NULL);
 		String_t* L_7 = L_6;
 		V_1 = L_7;
@@ -25943,7 +25943,7 @@ extern "C"  Type_t * MonoType_get_ReflectedType_m3364880648 (MonoType_t * __this
 extern "C"  RuntimeTypeHandle_t3027515415  MonoType_get_TypeHandle_m1012024438 (MonoType_t * __this, const RuntimeMethod* method)
 {
 	{
-		RuntimeTypeHandle_t3027515415  L_0 = ((Type_t *)__this)->get__impl_0();
+		RuntimeTypeHandle_t3027515415  L_0 = ((Type_t *)__this)->get__impl_1();
 		return L_0;
 	}
 }
@@ -38961,7 +38961,7 @@ extern "C"  MethodBase_t * Default_BindToMethod_m490530316 (Default_t2456596213 
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t3940880105* L_1 = ((Type_t_StaticFields*)il2cpp_codegen_static_fields_for(Type_t_il2cpp_TypeInfo_var))->get_EmptyTypes_2();
+		TypeU5BU5D_t3940880105* L_1 = ((Type_t_StaticFields*)il2cpp_codegen_static_fields_for(Type_t_il2cpp_TypeInfo_var))->get_EmptyTypes_3();
 		V_0 = L_1;
 		goto IL_0046;
 	}
@@ -43667,7 +43667,7 @@ IL_00db:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t3940880105* L_41 = ((Type_t_StaticFields*)il2cpp_codegen_static_fields_for(Type_t_il2cpp_TypeInfo_var))->get_EmptyTypes_2();
+		TypeU5BU5D_t3940880105* L_41 = ((Type_t_StaticFields*)il2cpp_codegen_static_fields_for(Type_t_il2cpp_TypeInfo_var))->get_EmptyTypes_3();
 		G_B17_0 = L_41;
 		goto IL_00ec;
 	}
@@ -44428,7 +44428,7 @@ extern "C"  Exception_t * ConstructorBuilder_not_created_m1456215494 (Constructo
 extern "C"  Assembly_t * EnumBuilder_get_Assembly_m1175292766 (EnumBuilder_t2400448213 * __this, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get__tb_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get__tb_8();
 		Assembly_t * L_1 = TypeBuilder_get_Assembly_m4071790036(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
@@ -44437,7 +44437,7 @@ extern "C"  Assembly_t * EnumBuilder_get_Assembly_m1175292766 (EnumBuilder_t2400
 extern "C"  String_t* EnumBuilder_get_AssemblyQualifiedName_m3542375588 (EnumBuilder_t2400448213 * __this, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get__tb_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get__tb_8();
 		String_t* L_1 = TypeBuilder_get_AssemblyQualifiedName_m4059714567(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
@@ -44446,7 +44446,7 @@ extern "C"  String_t* EnumBuilder_get_AssemblyQualifiedName_m3542375588 (EnumBui
 extern "C"  Type_t * EnumBuilder_get_BaseType_m1707640163 (EnumBuilder_t2400448213 * __this, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get__tb_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get__tb_8();
 		Type_t * L_1 = TypeBuilder_get_BaseType_m3571781126(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
@@ -44455,7 +44455,7 @@ extern "C"  Type_t * EnumBuilder_get_BaseType_m1707640163 (EnumBuilder_t24004482
 extern "C"  Type_t * EnumBuilder_get_DeclaringType_m4266754303 (EnumBuilder_t2400448213 * __this, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get__tb_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get__tb_8();
 		Type_t * L_1 = TypeBuilder_get_DeclaringType_m4128305641(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
@@ -44464,7 +44464,7 @@ extern "C"  Type_t * EnumBuilder_get_DeclaringType_m4266754303 (EnumBuilder_t240
 extern "C"  String_t* EnumBuilder_get_FullName_m86524873 (EnumBuilder_t2400448213 * __this, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get__tb_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get__tb_8();
 		String_t* L_1 = TypeBuilder_get_FullName_m420272554(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
@@ -44473,7 +44473,7 @@ extern "C"  String_t* EnumBuilder_get_FullName_m86524873 (EnumBuilder_t240044821
 extern "C"  Module_t2987026101 * EnumBuilder_get_Module_m3038920337 (EnumBuilder_t2400448213 * __this, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get__tb_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get__tb_8();
 		Module_t2987026101 * L_1 = TypeBuilder_get_Module_m4154269895(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
@@ -44482,7 +44482,7 @@ extern "C"  Module_t2987026101 * EnumBuilder_get_Module_m3038920337 (EnumBuilder
 extern "C"  String_t* EnumBuilder_get_Name_m4016811629 (EnumBuilder_t2400448213 * __this, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get__tb_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get__tb_8();
 		String_t* L_1 = TypeBuilder_get_Name_m1525921477(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
@@ -44491,7 +44491,7 @@ extern "C"  String_t* EnumBuilder_get_Name_m4016811629 (EnumBuilder_t2400448213 
 extern "C"  String_t* EnumBuilder_get_Namespace_m931779410 (EnumBuilder_t2400448213 * __this, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get__tb_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get__tb_8();
 		String_t* L_1 = TypeBuilder_get_Namespace_m4175323609(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
@@ -44500,7 +44500,7 @@ extern "C"  String_t* EnumBuilder_get_Namespace_m931779410 (EnumBuilder_t2400448
 extern "C"  Type_t * EnumBuilder_get_ReflectedType_m3155130643 (EnumBuilder_t2400448213 * __this, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get__tb_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get__tb_8();
 		Type_t * L_1 = TypeBuilder_get_ReflectedType_m3266505878(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
@@ -44509,7 +44509,7 @@ extern "C"  Type_t * EnumBuilder_get_ReflectedType_m3155130643 (EnumBuilder_t240
 extern "C"  RuntimeTypeHandle_t3027515415  EnumBuilder_get_TypeHandle_m825995360 (EnumBuilder_t2400448213 * __this, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get__tb_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get__tb_8();
 		RuntimeTypeHandle_t3027515415  L_1 = TypeBuilder_get_TypeHandle_m3498565307(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
@@ -44518,7 +44518,7 @@ extern "C"  RuntimeTypeHandle_t3027515415  EnumBuilder_get_TypeHandle_m825995360
 extern "C"  Type_t * EnumBuilder_get_UnderlyingSystemType_m1095282781 (EnumBuilder_t2400448213 * __this, const RuntimeMethod* method)
 {
 	{
-		Type_t * L_0 = __this->get__underlyingType_8();
+		Type_t * L_0 = __this->get__underlyingType_9();
 		return L_0;
 	}
 }
@@ -44526,8 +44526,8 @@ extern "C"  Type_t * EnumBuilder_get_UnderlyingSystemType_m1095282781 (EnumBuild
 extern "C"  int32_t EnumBuilder_GetAttributeFlagsImpl_m2708654755 (EnumBuilder_t2400448213 * __this, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get__tb_7();
-		int32_t L_1 = L_0->get_attrs_21();
+		TypeBuilder_t1073948154 * L_0 = __this->get__tb_8();
+		int32_t L_1 = L_0->get_attrs_22();
 		return L_1;
 	}
 }
@@ -44535,7 +44535,7 @@ extern "C"  int32_t EnumBuilder_GetAttributeFlagsImpl_m2708654755 (EnumBuilder_t
 extern "C"  ConstructorInfo_t5769829 * EnumBuilder_GetConstructorImpl_m3068576149 (EnumBuilder_t2400448213 * __this, int32_t ___bindingAttr0, Binder_t2999457153 * ___binder1, int32_t ___callConvention2, TypeU5BU5D_t3940880105* ___types3, ParameterModifierU5BU5D_t2943407543* ___modifiers4, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get__tb_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get__tb_8();
 		int32_t L_1 = ___bindingAttr0;
 		Binder_t2999457153 * L_2 = ___binder1;
 		int32_t L_3 = ___callConvention2;
@@ -44549,7 +44549,7 @@ extern "C"  ConstructorInfo_t5769829 * EnumBuilder_GetConstructorImpl_m306857614
 extern "C"  ConstructorInfoU5BU5D_t881249896* EnumBuilder_GetConstructors_m3294436155 (EnumBuilder_t2400448213 * __this, int32_t ___bindingAttr0, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get__tb_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get__tb_8();
 		int32_t L_1 = ___bindingAttr0;
 		ConstructorInfoU5BU5D_t881249896* L_2 = TypeBuilder_GetConstructors_m26844333(L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
@@ -44559,7 +44559,7 @@ extern "C"  ConstructorInfoU5BU5D_t881249896* EnumBuilder_GetConstructors_m32944
 extern "C"  ObjectU5BU5D_t2843939325* EnumBuilder_GetCustomAttributes_m3678770762 (EnumBuilder_t2400448213 * __this, bool ___inherit0, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get__tb_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get__tb_8();
 		bool L_1 = ___inherit0;
 		ObjectU5BU5D_t2843939325* L_2 = TypeBuilder_GetCustomAttributes_m2898560796(L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
@@ -44569,7 +44569,7 @@ extern "C"  ObjectU5BU5D_t2843939325* EnumBuilder_GetCustomAttributes_m367877076
 extern "C"  ObjectU5BU5D_t2843939325* EnumBuilder_GetCustomAttributes_m166600193 (EnumBuilder_t2400448213 * __this, Type_t * ___attributeType0, bool ___inherit1, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get__tb_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get__tb_8();
 		Type_t * L_1 = ___attributeType0;
 		bool L_2 = ___inherit1;
 		ObjectU5BU5D_t2843939325* L_3 = TypeBuilder_GetCustomAttributes_m981725999(L_0, L_1, L_2, /*hidden argument*/NULL);
@@ -44580,7 +44580,7 @@ extern "C"  ObjectU5BU5D_t2843939325* EnumBuilder_GetCustomAttributes_m166600193
 extern "C"  Type_t * EnumBuilder_GetElementType_m2534333387 (EnumBuilder_t2400448213 * __this, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get__tb_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get__tb_8();
 		Type_t * L_1 = TypeBuilder_GetElementType_m1881206953(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
@@ -44589,7 +44589,7 @@ extern "C"  Type_t * EnumBuilder_GetElementType_m2534333387 (EnumBuilder_t240044
 extern "C"  EventInfo_t * EnumBuilder_GetEvent_m4074915332 (EnumBuilder_t2400448213 * __this, String_t* ___name0, int32_t ___bindingAttr1, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get__tb_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get__tb_8();
 		String_t* L_1 = ___name0;
 		int32_t L_2 = ___bindingAttr1;
 		EventInfo_t * L_3 = TypeBuilder_GetEvent_m2166527753(L_0, L_1, L_2, /*hidden argument*/NULL);
@@ -44600,7 +44600,7 @@ extern "C"  EventInfo_t * EnumBuilder_GetEvent_m4074915332 (EnumBuilder_t2400448
 extern "C"  FieldInfo_t * EnumBuilder_GetField_m3489745843 (EnumBuilder_t2400448213 * __this, String_t* ___name0, int32_t ___bindingAttr1, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get__tb_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get__tb_8();
 		String_t* L_1 = ___name0;
 		int32_t L_2 = ___bindingAttr1;
 		FieldInfo_t * L_3 = TypeBuilder_GetField_m2932767407(L_0, L_1, L_2, /*hidden argument*/NULL);
@@ -44611,7 +44611,7 @@ extern "C"  FieldInfo_t * EnumBuilder_GetField_m3489745843 (EnumBuilder_t2400448
 extern "C"  FieldInfoU5BU5D_t846150980* EnumBuilder_GetFields_m151883523 (EnumBuilder_t2400448213 * __this, int32_t ___bindingAttr0, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get__tb_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get__tb_8();
 		int32_t L_1 = ___bindingAttr0;
 		FieldInfoU5BU5D_t846150980* L_2 = TypeBuilder_GetFields_m2518194342(L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
@@ -44621,7 +44621,7 @@ extern "C"  FieldInfoU5BU5D_t846150980* EnumBuilder_GetFields_m151883523 (EnumBu
 extern "C"  TypeU5BU5D_t3940880105* EnumBuilder_GetInterfaces_m282127151 (EnumBuilder_t2400448213 * __this, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get__tb_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get__tb_8();
 		TypeU5BU5D_t3940880105* L_1 = TypeBuilder_GetInterfaces_m4067367903(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
@@ -44637,7 +44637,7 @@ extern "C"  MethodInfo_t * EnumBuilder_GetMethodImpl_m3968140917 (EnumBuilder_t2
 		}
 	}
 	{
-		TypeBuilder_t1073948154 * L_1 = __this->get__tb_7();
+		TypeBuilder_t1073948154 * L_1 = __this->get__tb_8();
 		String_t* L_2 = ___name0;
 		int32_t L_3 = ___bindingAttr1;
 		MethodInfo_t * L_4 = Type_GetMethod_m1197120913(L_1, L_2, L_3, /*hidden argument*/NULL);
@@ -44646,7 +44646,7 @@ extern "C"  MethodInfo_t * EnumBuilder_GetMethodImpl_m3968140917 (EnumBuilder_t2
 
 IL_0015:
 	{
-		TypeBuilder_t1073948154 * L_5 = __this->get__tb_7();
+		TypeBuilder_t1073948154 * L_5 = __this->get__tb_8();
 		String_t* L_6 = ___name0;
 		int32_t L_7 = ___bindingAttr1;
 		Binder_t2999457153 * L_8 = ___binder2;
@@ -44661,7 +44661,7 @@ IL_0015:
 extern "C"  MethodInfoU5BU5D_t2572182361* EnumBuilder_GetMethods_m415781370 (EnumBuilder_t2400448213 * __this, int32_t ___bindingAttr0, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get__tb_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get__tb_8();
 		int32_t L_1 = ___bindingAttr0;
 		MethodInfoU5BU5D_t2572182361* L_2 = TypeBuilder_GetMethods_m455544206(L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
@@ -44685,7 +44685,7 @@ extern "C"  PropertyInfo_t * EnumBuilder_GetPropertyImpl_m569583507 (EnumBuilder
 extern "C"  bool EnumBuilder_HasElementTypeImpl_m3477408451 (EnumBuilder_t2400448213 * __this, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get__tb_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get__tb_8();
 		bool L_1 = Type_get_HasElementType_m710151977(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
@@ -44694,7 +44694,7 @@ extern "C"  bool EnumBuilder_HasElementTypeImpl_m3477408451 (EnumBuilder_t240044
 extern "C"  RuntimeObject * EnumBuilder_InvokeMember_m2995510206 (EnumBuilder_t2400448213 * __this, String_t* ___name0, int32_t ___invokeAttr1, Binder_t2999457153 * ___binder2, RuntimeObject * ___target3, ObjectU5BU5D_t2843939325* ___args4, ParameterModifierU5BU5D_t2943407543* ___modifiers5, CultureInfo_t4157843068 * ___culture6, StringU5BU5D_t1281789340* ___namedParameters7, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get__tb_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get__tb_8();
 		String_t* L_1 = ___name0;
 		int32_t L_2 = ___invokeAttr1;
 		Binder_t2999457153 * L_3 = ___binder2;
@@ -44746,7 +44746,7 @@ extern "C"  bool EnumBuilder_IsValueTypeImpl_m57969026 (EnumBuilder_t2400448213 
 extern "C"  bool EnumBuilder_IsDefined_m4222535176 (EnumBuilder_t2400448213 * __this, Type_t * ___attributeType0, bool ___inherit1, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get__tb_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get__tb_8();
 		Type_t * L_1 = ___attributeType0;
 		bool L_2 = ___inherit1;
 		bool L_3 = TypeBuilder_IsDefined_m1289323273(L_0, L_1, L_2, /*hidden argument*/NULL);
@@ -44998,7 +44998,7 @@ extern "C"  bool GenericTypeParameterBuilder_IsSubclassOf_m2266644074 (GenericTy
 	}
 	int32_t G_B7_0 = 0;
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get_tbuilder_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get_tbuilder_8();
 		Module_t2987026101 * L_1 = TypeBuilder_get_Module_m4154269895(L_0, /*hidden argument*/NULL);
 		AssemblyBuilder_t359885250 * L_2 = ((ModuleBuilder_t731887691 *)CastclassClass((RuntimeObject*)L_1, ModuleBuilder_t731887691_il2cpp_TypeInfo_var))->get_assemblyb_16();
 		bool L_3 = AssemblyBuilder_get_IsCompilerContext_m4201958597(L_2, /*hidden argument*/NULL);
@@ -45061,7 +45061,7 @@ extern "C"  int32_t GenericTypeParameterBuilder_GetAttributeFlagsImpl_m214485005
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get_tbuilder_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get_tbuilder_8();
 		Module_t2987026101 * L_1 = TypeBuilder_get_Module_m4154269895(L_0, /*hidden argument*/NULL);
 		AssemblyBuilder_t359885250 * L_2 = ((ModuleBuilder_t731887691 *)CastclassClass((RuntimeObject*)L_1, ModuleBuilder_t731887691_il2cpp_TypeInfo_var))->get_assemblyb_16();
 		bool L_3 = AssemblyBuilder_get_IsCompilerContext_m4201958597(L_2, /*hidden argument*/NULL);
@@ -45274,14 +45274,14 @@ extern "C"  bool GenericTypeParameterBuilder_IsValueTypeImpl_m480678299 (Generic
 {
 	int32_t G_B3_0 = 0;
 	{
-		Type_t * L_0 = __this->get_base_type_10();
+		Type_t * L_0 = __this->get_base_type_11();
 		if (!L_0)
 		{
 			goto IL_001b;
 		}
 	}
 	{
-		Type_t * L_1 = __this->get_base_type_10();
+		Type_t * L_1 = __this->get_base_type_11();
 		bool L_2 = Type_get_IsValueType_m3108065642(L_1, /*hidden argument*/NULL);
 		G_B3_0 = ((int32_t)(L_2));
 		goto IL_001c;
@@ -45336,7 +45336,7 @@ extern "C"  Type_t * GenericTypeParameterBuilder_get_UnderlyingSystemType_m34500
 extern "C"  Assembly_t * GenericTypeParameterBuilder_get_Assembly_m2257222024 (GenericTypeParameterBuilder_t1988827940 * __this, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get_tbuilder_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get_tbuilder_8();
 		Assembly_t * L_1 = TypeBuilder_get_Assembly_m4071790036(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
@@ -45352,7 +45352,7 @@ extern "C"  String_t* GenericTypeParameterBuilder_get_AssemblyQualifiedName_m232
 extern "C"  Type_t * GenericTypeParameterBuilder_get_BaseType_m3389926280 (GenericTypeParameterBuilder_t1988827940 * __this, const RuntimeMethod* method)
 {
 	{
-		Type_t * L_0 = __this->get_base_type_10();
+		Type_t * L_0 = __this->get_base_type_11();
 		return L_0;
 	}
 }
@@ -45409,7 +45409,7 @@ extern "C"  ObjectU5BU5D_t2843939325* GenericTypeParameterBuilder_GetCustomAttri
 extern "C"  String_t* GenericTypeParameterBuilder_get_Name_m1181273062 (GenericTypeParameterBuilder_t1988827940 * __this, const RuntimeMethod* method)
 {
 	{
-		String_t* L_0 = __this->get_name_9();
+		String_t* L_0 = __this->get_name_10();
 		return L_0;
 	}
 }
@@ -45424,7 +45424,7 @@ extern "C"  String_t* GenericTypeParameterBuilder_get_Namespace_m2056767826 (Gen
 extern "C"  Module_t2987026101 * GenericTypeParameterBuilder_get_Module_m1433762073 (GenericTypeParameterBuilder_t1988827940 * __this, const RuntimeMethod* method)
 {
 	{
-		TypeBuilder_t1073948154 * L_0 = __this->get_tbuilder_7();
+		TypeBuilder_t1073948154 * L_0 = __this->get_tbuilder_8();
 		Module_t2987026101 * L_1 = TypeBuilder_get_Module_m4154269895(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
@@ -45434,14 +45434,14 @@ extern "C"  Type_t * GenericTypeParameterBuilder_get_DeclaringType_m1741243224 (
 {
 	Type_t * G_B3_0 = NULL;
 	{
-		MethodBuilder_t2807316753 * L_0 = __this->get_mbuilder_8();
+		MethodBuilder_t2807316753 * L_0 = __this->get_mbuilder_9();
 		if (!L_0)
 		{
 			goto IL_001b;
 		}
 	}
 	{
-		MethodBuilder_t2807316753 * L_1 = __this->get_mbuilder_8();
+		MethodBuilder_t2807316753 * L_1 = __this->get_mbuilder_9();
 		Type_t * L_2 = MethodBuilder_get_DeclaringType_m2226312865(L_1, /*hidden argument*/NULL);
 		G_B3_0 = L_2;
 		goto IL_0021;
@@ -45449,7 +45449,7 @@ extern "C"  Type_t * GenericTypeParameterBuilder_get_DeclaringType_m1741243224 (
 
 IL_001b:
 	{
-		TypeBuilder_t1073948154 * L_3 = __this->get_tbuilder_7();
+		TypeBuilder_t1073948154 * L_3 = __this->get_tbuilder_8();
 		G_B3_0 = ((Type_t *)(L_3));
 	}
 
@@ -45557,7 +45557,7 @@ extern "C"  Exception_t * GenericTypeParameterBuilder_not_supported_m3358960901 
 extern "C"  String_t* GenericTypeParameterBuilder_ToString_m2460043372 (GenericTypeParameterBuilder_t1988827940 * __this, const RuntimeMethod* method)
 {
 	{
-		String_t* L_0 = __this->get_name_9();
+		String_t* L_0 = __this->get_name_10();
 		return L_0;
 	}
 }
@@ -46817,7 +46817,7 @@ extern "C"  TypeU5BU5D_t3940880105* MethodBuilder_GetGenericArguments_m176542573
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t3940880105* L_1 = ((Type_t_StaticFields*)il2cpp_codegen_static_fields_for(Type_t_il2cpp_TypeInfo_var))->get_EmptyTypes_2();
+		TypeU5BU5D_t3940880105* L_1 = ((Type_t_StaticFields*)il2cpp_codegen_static_fields_for(Type_t_il2cpp_TypeInfo_var))->get_EmptyTypes_3();
 		return L_1;
 	}
 
@@ -47094,7 +47094,7 @@ extern "C"  TypeU5BU5D_t3940880105* ModuleBuilder_GetTypes_m158355402 (ModuleBui
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t3940880105* L_1 = ((Type_t_StaticFields*)il2cpp_codegen_static_fields_for(Type_t_il2cpp_TypeInfo_var))->get_EmptyTypes_2();
+		TypeU5BU5D_t3940880105* L_1 = ((Type_t_StaticFields*)il2cpp_codegen_static_fields_for(Type_t_il2cpp_TypeInfo_var))->get_EmptyTypes_3();
 		return L_1;
 	}
 

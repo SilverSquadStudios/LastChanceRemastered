@@ -7297,6 +7297,12 @@ Behaviour__ctor_m346897018	System.Void UnityEngine.Behaviour::.ctor()	UnityEngin
 Behaviour_get_enabled_m753527255	System.Boolean UnityEngine.Behaviour::get_enabled()	UnityEngine.CoreModule
 BootConfigData__ctor_m4255151374	System.Void UnityEngine.BootConfigData::.ctor(System.IntPtr)	UnityEngine.CoreModule
 BootConfigData_WrapBootConfigData_m329603588	UnityEngine.BootConfigData UnityEngine.BootConfigData::WrapBootConfigData(System.IntPtr)	UnityEngine.CoreModule
+Bounds_GetHashCode_m1844059663_AdjustorThunk	System.Int32 UnityEngine.Bounds::GetHashCode()	UnityEngine.CoreModule
+Bounds_Equals_m3920299735_AdjustorThunk	System.Boolean UnityEngine.Bounds::Equals(System.Object)	UnityEngine.CoreModule
+Bounds_get_center_m1418449258_AdjustorThunk	UnityEngine.Vector3 UnityEngine.Bounds::get_center()	UnityEngine.CoreModule
+Bounds_get_size_m1178783246_AdjustorThunk	UnityEngine.Vector3 UnityEngine.Bounds::get_size()	UnityEngine.CoreModule
+Bounds_get_extents_m1304537151_AdjustorThunk	UnityEngine.Vector3 UnityEngine.Bounds::get_extents()	UnityEngine.CoreModule
+Bounds_ToString_m4208690781_AdjustorThunk	System.String UnityEngine.Bounds::ToString()	UnityEngine.CoreModule
 Camera_get_nearClipPlane_m837839537	System.Single UnityEngine.Camera::get_nearClipPlane()	UnityEngine.CoreModule
 Camera_get_farClipPlane_m538536689	System.Single UnityEngine.Camera::get_farClipPlane()	UnityEngine.CoreModule
 Camera_get_cullingMask_m679085748	System.Int32 UnityEngine.Camera::get_cullingMask()	UnityEngine.CoreModule
@@ -7658,6 +7664,8 @@ ReapplyDrivenProperties__ctor_m836366652	System.Void UnityEngine.RectTransform/R
 ReapplyDrivenProperties_Invoke_m1151937880	System.Void UnityEngine.RectTransform/ReapplyDrivenProperties::Invoke(UnityEngine.RectTransform)	UnityEngine.CoreModule
 ReapplyDrivenProperties_BeginInvoke_m4260606555	System.IAsyncResult UnityEngine.RectTransform/ReapplyDrivenProperties::BeginInvoke(UnityEngine.RectTransform,System.AsyncCallback,System.Object)	UnityEngine.CoreModule
 ReapplyDrivenProperties_EndInvoke_m700307436	System.Void UnityEngine.RectTransform/ReapplyDrivenProperties::EndInvoke(System.IAsyncResult)	UnityEngine.CoreModule
+Renderer_get_bounds_m1803204000	UnityEngine.Bounds UnityEngine.Renderer::get_bounds()	UnityEngine.CoreModule
+Renderer_get_bounds_Injected_m3112887345	System.Void UnityEngine.Renderer::get_bounds_Injected(UnityEngine.Bounds&)	UnityEngine.CoreModule
 RenderTexture__ctor_m3368882316	System.Void UnityEngine.RenderTexture::.ctor()	UnityEngine.CoreModule
 RequireComponent__ctor_m886241599	System.Void UnityEngine.RequireComponent::.ctor(System.Type)	UnityEngine.CoreModule
 Scene_get_handle_m1544696971_AdjustorThunk	System.Int32 UnityEngine.SceneManagement.Scene::get_handle()	UnityEngine.CoreModule
@@ -7928,6 +7936,7 @@ playerScript__cctor_m1727565513	System.Void playerScript::.cctor()	Assembly-CSha
 spawnPlatform__ctor_m943267563	System.Void spawnPlatform::.ctor()	Assembly-CSharp
 spawnPlatform_Start_m1139829075	System.Void spawnPlatform::Start()	Assembly-CSharp
 spawnPlatform_Spawn_m3926395926	System.Void spawnPlatform::Spawn()	Assembly-CSharp
+spawnPlatform_spawnPlatformCoin_m4150135144	System.Void spawnPlatform::spawnPlatformCoin()	Assembly-CSharp
 NULL	System.Int32 System.IComparable`1<System.Object>::CompareTo(T)	mscorlib
 NULL	System.Boolean System.IEquatable`1<System.Object>::Equals(T)	mscorlib
 NULL	T System.Collections.Generic.IEnumerator`1<System.Object>::get_Current()	mscorlib
@@ -8366,6 +8375,7 @@ UnityAction_4_EndInvoke_m1236619780_gshared	System.Void UnityEngine.Events.Unity
 UnityEvent_4__ctor_m831487108_gshared	System.Void UnityEngine.Events.UnityEvent`4<System.Object,System.Object,System.Object,System.Object>::.ctor()	UnityEngine.CoreModule
 UnityEvent_4_FindMethod_Impl_m3410547086_gshared	System.Reflection.MethodInfo UnityEngine.Events.UnityEvent`4<System.Object,System.Object,System.Object,System.Object>::FindMethod_Impl(System.String,System.Object)	UnityEngine.CoreModule
 UnityEvent_4_GetDelegate_m3111342790_gshared	UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent`4<System.Object,System.Object,System.Object,System.Object>::GetDelegate(System.Object,System.Reflection.MethodInfo)	UnityEngine.CoreModule
+GameObject_GetComponent_TisRuntimeObject_m3920941149_gshared	T UnityEngine.GameObject::GetComponent<System.Object>()	UnityEngine.CoreModule
 Dictionary_2__ctor_m182537451_gshared	System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::.ctor(System.Int32)	mscorlib
 Dictionary_2_Add_m1279427033_gshared	System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(TKey,TValue)	mscorlib
 Dictionary_2_TryGetValue_m3959998165_gshared	System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(TKey,TValue&)	mscorlib
@@ -8478,6 +8488,7 @@ List_1__ctor_m2321703786_gshared	System.Void System.Collections.Generic.List`1<U
 Action_1_Invoke_m2492370395_gshared	System.Void System.Action`1<System.Boolean>::Invoke(!0)	UnityEngine.UnityConnectModule
 Action_3_Invoke_m313705495_gshared	System.Void System.Action`3<System.Boolean,System.Boolean,System.Int32>::Invoke(!0,!1,!2)	UnityEngine.UnityConnectModule
 Component_GetComponent_TisRuntimeObject_m2906321015_gshared	!!0 UnityEngine.Component::GetComponent<UnityEngine.Rigidbody2D>()	Assembly-CSharp
+GameObject_GetComponent_TisRuntimeObject_m3920941149_gshared	!!0 UnityEngine.GameObject::GetComponent<UnityEngine.SpriteRenderer>()	Assembly-CSharp
 Object_Instantiate_TisRuntimeObject_m1135049463_gshared	!!0 UnityEngine.Object::Instantiate<UnityEngine.GameObject>(!!0,UnityEngine.Vector3,UnityEngine.Quaternion)	Assembly-CSharp
 Array_InternalArray__ICollection_Contains_TisTableRange_t3332867892_m220823873_gshared	System.Boolean System.Array::InternalArray__ICollection_Contains<Mono.Globalization.Unicode.CodePointIndexer/TableRange>(T)	mscorlib
 Array_InternalArray__ICollection_Contains_TisClientCertificateType_t1004704908_m3504437380_gshared	System.Boolean System.Array::InternalArray__ICollection_Contains<Mono.Security.Protocol.Tls.Handshake.ClientCertificateType>(T)	mscorlib

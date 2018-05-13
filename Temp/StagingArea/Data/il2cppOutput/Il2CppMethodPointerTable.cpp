@@ -7318,6 +7318,12 @@ extern "C" void Behaviour__ctor_m346897018 ();
 extern "C" void Behaviour_get_enabled_m753527255 ();
 extern "C" void BootConfigData__ctor_m4255151374 ();
 extern "C" void BootConfigData_WrapBootConfigData_m329603588 ();
+extern "C" void Bounds_GetHashCode_m1844059663_AdjustorThunk ();
+extern "C" void Bounds_Equals_m3920299735_AdjustorThunk ();
+extern "C" void Bounds_get_center_m1418449258_AdjustorThunk ();
+extern "C" void Bounds_get_size_m1178783246_AdjustorThunk ();
+extern "C" void Bounds_get_extents_m1304537151_AdjustorThunk ();
+extern "C" void Bounds_ToString_m4208690781_AdjustorThunk ();
 extern "C" void Camera_get_nearClipPlane_m837839537 ();
 extern "C" void Camera_get_farClipPlane_m538536689 ();
 extern "C" void Camera_get_cullingMask_m679085748 ();
@@ -7679,6 +7685,8 @@ extern "C" void ReapplyDrivenProperties__ctor_m836366652 ();
 extern "C" void ReapplyDrivenProperties_Invoke_m1151937880 ();
 extern "C" void ReapplyDrivenProperties_BeginInvoke_m4260606555 ();
 extern "C" void ReapplyDrivenProperties_EndInvoke_m700307436 ();
+extern "C" void Renderer_get_bounds_m1803204000 ();
+extern "C" void Renderer_get_bounds_Injected_m3112887345 ();
 extern "C" void RenderTexture__ctor_m3368882316 ();
 extern "C" void RequireComponent__ctor_m886241599 ();
 extern "C" void Scene_get_handle_m1544696971_AdjustorThunk ();
@@ -7949,7 +7957,8 @@ extern "C" void playerScript__cctor_m1727565513 ();
 extern "C" void spawnPlatform__ctor_m943267563 ();
 extern "C" void spawnPlatform_Start_m1139829075 ();
 extern "C" void spawnPlatform_Spawn_m3926395926 ();
-extern const Il2CppMethodPointer g_MethodPointers[7930] = 
+extern "C" void spawnPlatform_spawnPlatformCoin_m4150135144 ();
+extern const Il2CppMethodPointer g_MethodPointers[7939] = 
 {
 	Locale_GetText_m3374010885,
 	Locale_GetText_m1601577974,
@@ -15250,6 +15259,12 @@ extern const Il2CppMethodPointer g_MethodPointers[7930] =
 	Behaviour_get_enabled_m753527255,
 	BootConfigData__ctor_m4255151374,
 	BootConfigData_WrapBootConfigData_m329603588,
+	Bounds_GetHashCode_m1844059663_AdjustorThunk,
+	Bounds_Equals_m3920299735_AdjustorThunk,
+	Bounds_get_center_m1418449258_AdjustorThunk,
+	Bounds_get_size_m1178783246_AdjustorThunk,
+	Bounds_get_extents_m1304537151_AdjustorThunk,
+	Bounds_ToString_m4208690781_AdjustorThunk,
 	Camera_get_nearClipPlane_m837839537,
 	Camera_get_farClipPlane_m538536689,
 	Camera_get_cullingMask_m679085748,
@@ -15611,6 +15626,8 @@ extern const Il2CppMethodPointer g_MethodPointers[7930] =
 	ReapplyDrivenProperties_Invoke_m1151937880,
 	ReapplyDrivenProperties_BeginInvoke_m4260606555,
 	ReapplyDrivenProperties_EndInvoke_m700307436,
+	Renderer_get_bounds_m1803204000,
+	Renderer_get_bounds_Injected_m3112887345,
 	RenderTexture__ctor_m3368882316,
 	RequireComponent__ctor_m886241599,
 	Scene_get_handle_m1544696971_AdjustorThunk,
@@ -15881,4 +15898,5 @@ extern const Il2CppMethodPointer g_MethodPointers[7930] =
 	spawnPlatform__ctor_m943267563,
 	spawnPlatform_Start_m1139829075,
 	spawnPlatform_Spawn_m3926395926,
+	spawnPlatform_spawnPlatformCoin_m4150135144,
 };

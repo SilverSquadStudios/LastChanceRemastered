@@ -64,36 +64,36 @@ struct DelegateData_t1677132599;
 struct Hashtable_t1853889766;
 // System.Globalization.DaylightTime
 struct DaylightTime_t2582425773;
+// System.Version
+struct Version_t3456873960;
+// System.Byte[]
+struct ByteU5BU5D_t4116647657;
 // System.Type[]
 struct TypeU5BU5D_t3940880105;
 // System.Reflection.MemberFilter
 struct MemberFilter_t426314064;
-// System.Byte[]
-struct ByteU5BU5D_t4116647657;
-// System.Version
-struct Version_t3456873960;
 // System.IAsyncResult
 struct IAsyncResult_t767004451;
 // System.AsyncCallback
 struct AsyncCallback_t3962456242;
-// System.String[]
-struct StringU5BU5D_t1281789340;
-// System.AssemblyLoadEventArgs
-struct AssemblyLoadEventArgs_t2792010465;
-// System.EventArgs
-struct EventArgs_t3591816995;
-// System.ResolveEventArgs
-struct ResolveEventArgs_t1779456501;
-// System.UnhandledExceptionEventArgs
-struct UnhandledExceptionEventArgs_t2886101344;
-// System.MonoTypeInfo
-struct MonoTypeInfo_t3366989025;
 // System.Reflection.MemberInfo
 struct MemberInfo_t;
-// Mono.Math.BigInteger
-struct BigInteger_t2902905089;
 // System.Runtime.Remoting.Messaging.Header[]
 struct HeaderU5BU5D_t204812840;
+// System.UnhandledExceptionEventArgs
+struct UnhandledExceptionEventArgs_t2886101344;
+// System.ResolveEventArgs
+struct ResolveEventArgs_t1779456501;
+// System.EventArgs
+struct EventArgs_t3591816995;
+// System.AssemblyLoadEventArgs
+struct AssemblyLoadEventArgs_t2792010465;
+// System.String[]
+struct StringU5BU5D_t1281789340;
+// System.MonoTypeInfo
+struct MonoTypeInfo_t3366989025;
+// Mono.Math.BigInteger
+struct BigInteger_t2902905089;
 
 
 
@@ -361,6 +361,20 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // STRINGCOMPARER_T3301955079_H
+#ifndef IL2CPPCOMOBJECT_H
+#define IL2CPPCOMOBJECT_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.__Il2CppComObject
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // IL2CPPCOMOBJECT_H
 #ifndef NUMBERFORMATTER_T1182924621_H
 #define NUMBERFORMATTER_T1182924621_H
 #ifdef __clang__
@@ -656,20 +670,34 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // NUMBERFORMATTER_T1182924621_H
-#ifndef IL2CPPCOMOBJECT_H
-#define IL2CPPCOMOBJECT_H
+#ifndef VALUETYPE_T3640485471_H
+#define VALUETYPE_T3640485471_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.__Il2CppComObject
+// System.ValueType
+struct  ValueType_t3640485471  : public RuntimeObject
+{
+public:
+
+public:
+};
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // IL2CPPCOMOBJECT_H
+// Native definition for P/Invoke marshalling of System.ValueType
+struct ValueType_t3640485471_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.ValueType
+struct ValueType_t3640485471_marshaled_com
+{
+};
+#endif // VALUETYPE_T3640485471_H
 #ifndef TIMEZONE_T2038656743_H
 #define TIMEZONE_T2038656743_H
 #ifdef __clang__
@@ -728,34 +756,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // TIMEZONE_T2038656743_H
-#ifndef VALUETYPE_T3640485471_H
-#define VALUETYPE_T3640485471_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.ValueType
-struct  ValueType_t3640485471  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-// Native definition for P/Invoke marshalling of System.ValueType
-struct ValueType_t3640485471_marshaled_pinvoke
-{
-};
-// Native definition for COM marshalling of System.ValueType
-struct ValueType_t3640485471_marshaled_com
-{
-};
-#endif // VALUETYPE_T3640485471_H
 #ifndef MONOTYPEINFO_T3366989025_H
 #define MONOTYPEINFO_T3366989025_H
 #ifdef __clang__
@@ -952,63 +952,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // ATTRIBUTEINFO_T2216804170_H
-#ifndef EVENTARGS_T3591816995_H
-#define EVENTARGS_T3591816995_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.EventArgs
-struct  EventArgs_t3591816995  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct EventArgs_t3591816995_StaticFields
-{
-public:
-	// System.EventArgs System.EventArgs::Empty
-	EventArgs_t3591816995 * ___Empty_0;
-
-public:
-	inline static int32_t get_offset_of_Empty_0() { return static_cast<int32_t>(offsetof(EventArgs_t3591816995_StaticFields, ___Empty_0)); }
-	inline EventArgs_t3591816995 * get_Empty_0() const { return ___Empty_0; }
-	inline EventArgs_t3591816995 ** get_address_of_Empty_0() { return &___Empty_0; }
-	inline void set_Empty_0(EventArgs_t3591816995 * value)
-	{
-		___Empty_0 = value;
-		Il2CppCodeGenWriteBarrier((&___Empty_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // EVENTARGS_T3591816995_H
-#ifndef GC_T959872083_H
-#define GC_T959872083_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.GC
-struct  GC_t959872083  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // GC_T959872083_H
 #ifndef EXCEPTION_T_H
 #define EXCEPTION_T_H
 #ifdef __clang__
@@ -1147,6 +1090,26 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // EXCEPTION_T_H
+#ifndef GC_T959872083_H
+#define GC_T959872083_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.GC
+struct  GC_t959872083  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GC_T959872083_H
 #ifndef MATH_T1671470975_H
 #define MATH_T1671470975_H
 #ifdef __clang__
@@ -1245,76 +1208,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // LOCALDATASTORESLOT_T740841968_H
-#ifndef MEMBERINFO_T_H
-#define MEMBERINFO_T_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Reflection.MemberInfo
-struct  MemberInfo_t  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MEMBERINFO_T_H
-#ifndef GUIDPARSER_T2761237274_H
-#define GUIDPARSER_T2761237274_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Guid/GuidParser
-struct  GuidParser_t2761237274  : public RuntimeObject
-{
-public:
-	// System.String System.Guid/GuidParser::_src
-	String_t* ____src_0;
-	// System.Int32 System.Guid/GuidParser::_length
-	int32_t ____length_1;
-	// System.Int32 System.Guid/GuidParser::_cur
-	int32_t ____cur_2;
-
-public:
-	inline static int32_t get_offset_of__src_0() { return static_cast<int32_t>(offsetof(GuidParser_t2761237274, ____src_0)); }
-	inline String_t* get__src_0() const { return ____src_0; }
-	inline String_t** get_address_of__src_0() { return &____src_0; }
-	inline void set__src_0(String_t* value)
-	{
-		____src_0 = value;
-		Il2CppCodeGenWriteBarrier((&____src_0), value);
-	}
-
-	inline static int32_t get_offset_of__length_1() { return static_cast<int32_t>(offsetof(GuidParser_t2761237274, ____length_1)); }
-	inline int32_t get__length_1() const { return ____length_1; }
-	inline int32_t* get_address_of__length_1() { return &____length_1; }
-	inline void set__length_1(int32_t value)
-	{
-		____length_1 = value;
-	}
-
-	inline static int32_t get_offset_of__cur_2() { return static_cast<int32_t>(offsetof(GuidParser_t2761237274, ____cur_2)); }
-	inline int32_t get__cur_2() const { return ____cur_2; }
-	inline int32_t* get_address_of__cur_2() { return &____cur_2; }
-	inline void set__cur_2(int32_t value)
-	{
-		____cur_2 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // GUIDPARSER_T2761237274_H
 #ifndef VERSION_T3456873960_H
 #define VERSION_T3456873960_H
 #ifdef __clang__
@@ -1374,6 +1267,143 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // VERSION_T3456873960_H
+#ifndef MEMBERINFO_T_H
+#define MEMBERINFO_T_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Reflection.MemberInfo
+struct  MemberInfo_t  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // MEMBERINFO_T_H
+#ifndef EVENTARGS_T3591816995_H
+#define EVENTARGS_T3591816995_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.EventArgs
+struct  EventArgs_t3591816995  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EventArgs_t3591816995_StaticFields
+{
+public:
+	// System.EventArgs System.EventArgs::Empty
+	EventArgs_t3591816995 * ___Empty_0;
+
+public:
+	inline static int32_t get_offset_of_Empty_0() { return static_cast<int32_t>(offsetof(EventArgs_t3591816995_StaticFields, ___Empty_0)); }
+	inline EventArgs_t3591816995 * get_Empty_0() const { return ___Empty_0; }
+	inline EventArgs_t3591816995 ** get_address_of_Empty_0() { return &___Empty_0; }
+	inline void set_Empty_0(EventArgs_t3591816995 * value)
+	{
+		___Empty_0 = value;
+		Il2CppCodeGenWriteBarrier((&___Empty_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EVENTARGS_T3591816995_H
+#ifndef GUIDPARSER_T2761237274_H
+#define GUIDPARSER_T2761237274_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Guid/GuidParser
+struct  GuidParser_t2761237274  : public RuntimeObject
+{
+public:
+	// System.String System.Guid/GuidParser::_src
+	String_t* ____src_0;
+	// System.Int32 System.Guid/GuidParser::_length
+	int32_t ____length_1;
+	// System.Int32 System.Guid/GuidParser::_cur
+	int32_t ____cur_2;
+
+public:
+	inline static int32_t get_offset_of__src_0() { return static_cast<int32_t>(offsetof(GuidParser_t2761237274, ____src_0)); }
+	inline String_t* get__src_0() const { return ____src_0; }
+	inline String_t** get_address_of__src_0() { return &____src_0; }
+	inline void set__src_0(String_t* value)
+	{
+		____src_0 = value;
+		Il2CppCodeGenWriteBarrier((&____src_0), value);
+	}
+
+	inline static int32_t get_offset_of__length_1() { return static_cast<int32_t>(offsetof(GuidParser_t2761237274, ____length_1)); }
+	inline int32_t get__length_1() const { return ____length_1; }
+	inline int32_t* get_address_of__length_1() { return &____length_1; }
+	inline void set__length_1(int32_t value)
+	{
+		____length_1 = value;
+	}
+
+	inline static int32_t get_offset_of__cur_2() { return static_cast<int32_t>(offsetof(GuidParser_t2761237274, ____cur_2)); }
+	inline int32_t get__cur_2() const { return ____cur_2; }
+	inline int32_t* get_address_of__cur_2() { return &____cur_2; }
+	inline void set__cur_2(int32_t value)
+	{
+		____cur_2 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GUIDPARSER_T2761237274_H
+#ifndef U24ARRAYTYPEU2412_T2490092596_H
+#define U24ARRAYTYPEU2412_T2490092596_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// <PrivateImplementationDetails>/$ArrayType$12
+struct  U24ArrayTypeU2412_t2490092596 
+{
+public:
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t U24ArrayTypeU2412_t2490092596__padding[12];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // U24ARRAYTYPEU2412_T2490092596_H
 #ifndef CULTUREAWARECOMPARER_T30646139_H
 #define CULTUREAWARECOMPARER_T30646139_H
 #ifdef __clang__
@@ -1443,6 +1473,36 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // ORDINALCOMPARER_T3407243298_H
+#ifndef U24ARRAYTYPEU2472_T1683523542_H
+#define U24ARRAYTYPEU2472_T1683523542_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// <PrivateImplementationDetails>/$ArrayType$72
+struct  U24ArrayTypeU2472_t1683523542 
+{
+public:
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t U24ArrayTypeU2472_t1683523542__padding[72];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // U24ARRAYTYPEU2472_T1683523542_H
 #ifndef U24ARRAYTYPEU248_T3244137463_H
 #define U24ARRAYTYPEU248_T3244137463_H
 #ifdef __clang__
@@ -1473,36 +1533,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // U24ARRAYTYPEU248_T3244137463_H
-#ifndef U24ARRAYTYPEU24136_T1950429485_H
-#define U24ARRAYTYPEU24136_T1950429485_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// <PrivateImplementationDetails>/$ArrayType$136
-struct  U24ArrayTypeU24136_t1950429485 
-{
-public:
-	union
-	{
-		struct
-		{
-			union
-			{
-			};
-		};
-		uint8_t U24ArrayTypeU24136_t1950429485__padding[136];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U24ARRAYTYPEU24136_T1950429485_H
 #ifndef SYSTEMEXCEPTION_T176217640_H
 #define SYSTEMEXCEPTION_T176217640_H
 #ifdef __clang__
@@ -1523,26 +1553,46 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // SYSTEMEXCEPTION_T176217640_H
-#ifndef THREADSTATICATTRIBUTE_T3840787420_H
-#define THREADSTATICATTRIBUTE_T3840787420_H
+#ifndef UNHANDLEDEXCEPTIONEVENTARGS_T2886101344_H
+#define UNHANDLEDEXCEPTIONEVENTARGS_T2886101344_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.ThreadStaticAttribute
-struct  ThreadStaticAttribute_t3840787420  : public Attribute_t861562559
+// System.UnhandledExceptionEventArgs
+struct  UnhandledExceptionEventArgs_t2886101344  : public EventArgs_t3591816995
 {
 public:
+	// System.Object System.UnhandledExceptionEventArgs::exception
+	RuntimeObject * ___exception_1;
+	// System.Boolean System.UnhandledExceptionEventArgs::m_isTerminating
+	bool ___m_isTerminating_2;
 
 public:
+	inline static int32_t get_offset_of_exception_1() { return static_cast<int32_t>(offsetof(UnhandledExceptionEventArgs_t2886101344, ___exception_1)); }
+	inline RuntimeObject * get_exception_1() const { return ___exception_1; }
+	inline RuntimeObject ** get_address_of_exception_1() { return &___exception_1; }
+	inline void set_exception_1(RuntimeObject * value)
+	{
+		___exception_1 = value;
+		Il2CppCodeGenWriteBarrier((&___exception_1), value);
+	}
+
+	inline static int32_t get_offset_of_m_isTerminating_2() { return static_cast<int32_t>(offsetof(UnhandledExceptionEventArgs_t2886101344, ___m_isTerminating_2)); }
+	inline bool get_m_isTerminating_2() const { return ___m_isTerminating_2; }
+	inline bool* get_address_of_m_isTerminating_2() { return &___m_isTerminating_2; }
+	inline void set_m_isTerminating_2(bool value)
+	{
+		___m_isTerminating_2 = value;
+	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // THREADSTATICATTRIBUTE_T3840787420_H
+#endif // UNHANDLEDEXCEPTIONEVENTARGS_T2886101344_H
 #ifndef TIMESPAN_T881159249_H
 #define TIMESPAN_T881159249_H
 #ifdef __clang__
@@ -1608,76 +1658,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // TIMESPAN_T881159249_H
-#ifndef UNHANDLEDEXCEPTIONEVENTARGS_T2886101344_H
-#define UNHANDLEDEXCEPTIONEVENTARGS_T2886101344_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.UnhandledExceptionEventArgs
-struct  UnhandledExceptionEventArgs_t2886101344  : public EventArgs_t3591816995
-{
-public:
-	// System.Object System.UnhandledExceptionEventArgs::exception
-	RuntimeObject * ___exception_1;
-	// System.Boolean System.UnhandledExceptionEventArgs::m_isTerminating
-	bool ___m_isTerminating_2;
-
-public:
-	inline static int32_t get_offset_of_exception_1() { return static_cast<int32_t>(offsetof(UnhandledExceptionEventArgs_t2886101344, ___exception_1)); }
-	inline RuntimeObject * get_exception_1() const { return ___exception_1; }
-	inline RuntimeObject ** get_address_of_exception_1() { return &___exception_1; }
-	inline void set_exception_1(RuntimeObject * value)
-	{
-		___exception_1 = value;
-		Il2CppCodeGenWriteBarrier((&___exception_1), value);
-	}
-
-	inline static int32_t get_offset_of_m_isTerminating_2() { return static_cast<int32_t>(offsetof(UnhandledExceptionEventArgs_t2886101344, ___m_isTerminating_2)); }
-	inline bool get_m_isTerminating_2() const { return ___m_isTerminating_2; }
-	inline bool* get_address_of_m_isTerminating_2() { return &___m_isTerminating_2; }
-	inline void set_m_isTerminating_2(bool value)
-	{
-		___m_isTerminating_2 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // UNHANDLEDEXCEPTIONEVENTARGS_T2886101344_H
-#ifndef U24ARRAYTYPEU2420_T1704471045_H
-#define U24ARRAYTYPEU2420_T1704471045_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// <PrivateImplementationDetails>/$ArrayType$20
-struct  U24ArrayTypeU2420_t1704471045 
-{
-public:
-	union
-	{
-		struct
-		{
-			union
-			{
-			};
-		};
-		uint8_t U24ArrayTypeU2420_t1704471045__padding[20];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U24ARRAYTYPEU2420_T1704471045_H
 #ifndef U24ARRAYTYPEU2432_T3652892010_H
 #define U24ARRAYTYPEU2432_T3652892010_H
 #ifdef __clang__
@@ -1708,96 +1688,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // U24ARRAYTYPEU2432_T3652892010_H
-#ifndef U24ARRAYTYPEU2472_T1683523542_H
-#define U24ARRAYTYPEU2472_T1683523542_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// <PrivateImplementationDetails>/$ArrayType$72
-struct  U24ArrayTypeU2472_t1683523542 
-{
-public:
-	union
-	{
-		struct
-		{
-			union
-			{
-			};
-		};
-		uint8_t U24ArrayTypeU2472_t1683523542__padding[72];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U24ARRAYTYPEU2472_T1683523542_H
-#ifndef U24ARRAYTYPEU2412_T2490092596_H
-#define U24ARRAYTYPEU2412_T2490092596_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// <PrivateImplementationDetails>/$ArrayType$12
-struct  U24ArrayTypeU2412_t2490092596 
-{
-public:
-	union
-	{
-		struct
-		{
-			union
-			{
-			};
-		};
-		uint8_t U24ArrayTypeU2412_t2490092596__padding[12];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U24ARRAYTYPEU2412_T2490092596_H
-#ifndef U24ARRAYTYPEU2464_T499776625_H
-#define U24ARRAYTYPEU2464_T499776625_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// <PrivateImplementationDetails>/$ArrayType$64
-struct  U24ArrayTypeU2464_t499776625 
-{
-public:
-	union
-	{
-		struct
-		{
-			union
-			{
-			};
-		};
-		uint8_t U24ArrayTypeU2464_t499776625__padding[64];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U24ARRAYTYPEU2464_T499776625_H
 #ifndef U24ARRAYTYPEU2448_T1337922363_H
 #define U24ARRAYTYPEU2448_T1337922363_H
 #ifdef __clang__
@@ -1858,16 +1748,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // U24ARRAYTYPEU24124_T4289081647_H
-#ifndef U24ARRAYTYPEU24128_T4289081659_H
-#define U24ARRAYTYPEU24128_T4289081659_H
+#ifndef U24ARRAYTYPEU2464_T499776625_H
+#define U24ARRAYTYPEU2464_T499776625_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// <PrivateImplementationDetails>/$ArrayType$128
-struct  U24ArrayTypeU24128_t4289081659 
+// <PrivateImplementationDetails>/$ArrayType$64
+struct  U24ArrayTypeU2464_t499776625 
 {
 public:
 	union
@@ -1878,7 +1768,7 @@ public:
 			{
 			};
 		};
-		uint8_t U24ArrayTypeU24128_t4289081659__padding[128];
+		uint8_t U24ArrayTypeU2464_t499776625__padding[64];
 	};
 
 public:
@@ -1887,7 +1777,57 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U24ARRAYTYPEU24128_T4289081659_H
+#endif // U24ARRAYTYPEU2464_T499776625_H
+#ifndef U24ARRAYTYPEU24136_T1950429485_H
+#define U24ARRAYTYPEU24136_T1950429485_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// <PrivateImplementationDetails>/$ArrayType$136
+struct  U24ArrayTypeU24136_t1950429485 
+{
+public:
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t U24ArrayTypeU24136_t1950429485__padding[136];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // U24ARRAYTYPEU24136_T1950429485_H
+#ifndef THREADSTATICATTRIBUTE_T3840787420_H
+#define THREADSTATICATTRIBUTE_T3840787420_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.ThreadStaticAttribute
+struct  ThreadStaticAttribute_t3840787420  : public Attribute_t861562559
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // THREADSTATICATTRIBUTE_T3840787420_H
 #ifndef U24ARRAYTYPEU2496_T2898536284_H
 #define U24ARRAYTYPEU2496_T2898536284_H
 #ifdef __clang__
@@ -1918,6 +1858,66 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // U24ARRAYTYPEU2496_T2898536284_H
+#ifndef U24ARRAYTYPEU24128_T4289081659_H
+#define U24ARRAYTYPEU24128_T4289081659_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// <PrivateImplementationDetails>/$ArrayType$128
+struct  U24ArrayTypeU24128_t4289081659 
+{
+public:
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t U24ArrayTypeU24128_t4289081659__padding[128];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // U24ARRAYTYPEU24128_T4289081659_H
+#ifndef U24ARRAYTYPEU242048_T3505032960_H
+#define U24ARRAYTYPEU242048_T3505032960_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// <PrivateImplementationDetails>/$ArrayType$2048
+struct  U24ArrayTypeU242048_t3505032960 
+{
+public:
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t U24ArrayTypeU242048_t3505032960__padding[2048];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // U24ARRAYTYPEU242048_T3505032960_H
 #ifndef GUID_T_H
 #define GUID_T_H
 #ifdef __clang__
@@ -2085,26 +2085,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // GUID_T_H
-#ifndef VOID_T1185182177_H
-#define VOID_T1185182177_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Void
-struct  Void_t1185182177 
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // VOID_T1185182177_H
 #ifndef U24ARRAYTYPEU2424_T2469145093_H
 #define U24ARRAYTYPEU2424_T2469145093_H
 #ifdef __clang__
@@ -2135,35 +2115,26 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // U24ARRAYTYPEU2424_T2469145093_H
-#ifndef GCHANDLE_T3351438187_H
-#define GCHANDLE_T3351438187_H
+#ifndef VOID_T1185182177_H
+#define VOID_T1185182177_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Runtime.InteropServices.GCHandle
-struct  GCHandle_t3351438187 
+// System.Void
+struct  Void_t1185182177 
 {
 public:
-	// System.Int32 System.Runtime.InteropServices.GCHandle::handle
-	int32_t ___handle_0;
 
 public:
-	inline static int32_t get_offset_of_handle_0() { return static_cast<int32_t>(offsetof(GCHandle_t3351438187, ___handle_0)); }
-	inline int32_t get_handle_0() const { return ___handle_0; }
-	inline int32_t* get_address_of_handle_0() { return &___handle_0; }
-	inline void set_handle_0(int32_t value)
-	{
-		___handle_0 = value;
-	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // GCHANDLE_T3351438187_H
+#endif // VOID_T1185182177_H
 #ifndef U24ARRAYTYPEU2416_T3254766644_H
 #define U24ARRAYTYPEU2416_T3254766644_H
 #ifdef __clang__
@@ -2194,6 +2165,65 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // U24ARRAYTYPEU2416_T3254766644_H
+#ifndef GCHANDLE_T3351438187_H
+#define GCHANDLE_T3351438187_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Runtime.InteropServices.GCHandle
+struct  GCHandle_t3351438187 
+{
+public:
+	// System.Int32 System.Runtime.InteropServices.GCHandle::handle
+	int32_t ___handle_0;
+
+public:
+	inline static int32_t get_offset_of_handle_0() { return static_cast<int32_t>(offsetof(GCHandle_t3351438187, ___handle_0)); }
+	inline int32_t get_handle_0() const { return ___handle_0; }
+	inline int32_t* get_address_of_handle_0() { return &___handle_0; }
+	inline void set_handle_0(int32_t value)
+	{
+		___handle_0 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GCHANDLE_T3351438187_H
+#ifndef U24ARRAYTYPEU24120_T4289081651_H
+#define U24ARRAYTYPEU24120_T4289081651_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// <PrivateImplementationDetails>/$ArrayType$120
+struct  U24ArrayTypeU24120_t4289081651 
+{
+public:
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t U24ArrayTypeU24120_t4289081651__padding[120];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // U24ARRAYTYPEU24120_T4289081651_H
 #ifndef INTPTR_T_H
 #define INTPTR_T_H
 #ifdef __clang__
@@ -2239,6 +2269,36 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // INTPTR_T_H
+#ifndef RESOLVEEVENTARGS_T1779456501_H
+#define RESOLVEEVENTARGS_T1779456501_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.ResolveEventArgs
+struct  ResolveEventArgs_t1779456501  : public EventArgs_t3591816995
+{
+public:
+	// System.String System.ResolveEventArgs::m_Name
+	String_t* ___m_Name_1;
+
+public:
+	inline static int32_t get_offset_of_m_Name_1() { return static_cast<int32_t>(offsetof(ResolveEventArgs_t1779456501, ___m_Name_1)); }
+	inline String_t* get_m_Name_1() const { return ___m_Name_1; }
+	inline String_t** get_address_of_m_Name_1() { return &___m_Name_1; }
+	inline void set_m_Name_1(String_t* value)
+	{
+		___m_Name_1 = value;
+		Il2CppCodeGenWriteBarrier((&___m_Name_1), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // RESOLVEEVENTARGS_T1779456501_H
 #ifndef ENUM_T4135868527_H
 #define ENUM_T4135868527_H
 #ifdef __clang__
@@ -2284,46 +2344,16 @@ struct Enum_t4135868527_marshaled_com
 {
 };
 #endif // ENUM_T4135868527_H
-#ifndef RESOLVEEVENTARGS_T1779456501_H
-#define RESOLVEEVENTARGS_T1779456501_H
+#ifndef __IL2CPPCOMDELEGATE_T1102178620_H
+#define __IL2CPPCOMDELEGATE_T1102178620_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.ResolveEventArgs
-struct  ResolveEventArgs_t1779456501  : public EventArgs_t3591816995
-{
-public:
-	// System.String System.ResolveEventArgs::m_Name
-	String_t* ___m_Name_1;
-
-public:
-	inline static int32_t get_offset_of_m_Name_1() { return static_cast<int32_t>(offsetof(ResolveEventArgs_t1779456501, ___m_Name_1)); }
-	inline String_t* get_m_Name_1() const { return ___m_Name_1; }
-	inline String_t** get_address_of_m_Name_1() { return &___m_Name_1; }
-	inline void set_m_Name_1(String_t* value)
-	{
-		___m_Name_1 = value;
-		Il2CppCodeGenWriteBarrier((&___m_Name_1), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // RESOLVEEVENTARGS_T1779456501_H
-#ifndef NONSERIALIZEDATTRIBUTE_T2945079482_H
-#define NONSERIALIZEDATTRIBUTE_T2945079482_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.NonSerializedAttribute
-struct  NonSerializedAttribute_t2945079482  : public Attribute_t861562559
+// System.__Il2CppComDelegate
+struct  __Il2CppComDelegate_t1102178620  : public Il2CppComObject
 {
 public:
 
@@ -2333,17 +2363,17 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // NONSERIALIZEDATTRIBUTE_T2945079482_H
-#ifndef U24ARRAYTYPEU243132_T2732071528_H
-#define U24ARRAYTYPEU243132_T2732071528_H
+#endif // __IL2CPPCOMDELEGATE_T1102178620_H
+#ifndef U24ARRAYTYPEU2420_T1704471045_H
+#define U24ARRAYTYPEU2420_T1704471045_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// <PrivateImplementationDetails>/$ArrayType$3132
-struct  U24ArrayTypeU243132_t2732071528 
+// <PrivateImplementationDetails>/$ArrayType$20
+struct  U24ArrayTypeU2420_t1704471045 
 {
 public:
 	union
@@ -2354,7 +2384,7 @@ public:
 			{
 			};
 		};
-		uint8_t U24ArrayTypeU243132_t2732071528__padding[3132];
+		uint8_t U24ArrayTypeU2420_t1704471045__padding[20];
 	};
 
 public:
@@ -2363,7 +2393,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U24ARRAYTYPEU243132_T2732071528_H
+#endif // U24ARRAYTYPEU2420_T1704471045_H
 #ifndef U24ARRAYTYPEU2452_T520724128_H
 #define U24ARRAYTYPEU2452_T520724128_H
 #ifdef __clang__
@@ -2514,16 +2544,36 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // U24ARRAYTYPEU24256_T1929481982_H
-#ifndef U24ARRAYTYPEU242048_T3505032960_H
-#define U24ARRAYTYPEU242048_T3505032960_H
+#ifndef NONSERIALIZEDATTRIBUTE_T2945079482_H
+#define NONSERIALIZEDATTRIBUTE_T2945079482_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// <PrivateImplementationDetails>/$ArrayType$2048
-struct  U24ArrayTypeU242048_t3505032960 
+// System.NonSerializedAttribute
+struct  NonSerializedAttribute_t2945079482  : public Attribute_t861562559
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // NONSERIALIZEDATTRIBUTE_T2945079482_H
+#ifndef U24ARRAYTYPEU243132_T2732071528_H
+#define U24ARRAYTYPEU243132_T2732071528_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// <PrivateImplementationDetails>/$ArrayType$3132
+struct  U24ArrayTypeU243132_t2732071528 
 {
 public:
 	union
@@ -2534,7 +2584,7 @@ public:
 			{
 			};
 		};
-		uint8_t U24ArrayTypeU242048_t3505032960__padding[2048];
+		uint8_t U24ArrayTypeU243132_t2732071528__padding[3132];
 	};
 
 public:
@@ -2543,57 +2593,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U24ARRAYTYPEU242048_T3505032960_H
-#ifndef __IL2CPPCOMDELEGATE_T1102178620_H
-#define __IL2CPPCOMDELEGATE_T1102178620_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.__Il2CppComDelegate
-struct  __Il2CppComDelegate_t1102178620  : public Il2CppComObject
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // __IL2CPPCOMDELEGATE_T1102178620_H
-#ifndef U24ARRAYTYPEU24120_T4289081651_H
-#define U24ARRAYTYPEU24120_T4289081651_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// <PrivateImplementationDetails>/$ArrayType$120
-struct  U24ArrayTypeU24120_t4289081651 
-{
-public:
-	union
-	{
-		struct
-		{
-			union
-			{
-			};
-		};
-		uint8_t U24ArrayTypeU24120_t4289081651__padding[120];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U24ARRAYTYPEU24120_T4289081651_H
+#endif // U24ARRAYTYPEU243132_T2732071528_H
 #ifndef FORMATEXCEPTION_T154580423_H
 #define FORMATEXCEPTION_T154580423_H
 #ifdef __clang__
@@ -2643,6 +2643,35 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // CONFIDENCEFACTOR_T2516000285_H
+#ifndef BINDINGFLAGS_T2721792723_H
+#define BINDINGFLAGS_T2721792723_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Reflection.BindingFlags
+struct  BindingFlags_t2721792723 
+{
+public:
+	// System.Int32 System.Reflection.BindingFlags::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(BindingFlags_t2721792723, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // BINDINGFLAGS_T2721792723_H
 #ifndef ARITHMETICEXCEPTION_T4283546778_H
 #define ARITHMETICEXCEPTION_T4283546778_H
 #ifdef __clang__
@@ -3219,45 +3248,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // U3CPRIVATEIMPLEMENTATIONDETAILSU3E_T3057255361_H
-#ifndef WEAKREFERENCE_T1334886716_H
-#define WEAKREFERENCE_T1334886716_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.WeakReference
-struct  WeakReference_t1334886716  : public RuntimeObject
-{
-public:
-	// System.Boolean System.WeakReference::isLongReference
-	bool ___isLongReference_0;
-	// System.Runtime.InteropServices.GCHandle System.WeakReference::gcHandle
-	GCHandle_t3351438187  ___gcHandle_1;
-
-public:
-	inline static int32_t get_offset_of_isLongReference_0() { return static_cast<int32_t>(offsetof(WeakReference_t1334886716, ___isLongReference_0)); }
-	inline bool get_isLongReference_0() const { return ___isLongReference_0; }
-	inline bool* get_address_of_isLongReference_0() { return &___isLongReference_0; }
-	inline void set_isLongReference_0(bool value)
-	{
-		___isLongReference_0 = value;
-	}
-
-	inline static int32_t get_offset_of_gcHandle_1() { return static_cast<int32_t>(offsetof(WeakReference_t1334886716, ___gcHandle_1)); }
-	inline GCHandle_t3351438187  get_gcHandle_1() const { return ___gcHandle_1; }
-	inline GCHandle_t3351438187 * get_address_of_gcHandle_1() { return &___gcHandle_1; }
-	inline void set_gcHandle_1(GCHandle_t3351438187  value)
-	{
-		___gcHandle_1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // WEAKREFERENCE_T1334886716_H
 #ifndef DELEGATE_T1188392813_H
 #define DELEGATE_T1188392813_H
 #ifdef __clang__
@@ -3371,6 +3361,56 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // DELEGATE_T1188392813_H
+#ifndef TYPEINITIALIZATIONEXCEPTION_T2973684290_H
+#define TYPEINITIALIZATIONEXCEPTION_T2973684290_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.TypeInitializationException
+struct  TypeInitializationException_t2973684290  : public SystemException_t176217640
+{
+public:
+	// System.String System.TypeInitializationException::type_name
+	String_t* ___type_name_11;
+
+public:
+	inline static int32_t get_offset_of_type_name_11() { return static_cast<int32_t>(offsetof(TypeInitializationException_t2973684290, ___type_name_11)); }
+	inline String_t* get_type_name_11() const { return ___type_name_11; }
+	inline String_t** get_address_of_type_name_11() { return &___type_name_11; }
+	inline void set_type_name_11(String_t* value)
+	{
+		___type_name_11 = value;
+		Il2CppCodeGenWriteBarrier((&___type_name_11), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // TYPEINITIALIZATIONEXCEPTION_T2973684290_H
+#ifndef NOTSUPPORTEDEXCEPTION_T1314879016_H
+#define NOTSUPPORTEDEXCEPTION_T1314879016_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.NotSupportedException
+struct  NotSupportedException_t1314879016  : public SystemException_t176217640
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // NOTSUPPORTEDEXCEPTION_T1314879016_H
 #ifndef NULLREFERENCEEXCEPTION_T1023182353_H
 #define NULLREFERENCEEXCEPTION_T1023182353_H
 #ifdef __clang__
@@ -3391,6 +3431,26 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // NULLREFERENCEEXCEPTION_T1023182353_H
+#ifndef OUTOFMEMORYEXCEPTION_T2437671686_H
+#define OUTOFMEMORYEXCEPTION_T2437671686_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.OutOfMemoryException
+struct  OutOfMemoryException_t2437671686  : public SystemException_t176217640
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // OUTOFMEMORYEXCEPTION_T2437671686_H
 #ifndef PLATFORMID_T897822290_H
 #define PLATFORMID_T897822290_H
 #ifdef __clang__
@@ -3420,26 +3480,100 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // PLATFORMID_T897822290_H
-#ifndef NOTSUPPORTEDEXCEPTION_T1314879016_H
-#define NOTSUPPORTEDEXCEPTION_T1314879016_H
+#ifndef MONOASYNCCALL_T3023670838_H
+#define MONOASYNCCALL_T3023670838_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.NotSupportedException
-struct  NotSupportedException_t1314879016  : public SystemException_t176217640
+// System.MonoAsyncCall
+struct  MonoAsyncCall_t3023670838  : public RuntimeObject
 {
 public:
+	// System.Object System.MonoAsyncCall::msg
+	RuntimeObject * ___msg_0;
+	// System.IntPtr System.MonoAsyncCall::cb_method
+	intptr_t ___cb_method_1;
+	// System.Object System.MonoAsyncCall::cb_target
+	RuntimeObject * ___cb_target_2;
+	// System.Object System.MonoAsyncCall::state
+	RuntimeObject * ___state_3;
+	// System.Object System.MonoAsyncCall::res
+	RuntimeObject * ___res_4;
+	// System.Object System.MonoAsyncCall::out_args
+	RuntimeObject * ___out_args_5;
+	// System.Int64 System.MonoAsyncCall::wait_event
+	int64_t ___wait_event_6;
 
 public:
+	inline static int32_t get_offset_of_msg_0() { return static_cast<int32_t>(offsetof(MonoAsyncCall_t3023670838, ___msg_0)); }
+	inline RuntimeObject * get_msg_0() const { return ___msg_0; }
+	inline RuntimeObject ** get_address_of_msg_0() { return &___msg_0; }
+	inline void set_msg_0(RuntimeObject * value)
+	{
+		___msg_0 = value;
+		Il2CppCodeGenWriteBarrier((&___msg_0), value);
+	}
+
+	inline static int32_t get_offset_of_cb_method_1() { return static_cast<int32_t>(offsetof(MonoAsyncCall_t3023670838, ___cb_method_1)); }
+	inline intptr_t get_cb_method_1() const { return ___cb_method_1; }
+	inline intptr_t* get_address_of_cb_method_1() { return &___cb_method_1; }
+	inline void set_cb_method_1(intptr_t value)
+	{
+		___cb_method_1 = value;
+	}
+
+	inline static int32_t get_offset_of_cb_target_2() { return static_cast<int32_t>(offsetof(MonoAsyncCall_t3023670838, ___cb_target_2)); }
+	inline RuntimeObject * get_cb_target_2() const { return ___cb_target_2; }
+	inline RuntimeObject ** get_address_of_cb_target_2() { return &___cb_target_2; }
+	inline void set_cb_target_2(RuntimeObject * value)
+	{
+		___cb_target_2 = value;
+		Il2CppCodeGenWriteBarrier((&___cb_target_2), value);
+	}
+
+	inline static int32_t get_offset_of_state_3() { return static_cast<int32_t>(offsetof(MonoAsyncCall_t3023670838, ___state_3)); }
+	inline RuntimeObject * get_state_3() const { return ___state_3; }
+	inline RuntimeObject ** get_address_of_state_3() { return &___state_3; }
+	inline void set_state_3(RuntimeObject * value)
+	{
+		___state_3 = value;
+		Il2CppCodeGenWriteBarrier((&___state_3), value);
+	}
+
+	inline static int32_t get_offset_of_res_4() { return static_cast<int32_t>(offsetof(MonoAsyncCall_t3023670838, ___res_4)); }
+	inline RuntimeObject * get_res_4() const { return ___res_4; }
+	inline RuntimeObject ** get_address_of_res_4() { return &___res_4; }
+	inline void set_res_4(RuntimeObject * value)
+	{
+		___res_4 = value;
+		Il2CppCodeGenWriteBarrier((&___res_4), value);
+	}
+
+	inline static int32_t get_offset_of_out_args_5() { return static_cast<int32_t>(offsetof(MonoAsyncCall_t3023670838, ___out_args_5)); }
+	inline RuntimeObject * get_out_args_5() const { return ___out_args_5; }
+	inline RuntimeObject ** get_address_of_out_args_5() { return &___out_args_5; }
+	inline void set_out_args_5(RuntimeObject * value)
+	{
+		___out_args_5 = value;
+		Il2CppCodeGenWriteBarrier((&___out_args_5), value);
+	}
+
+	inline static int32_t get_offset_of_wait_event_6() { return static_cast<int32_t>(offsetof(MonoAsyncCall_t3023670838, ___wait_event_6)); }
+	inline int64_t get_wait_event_6() const { return ___wait_event_6; }
+	inline int64_t* get_address_of_wait_event_6() { return &___wait_event_6; }
+	inline void set_wait_event_6(int64_t value)
+	{
+		___wait_event_6 = value;
+	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // NOTSUPPORTEDEXCEPTION_T1314879016_H
+#endif // MONOASYNCCALL_T3023670838_H
 #ifndef RANKEXCEPTION_T3812021567_H
 #define RANKEXCEPTION_T3812021567_H
 #ifdef __clang__
@@ -3705,36 +3839,26 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // TYPECODE_T2987224087_H
-#ifndef TYPEINITIALIZATIONEXCEPTION_T2973684290_H
-#define TYPEINITIALIZATIONEXCEPTION_T2973684290_H
+#ifndef NOTIMPLEMENTEDEXCEPTION_T3489357830_H
+#define NOTIMPLEMENTEDEXCEPTION_T3489357830_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.TypeInitializationException
-struct  TypeInitializationException_t2973684290  : public SystemException_t176217640
+// System.NotImplementedException
+struct  NotImplementedException_t3489357830  : public SystemException_t176217640
 {
 public:
-	// System.String System.TypeInitializationException::type_name
-	String_t* ___type_name_11;
 
 public:
-	inline static int32_t get_offset_of_type_name_11() { return static_cast<int32_t>(offsetof(TypeInitializationException_t2973684290, ___type_name_11)); }
-	inline String_t* get_type_name_11() const { return ___type_name_11; }
-	inline String_t** get_address_of_type_name_11() { return &___type_name_11; }
-	inline void set_type_name_11(String_t* value)
-	{
-		___type_name_11 = value;
-		Il2CppCodeGenWriteBarrier((&___type_name_11), value);
-	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // TYPEINITIALIZATIONEXCEPTION_T2973684290_H
+#endif // NOTIMPLEMENTEDEXCEPTION_T3489357830_H
 #ifndef TYPELOADEXCEPTION_T3707937253_H
 #define TYPELOADEXCEPTION_T3707937253_H
 #ifdef __clang__
@@ -3776,66 +3900,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // TYPELOADEXCEPTION_T3707937253_H
-#ifndef OUTOFMEMORYEXCEPTION_T2437671686_H
-#define OUTOFMEMORYEXCEPTION_T2437671686_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.OutOfMemoryException
-struct  OutOfMemoryException_t2437671686  : public SystemException_t176217640
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // OUTOFMEMORYEXCEPTION_T2437671686_H
-#ifndef UNAUTHORIZEDACCESSEXCEPTION_T490705335_H
-#define UNAUTHORIZEDACCESSEXCEPTION_T490705335_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.UnauthorizedAccessException
-struct  UnauthorizedAccessException_t490705335  : public SystemException_t176217640
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // UNAUTHORIZEDACCESSEXCEPTION_T490705335_H
-#ifndef NOTIMPLEMENTEDEXCEPTION_T3489357830_H
-#define NOTIMPLEMENTEDEXCEPTION_T3489357830_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.NotImplementedException
-struct  NotImplementedException_t3489357830  : public SystemException_t176217640
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // NOTIMPLEMENTEDEXCEPTION_T3489357830_H
 #ifndef MULTICASTNOTSUPPORTEDEXCEPTION_T3095221246_H
 #define MULTICASTNOTSUPPORTEDEXCEPTION_T3095221246_H
 #ifdef __clang__
@@ -3856,209 +3920,45 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // MULTICASTNOTSUPPORTEDEXCEPTION_T3095221246_H
-#ifndef MONOASYNCCALL_T3023670838_H
-#define MONOASYNCCALL_T3023670838_H
+#ifndef WEAKREFERENCE_T1334886716_H
+#define WEAKREFERENCE_T1334886716_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.MonoAsyncCall
-struct  MonoAsyncCall_t3023670838  : public RuntimeObject
+// System.WeakReference
+struct  WeakReference_t1334886716  : public RuntimeObject
 {
 public:
-	// System.Object System.MonoAsyncCall::msg
-	RuntimeObject * ___msg_0;
-	// System.IntPtr System.MonoAsyncCall::cb_method
-	intptr_t ___cb_method_1;
-	// System.Object System.MonoAsyncCall::cb_target
-	RuntimeObject * ___cb_target_2;
-	// System.Object System.MonoAsyncCall::state
-	RuntimeObject * ___state_3;
-	// System.Object System.MonoAsyncCall::res
-	RuntimeObject * ___res_4;
-	// System.Object System.MonoAsyncCall::out_args
-	RuntimeObject * ___out_args_5;
-	// System.Int64 System.MonoAsyncCall::wait_event
-	int64_t ___wait_event_6;
+	// System.Boolean System.WeakReference::isLongReference
+	bool ___isLongReference_0;
+	// System.Runtime.InteropServices.GCHandle System.WeakReference::gcHandle
+	GCHandle_t3351438187  ___gcHandle_1;
 
 public:
-	inline static int32_t get_offset_of_msg_0() { return static_cast<int32_t>(offsetof(MonoAsyncCall_t3023670838, ___msg_0)); }
-	inline RuntimeObject * get_msg_0() const { return ___msg_0; }
-	inline RuntimeObject ** get_address_of_msg_0() { return &___msg_0; }
-	inline void set_msg_0(RuntimeObject * value)
+	inline static int32_t get_offset_of_isLongReference_0() { return static_cast<int32_t>(offsetof(WeakReference_t1334886716, ___isLongReference_0)); }
+	inline bool get_isLongReference_0() const { return ___isLongReference_0; }
+	inline bool* get_address_of_isLongReference_0() { return &___isLongReference_0; }
+	inline void set_isLongReference_0(bool value)
 	{
-		___msg_0 = value;
-		Il2CppCodeGenWriteBarrier((&___msg_0), value);
+		___isLongReference_0 = value;
 	}
 
-	inline static int32_t get_offset_of_cb_method_1() { return static_cast<int32_t>(offsetof(MonoAsyncCall_t3023670838, ___cb_method_1)); }
-	inline intptr_t get_cb_method_1() const { return ___cb_method_1; }
-	inline intptr_t* get_address_of_cb_method_1() { return &___cb_method_1; }
-	inline void set_cb_method_1(intptr_t value)
+	inline static int32_t get_offset_of_gcHandle_1() { return static_cast<int32_t>(offsetof(WeakReference_t1334886716, ___gcHandle_1)); }
+	inline GCHandle_t3351438187  get_gcHandle_1() const { return ___gcHandle_1; }
+	inline GCHandle_t3351438187 * get_address_of_gcHandle_1() { return &___gcHandle_1; }
+	inline void set_gcHandle_1(GCHandle_t3351438187  value)
 	{
-		___cb_method_1 = value;
-	}
-
-	inline static int32_t get_offset_of_cb_target_2() { return static_cast<int32_t>(offsetof(MonoAsyncCall_t3023670838, ___cb_target_2)); }
-	inline RuntimeObject * get_cb_target_2() const { return ___cb_target_2; }
-	inline RuntimeObject ** get_address_of_cb_target_2() { return &___cb_target_2; }
-	inline void set_cb_target_2(RuntimeObject * value)
-	{
-		___cb_target_2 = value;
-		Il2CppCodeGenWriteBarrier((&___cb_target_2), value);
-	}
-
-	inline static int32_t get_offset_of_state_3() { return static_cast<int32_t>(offsetof(MonoAsyncCall_t3023670838, ___state_3)); }
-	inline RuntimeObject * get_state_3() const { return ___state_3; }
-	inline RuntimeObject ** get_address_of_state_3() { return &___state_3; }
-	inline void set_state_3(RuntimeObject * value)
-	{
-		___state_3 = value;
-		Il2CppCodeGenWriteBarrier((&___state_3), value);
-	}
-
-	inline static int32_t get_offset_of_res_4() { return static_cast<int32_t>(offsetof(MonoAsyncCall_t3023670838, ___res_4)); }
-	inline RuntimeObject * get_res_4() const { return ___res_4; }
-	inline RuntimeObject ** get_address_of_res_4() { return &___res_4; }
-	inline void set_res_4(RuntimeObject * value)
-	{
-		___res_4 = value;
-		Il2CppCodeGenWriteBarrier((&___res_4), value);
-	}
-
-	inline static int32_t get_offset_of_out_args_5() { return static_cast<int32_t>(offsetof(MonoAsyncCall_t3023670838, ___out_args_5)); }
-	inline RuntimeObject * get_out_args_5() const { return ___out_args_5; }
-	inline RuntimeObject ** get_address_of_out_args_5() { return &___out_args_5; }
-	inline void set_out_args_5(RuntimeObject * value)
-	{
-		___out_args_5 = value;
-		Il2CppCodeGenWriteBarrier((&___out_args_5), value);
-	}
-
-	inline static int32_t get_offset_of_wait_event_6() { return static_cast<int32_t>(offsetof(MonoAsyncCall_t3023670838, ___wait_event_6)); }
-	inline int64_t get_wait_event_6() const { return ___wait_event_6; }
-	inline int64_t* get_address_of_wait_event_6() { return &___wait_event_6; }
-	inline void set_wait_event_6(int64_t value)
-	{
-		___wait_event_6 = value;
+		___gcHandle_1 = value;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // MONOASYNCCALL_T3023670838_H
-#ifndef MEMBERACCESSEXCEPTION_T1734467078_H
-#define MEMBERACCESSEXCEPTION_T1734467078_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.MemberAccessException
-struct  MemberAccessException_t1734467078  : public SystemException_t176217640
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MEMBERACCESSEXCEPTION_T1734467078_H
-#ifndef LOADEROPTIMIZATION_T1484956347_H
-#define LOADEROPTIMIZATION_T1484956347_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.LoaderOptimization
-struct  LoaderOptimization_t1484956347 
-{
-public:
-	// System.Int32 System.LoaderOptimization::value__
-	int32_t ___value___1;
-
-public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(LoaderOptimization_t1484956347, ___value___1)); }
-	inline int32_t get_value___1() const { return ___value___1; }
-	inline int32_t* get_address_of_value___1() { return &___value___1; }
-	inline void set_value___1(int32_t value)
-	{
-		___value___1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // LOADEROPTIMIZATION_T1484956347_H
-#ifndef INVALIDOPERATIONEXCEPTION_T56020091_H
-#define INVALIDOPERATIONEXCEPTION_T56020091_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.InvalidOperationException
-struct  InvalidOperationException_t56020091  : public SystemException_t176217640
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // INVALIDOPERATIONEXCEPTION_T56020091_H
-#ifndef INVALIDCASTEXCEPTION_T3927145244_H
-#define INVALIDCASTEXCEPTION_T3927145244_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.InvalidCastException
-struct  InvalidCastException_t3927145244  : public SystemException_t176217640
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // INVALIDCASTEXCEPTION_T3927145244_H
-#ifndef INDEXOUTOFRANGEEXCEPTION_T1578797820_H
-#define INDEXOUTOFRANGEEXCEPTION_T1578797820_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.IndexOutOfRangeException
-struct  IndexOutOfRangeException_t1578797820  : public SystemException_t176217640
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // INDEXOUTOFRANGEEXCEPTION_T1578797820_H
+#endif // WEAKREFERENCE_T1334886716_H
 #ifndef RUNTIMETYPEHANDLE_T3027515415_H
 #define RUNTIMETYPEHANDLE_T3027515415_H
 #ifdef __clang__
@@ -4088,106 +3988,288 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // RUNTIMETYPEHANDLE_T3027515415_H
-#ifndef TYPE_T_H
-#define TYPE_T_H
+#ifndef INDEXOUTOFRANGEEXCEPTION_T1578797820_H
+#define INDEXOUTOFRANGEEXCEPTION_T1578797820_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Type
-struct  Type_t  : public MemberInfo_t
+// System.IndexOutOfRangeException
+struct  IndexOutOfRangeException_t1578797820  : public SystemException_t176217640
 {
 public:
-	// System.RuntimeTypeHandle System.Type::_impl
-	RuntimeTypeHandle_t3027515415  ____impl_0;
 
 public:
-	inline static int32_t get_offset_of__impl_0() { return static_cast<int32_t>(offsetof(Type_t, ____impl_0)); }
-	inline RuntimeTypeHandle_t3027515415  get__impl_0() const { return ____impl_0; }
-	inline RuntimeTypeHandle_t3027515415 * get_address_of__impl_0() { return &____impl_0; }
-	inline void set__impl_0(RuntimeTypeHandle_t3027515415  value)
-	{
-		____impl_0 = value;
-	}
 };
 
-struct Type_t_StaticFields
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // INDEXOUTOFRANGEEXCEPTION_T1578797820_H
+#ifndef INVALIDCASTEXCEPTION_T3927145244_H
+#define INVALIDCASTEXCEPTION_T3927145244_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.InvalidCastException
+struct  InvalidCastException_t3927145244  : public SystemException_t176217640
 {
 public:
-	// System.Char System.Type::Delimiter
-	Il2CppChar ___Delimiter_1;
-	// System.Type[] System.Type::EmptyTypes
-	TypeU5BU5D_t3940880105* ___EmptyTypes_2;
-	// System.Reflection.MemberFilter System.Type::FilterAttribute
-	MemberFilter_t426314064 * ___FilterAttribute_3;
-	// System.Reflection.MemberFilter System.Type::FilterName
-	MemberFilter_t426314064 * ___FilterName_4;
-	// System.Reflection.MemberFilter System.Type::FilterNameIgnoreCase
-	MemberFilter_t426314064 * ___FilterNameIgnoreCase_5;
-	// System.Object System.Type::Missing
-	RuntimeObject * ___Missing_6;
 
 public:
-	inline static int32_t get_offset_of_Delimiter_1() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___Delimiter_1)); }
-	inline Il2CppChar get_Delimiter_1() const { return ___Delimiter_1; }
-	inline Il2CppChar* get_address_of_Delimiter_1() { return &___Delimiter_1; }
-	inline void set_Delimiter_1(Il2CppChar value)
-	{
-		___Delimiter_1 = value;
-	}
+};
 
-	inline static int32_t get_offset_of_EmptyTypes_2() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___EmptyTypes_2)); }
-	inline TypeU5BU5D_t3940880105* get_EmptyTypes_2() const { return ___EmptyTypes_2; }
-	inline TypeU5BU5D_t3940880105** get_address_of_EmptyTypes_2() { return &___EmptyTypes_2; }
-	inline void set_EmptyTypes_2(TypeU5BU5D_t3940880105* value)
-	{
-		___EmptyTypes_2 = value;
-		Il2CppCodeGenWriteBarrier((&___EmptyTypes_2), value);
-	}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // INVALIDCASTEXCEPTION_T3927145244_H
+#ifndef INVALIDOPERATIONEXCEPTION_T56020091_H
+#define INVALIDOPERATIONEXCEPTION_T56020091_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 
-	inline static int32_t get_offset_of_FilterAttribute_3() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___FilterAttribute_3)); }
-	inline MemberFilter_t426314064 * get_FilterAttribute_3() const { return ___FilterAttribute_3; }
-	inline MemberFilter_t426314064 ** get_address_of_FilterAttribute_3() { return &___FilterAttribute_3; }
-	inline void set_FilterAttribute_3(MemberFilter_t426314064 * value)
-	{
-		___FilterAttribute_3 = value;
-		Il2CppCodeGenWriteBarrier((&___FilterAttribute_3), value);
-	}
+// System.InvalidOperationException
+struct  InvalidOperationException_t56020091  : public SystemException_t176217640
+{
+public:
 
-	inline static int32_t get_offset_of_FilterName_4() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___FilterName_4)); }
-	inline MemberFilter_t426314064 * get_FilterName_4() const { return ___FilterName_4; }
-	inline MemberFilter_t426314064 ** get_address_of_FilterName_4() { return &___FilterName_4; }
-	inline void set_FilterName_4(MemberFilter_t426314064 * value)
-	{
-		___FilterName_4 = value;
-		Il2CppCodeGenWriteBarrier((&___FilterName_4), value);
-	}
+public:
+};
 
-	inline static int32_t get_offset_of_FilterNameIgnoreCase_5() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___FilterNameIgnoreCase_5)); }
-	inline MemberFilter_t426314064 * get_FilterNameIgnoreCase_5() const { return ___FilterNameIgnoreCase_5; }
-	inline MemberFilter_t426314064 ** get_address_of_FilterNameIgnoreCase_5() { return &___FilterNameIgnoreCase_5; }
-	inline void set_FilterNameIgnoreCase_5(MemberFilter_t426314064 * value)
-	{
-		___FilterNameIgnoreCase_5 = value;
-		Il2CppCodeGenWriteBarrier((&___FilterNameIgnoreCase_5), value);
-	}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // INVALIDOPERATIONEXCEPTION_T56020091_H
+#ifndef MEMBERACCESSEXCEPTION_T1734467078_H
+#define MEMBERACCESSEXCEPTION_T1734467078_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 
-	inline static int32_t get_offset_of_Missing_6() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___Missing_6)); }
-	inline RuntimeObject * get_Missing_6() const { return ___Missing_6; }
-	inline RuntimeObject ** get_address_of_Missing_6() { return &___Missing_6; }
-	inline void set_Missing_6(RuntimeObject * value)
+// System.MemberAccessException
+struct  MemberAccessException_t1734467078  : public SystemException_t176217640
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // MEMBERACCESSEXCEPTION_T1734467078_H
+#ifndef UNAUTHORIZEDACCESSEXCEPTION_T490705335_H
+#define UNAUTHORIZEDACCESSEXCEPTION_T490705335_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.UnauthorizedAccessException
+struct  UnauthorizedAccessException_t490705335  : public SystemException_t176217640
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // UNAUTHORIZEDACCESSEXCEPTION_T490705335_H
+#ifndef LOADEROPTIMIZATION_T1484956347_H
+#define LOADEROPTIMIZATION_T1484956347_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.LoaderOptimization
+struct  LoaderOptimization_t1484956347 
+{
+public:
+	// System.Int32 System.LoaderOptimization::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(LoaderOptimization_t1484956347, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
 	{
-		___Missing_6 = value;
-		Il2CppCodeGenWriteBarrier((&___Missing_6), value);
+		___value___1 = value;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // TYPE_T_H
+#endif // LOADEROPTIMIZATION_T1484956347_H
+#ifndef OBJECTDISPOSEDEXCEPTION_T21392786_H
+#define OBJECTDISPOSEDEXCEPTION_T21392786_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.ObjectDisposedException
+struct  ObjectDisposedException_t21392786  : public InvalidOperationException_t56020091
+{
+public:
+	// System.String System.ObjectDisposedException::obj_name
+	String_t* ___obj_name_12;
+	// System.String System.ObjectDisposedException::msg
+	String_t* ___msg_13;
+
+public:
+	inline static int32_t get_offset_of_obj_name_12() { return static_cast<int32_t>(offsetof(ObjectDisposedException_t21392786, ___obj_name_12)); }
+	inline String_t* get_obj_name_12() const { return ___obj_name_12; }
+	inline String_t** get_address_of_obj_name_12() { return &___obj_name_12; }
+	inline void set_obj_name_12(String_t* value)
+	{
+		___obj_name_12 = value;
+		Il2CppCodeGenWriteBarrier((&___obj_name_12), value);
+	}
+
+	inline static int32_t get_offset_of_msg_13() { return static_cast<int32_t>(offsetof(ObjectDisposedException_t21392786, ___msg_13)); }
+	inline String_t* get_msg_13() const { return ___msg_13; }
+	inline String_t** get_address_of_msg_13() { return &___msg_13; }
+	inline void set_msg_13(String_t* value)
+	{
+		___msg_13 = value;
+		Il2CppCodeGenWriteBarrier((&___msg_13), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // OBJECTDISPOSEDEXCEPTION_T21392786_H
+#ifndef OPERATINGSYSTEM_T3730783609_H
+#define OPERATINGSYSTEM_T3730783609_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.OperatingSystem
+struct  OperatingSystem_t3730783609  : public RuntimeObject
+{
+public:
+	// System.PlatformID System.OperatingSystem::_platform
+	int32_t ____platform_0;
+	// System.Version System.OperatingSystem::_version
+	Version_t3456873960 * ____version_1;
+	// System.String System.OperatingSystem::_servicePack
+	String_t* ____servicePack_2;
+
+public:
+	inline static int32_t get_offset_of__platform_0() { return static_cast<int32_t>(offsetof(OperatingSystem_t3730783609, ____platform_0)); }
+	inline int32_t get__platform_0() const { return ____platform_0; }
+	inline int32_t* get_address_of__platform_0() { return &____platform_0; }
+	inline void set__platform_0(int32_t value)
+	{
+		____platform_0 = value;
+	}
+
+	inline static int32_t get_offset_of__version_1() { return static_cast<int32_t>(offsetof(OperatingSystem_t3730783609, ____version_1)); }
+	inline Version_t3456873960 * get__version_1() const { return ____version_1; }
+	inline Version_t3456873960 ** get_address_of__version_1() { return &____version_1; }
+	inline void set__version_1(Version_t3456873960 * value)
+	{
+		____version_1 = value;
+		Il2CppCodeGenWriteBarrier((&____version_1), value);
+	}
+
+	inline static int32_t get_offset_of__servicePack_2() { return static_cast<int32_t>(offsetof(OperatingSystem_t3730783609, ____servicePack_2)); }
+	inline String_t* get__servicePack_2() const { return ____servicePack_2; }
+	inline String_t** get_address_of__servicePack_2() { return &____servicePack_2; }
+	inline void set__servicePack_2(String_t* value)
+	{
+		____servicePack_2 = value;
+		Il2CppCodeGenWriteBarrier((&____servicePack_2), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // OPERATINGSYSTEM_T3730783609_H
+#ifndef MULTICASTDELEGATE_T_H
+#define MULTICASTDELEGATE_T_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.MulticastDelegate
+struct  MulticastDelegate_t  : public Delegate_t1188392813
+{
+public:
+	// System.MulticastDelegate System.MulticastDelegate::prev
+	MulticastDelegate_t * ___prev_9;
+	// System.MulticastDelegate System.MulticastDelegate::kpm_next
+	MulticastDelegate_t * ___kpm_next_10;
+
+public:
+	inline static int32_t get_offset_of_prev_9() { return static_cast<int32_t>(offsetof(MulticastDelegate_t, ___prev_9)); }
+	inline MulticastDelegate_t * get_prev_9() const { return ___prev_9; }
+	inline MulticastDelegate_t ** get_address_of_prev_9() { return &___prev_9; }
+	inline void set_prev_9(MulticastDelegate_t * value)
+	{
+		___prev_9 = value;
+		Il2CppCodeGenWriteBarrier((&___prev_9), value);
+	}
+
+	inline static int32_t get_offset_of_kpm_next_10() { return static_cast<int32_t>(offsetof(MulticastDelegate_t, ___kpm_next_10)); }
+	inline MulticastDelegate_t * get_kpm_next_10() const { return ___kpm_next_10; }
+	inline MulticastDelegate_t ** get_address_of_kpm_next_10() { return &___kpm_next_10; }
+	inline void set_kpm_next_10(MulticastDelegate_t * value)
+	{
+		___kpm_next_10 = value;
+		Il2CppCodeGenWriteBarrier((&___kpm_next_10), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // MULTICASTDELEGATE_T_H
+#ifndef METHODACCESSEXCEPTION_T190175859_H
+#define METHODACCESSEXCEPTION_T190175859_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.MethodAccessException
+struct  MethodAccessException_t190175859  : public MemberAccessException_t1734467078
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // METHODACCESSEXCEPTION_T190175859_H
 #ifndef MISSINGMEMBEREXCEPTION_T1385081665_H
 #define MISSINGMEMBEREXCEPTION_T1385081665_H
 #ifdef __clang__
@@ -4240,128 +4322,106 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // MISSINGMEMBEREXCEPTION_T1385081665_H
-#ifndef METHODACCESSEXCEPTION_T190175859_H
-#define METHODACCESSEXCEPTION_T190175859_H
+#ifndef TYPE_T_H
+#define TYPE_T_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.MethodAccessException
-struct  MethodAccessException_t190175859  : public MemberAccessException_t1734467078
+// System.Type
+struct  Type_t  : public MemberInfo_t
 {
 public:
+	// System.RuntimeTypeHandle System.Type::_impl
+	RuntimeTypeHandle_t3027515415  ____impl_1;
 
 public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // METHODACCESSEXCEPTION_T190175859_H
-#ifndef MULTICASTDELEGATE_T_H
-#define MULTICASTDELEGATE_T_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.MulticastDelegate
-struct  MulticastDelegate_t  : public Delegate_t1188392813
-{
-public:
-	// System.MulticastDelegate System.MulticastDelegate::prev
-	MulticastDelegate_t * ___prev_9;
-	// System.MulticastDelegate System.MulticastDelegate::kpm_next
-	MulticastDelegate_t * ___kpm_next_10;
-
-public:
-	inline static int32_t get_offset_of_prev_9() { return static_cast<int32_t>(offsetof(MulticastDelegate_t, ___prev_9)); }
-	inline MulticastDelegate_t * get_prev_9() const { return ___prev_9; }
-	inline MulticastDelegate_t ** get_address_of_prev_9() { return &___prev_9; }
-	inline void set_prev_9(MulticastDelegate_t * value)
+	inline static int32_t get_offset_of__impl_1() { return static_cast<int32_t>(offsetof(Type_t, ____impl_1)); }
+	inline RuntimeTypeHandle_t3027515415  get__impl_1() const { return ____impl_1; }
+	inline RuntimeTypeHandle_t3027515415 * get_address_of__impl_1() { return &____impl_1; }
+	inline void set__impl_1(RuntimeTypeHandle_t3027515415  value)
 	{
-		___prev_9 = value;
-		Il2CppCodeGenWriteBarrier((&___prev_9), value);
-	}
-
-	inline static int32_t get_offset_of_kpm_next_10() { return static_cast<int32_t>(offsetof(MulticastDelegate_t, ___kpm_next_10)); }
-	inline MulticastDelegate_t * get_kpm_next_10() const { return ___kpm_next_10; }
-	inline MulticastDelegate_t ** get_address_of_kpm_next_10() { return &___kpm_next_10; }
-	inline void set_kpm_next_10(MulticastDelegate_t * value)
-	{
-		___kpm_next_10 = value;
-		Il2CppCodeGenWriteBarrier((&___kpm_next_10), value);
+		____impl_1 = value;
 	}
 };
 
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MULTICASTDELEGATE_T_H
-#ifndef OBJECTDISPOSEDEXCEPTION_T21392786_H
-#define OBJECTDISPOSEDEXCEPTION_T21392786_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.ObjectDisposedException
-struct  ObjectDisposedException_t21392786  : public InvalidOperationException_t56020091
+struct Type_t_StaticFields
 {
 public:
-	// System.String System.ObjectDisposedException::obj_name
-	String_t* ___obj_name_12;
-	// System.String System.ObjectDisposedException::msg
-	String_t* ___msg_13;
+	// System.Char System.Type::Delimiter
+	Il2CppChar ___Delimiter_2;
+	// System.Type[] System.Type::EmptyTypes
+	TypeU5BU5D_t3940880105* ___EmptyTypes_3;
+	// System.Reflection.MemberFilter System.Type::FilterAttribute
+	MemberFilter_t426314064 * ___FilterAttribute_4;
+	// System.Reflection.MemberFilter System.Type::FilterName
+	MemberFilter_t426314064 * ___FilterName_5;
+	// System.Reflection.MemberFilter System.Type::FilterNameIgnoreCase
+	MemberFilter_t426314064 * ___FilterNameIgnoreCase_6;
+	// System.Object System.Type::Missing
+	RuntimeObject * ___Missing_7;
 
 public:
-	inline static int32_t get_offset_of_obj_name_12() { return static_cast<int32_t>(offsetof(ObjectDisposedException_t21392786, ___obj_name_12)); }
-	inline String_t* get_obj_name_12() const { return ___obj_name_12; }
-	inline String_t** get_address_of_obj_name_12() { return &___obj_name_12; }
-	inline void set_obj_name_12(String_t* value)
+	inline static int32_t get_offset_of_Delimiter_2() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___Delimiter_2)); }
+	inline Il2CppChar get_Delimiter_2() const { return ___Delimiter_2; }
+	inline Il2CppChar* get_address_of_Delimiter_2() { return &___Delimiter_2; }
+	inline void set_Delimiter_2(Il2CppChar value)
 	{
-		___obj_name_12 = value;
-		Il2CppCodeGenWriteBarrier((&___obj_name_12), value);
+		___Delimiter_2 = value;
 	}
 
-	inline static int32_t get_offset_of_msg_13() { return static_cast<int32_t>(offsetof(ObjectDisposedException_t21392786, ___msg_13)); }
-	inline String_t* get_msg_13() const { return ___msg_13; }
-	inline String_t** get_address_of_msg_13() { return &___msg_13; }
-	inline void set_msg_13(String_t* value)
+	inline static int32_t get_offset_of_EmptyTypes_3() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___EmptyTypes_3)); }
+	inline TypeU5BU5D_t3940880105* get_EmptyTypes_3() const { return ___EmptyTypes_3; }
+	inline TypeU5BU5D_t3940880105** get_address_of_EmptyTypes_3() { return &___EmptyTypes_3; }
+	inline void set_EmptyTypes_3(TypeU5BU5D_t3940880105* value)
 	{
-		___msg_13 = value;
-		Il2CppCodeGenWriteBarrier((&___msg_13), value);
+		___EmptyTypes_3 = value;
+		Il2CppCodeGenWriteBarrier((&___EmptyTypes_3), value);
+	}
+
+	inline static int32_t get_offset_of_FilterAttribute_4() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___FilterAttribute_4)); }
+	inline MemberFilter_t426314064 * get_FilterAttribute_4() const { return ___FilterAttribute_4; }
+	inline MemberFilter_t426314064 ** get_address_of_FilterAttribute_4() { return &___FilterAttribute_4; }
+	inline void set_FilterAttribute_4(MemberFilter_t426314064 * value)
+	{
+		___FilterAttribute_4 = value;
+		Il2CppCodeGenWriteBarrier((&___FilterAttribute_4), value);
+	}
+
+	inline static int32_t get_offset_of_FilterName_5() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___FilterName_5)); }
+	inline MemberFilter_t426314064 * get_FilterName_5() const { return ___FilterName_5; }
+	inline MemberFilter_t426314064 ** get_address_of_FilterName_5() { return &___FilterName_5; }
+	inline void set_FilterName_5(MemberFilter_t426314064 * value)
+	{
+		___FilterName_5 = value;
+		Il2CppCodeGenWriteBarrier((&___FilterName_5), value);
+	}
+
+	inline static int32_t get_offset_of_FilterNameIgnoreCase_6() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___FilterNameIgnoreCase_6)); }
+	inline MemberFilter_t426314064 * get_FilterNameIgnoreCase_6() const { return ___FilterNameIgnoreCase_6; }
+	inline MemberFilter_t426314064 ** get_address_of_FilterNameIgnoreCase_6() { return &___FilterNameIgnoreCase_6; }
+	inline void set_FilterNameIgnoreCase_6(MemberFilter_t426314064 * value)
+	{
+		___FilterNameIgnoreCase_6 = value;
+		Il2CppCodeGenWriteBarrier((&___FilterNameIgnoreCase_6), value);
+	}
+
+	inline static int32_t get_offset_of_Missing_7() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___Missing_7)); }
+	inline RuntimeObject * get_Missing_7() const { return ___Missing_7; }
+	inline RuntimeObject ** get_address_of_Missing_7() { return &___Missing_7; }
+	inline void set_Missing_7(RuntimeObject * value)
+	{
+		___Missing_7 = value;
+		Il2CppCodeGenWriteBarrier((&___Missing_7), value);
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // OBJECTDISPOSEDEXCEPTION_T21392786_H
-#ifndef PLATFORMNOTSUPPORTEDEXCEPTION_T3572244504_H
-#define PLATFORMNOTSUPPORTEDEXCEPTION_T3572244504_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.PlatformNotSupportedException
-struct  PlatformNotSupportedException_t3572244504  : public NotSupportedException_t1314879016
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // PLATFORMNOTSUPPORTEDEXCEPTION_T3572244504_H
+#endif // TYPE_T_H
 #ifndef OVERFLOWEXCEPTION_T2020128637_H
 #define OVERFLOWEXCEPTION_T2020128637_H
 #ifdef __clang__
@@ -4382,67 +4442,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // OVERFLOWEXCEPTION_T2020128637_H
-#ifndef OPERATINGSYSTEM_T3730783609_H
-#define OPERATINGSYSTEM_T3730783609_H
+#ifndef PLATFORMNOTSUPPORTEDEXCEPTION_T3572244504_H
+#define PLATFORMNOTSUPPORTEDEXCEPTION_T3572244504_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.OperatingSystem
-struct  OperatingSystem_t3730783609  : public RuntimeObject
-{
-public:
-	// System.PlatformID System.OperatingSystem::_platform
-	int32_t ____platform_0;
-	// System.Version System.OperatingSystem::_version
-	Version_t3456873960 * ____version_1;
-	// System.String System.OperatingSystem::_servicePack
-	String_t* ____servicePack_2;
-
-public:
-	inline static int32_t get_offset_of__platform_0() { return static_cast<int32_t>(offsetof(OperatingSystem_t3730783609, ____platform_0)); }
-	inline int32_t get__platform_0() const { return ____platform_0; }
-	inline int32_t* get_address_of__platform_0() { return &____platform_0; }
-	inline void set__platform_0(int32_t value)
-	{
-		____platform_0 = value;
-	}
-
-	inline static int32_t get_offset_of__version_1() { return static_cast<int32_t>(offsetof(OperatingSystem_t3730783609, ____version_1)); }
-	inline Version_t3456873960 * get__version_1() const { return ____version_1; }
-	inline Version_t3456873960 ** get_address_of__version_1() { return &____version_1; }
-	inline void set__version_1(Version_t3456873960 * value)
-	{
-		____version_1 = value;
-		Il2CppCodeGenWriteBarrier((&____version_1), value);
-	}
-
-	inline static int32_t get_offset_of__servicePack_2() { return static_cast<int32_t>(offsetof(OperatingSystem_t3730783609, ____servicePack_2)); }
-	inline String_t* get__servicePack_2() const { return ____servicePack_2; }
-	inline String_t** get_address_of__servicePack_2() { return &____servicePack_2; }
-	inline void set__servicePack_2(String_t* value)
-	{
-		____servicePack_2 = value;
-		Il2CppCodeGenWriteBarrier((&____servicePack_2), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // OPERATINGSYSTEM_T3730783609_H
-#ifndef TIMERCALLBACK_T1438585625_H
-#define TIMERCALLBACK_T1438585625_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Threading.TimerCallback
-struct  TimerCallback_t1438585625  : public MulticastDelegate_t
+// System.PlatformNotSupportedException
+struct  PlatformNotSupportedException_t3572244504  : public NotSupportedException_t1314879016
 {
 public:
 
@@ -4452,127 +4461,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // TIMERCALLBACK_T1438585625_H
-#ifndef WAITCALLBACK_T2448485498_H
-#define WAITCALLBACK_T2448485498_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Threading.WaitCallback
-struct  WaitCallback_t2448485498  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // WAITCALLBACK_T2448485498_H
-#ifndef APPDOMAININITIALIZER_T682969308_H
-#define APPDOMAININITIALIZER_T682969308_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.AppDomainInitializer
-struct  AppDomainInitializer_t682969308  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // APPDOMAININITIALIZER_T682969308_H
-#ifndef ASSEMBLYLOADEVENTHANDLER_T107971893_H
-#define ASSEMBLYLOADEVENTHANDLER_T107971893_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.AssemblyLoadEventHandler
-struct  AssemblyLoadEventHandler_t107971893  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // ASSEMBLYLOADEVENTHANDLER_T107971893_H
-#ifndef EVENTHANDLER_T1348719766_H
-#define EVENTHANDLER_T1348719766_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.EventHandler
-struct  EventHandler_t1348719766  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // EVENTHANDLER_T1348719766_H
-#ifndef RESOLVEEVENTHANDLER_T2775508208_H
-#define RESOLVEEVENTHANDLER_T2775508208_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.ResolveEventHandler
-struct  ResolveEventHandler_t2775508208  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // RESOLVEEVENTHANDLER_T2775508208_H
-#ifndef UNHANDLEDEXCEPTIONEVENTHANDLER_T3101989324_H
-#define UNHANDLEDEXCEPTIONEVENTHANDLER_T3101989324_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.UnhandledExceptionEventHandler
-struct  UnhandledExceptionEventHandler_t3101989324  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // UNHANDLEDEXCEPTIONEVENTHANDLER_T3101989324_H
+#endif // PLATFORMNOTSUPPORTEDEXCEPTION_T3572244504_H
 #ifndef MISSINGFIELDEXCEPTION_T1989070983_H
 #define MISSINGFIELDEXCEPTION_T1989070983_H
 #ifdef __clang__
@@ -4593,26 +4482,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // MISSINGFIELDEXCEPTION_T1989070983_H
-#ifndef CROSSCONTEXTDELEGATE_T387175271_H
-#define CROSSCONTEXTDELEGATE_T387175271_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Runtime.Remoting.Contexts.CrossContextDelegate
-struct  CrossContextDelegate_t387175271  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CROSSCONTEXTDELEGATE_T387175271_H
 #ifndef MISSINGMETHODEXCEPTION_T1274661534_H
 #define MISSINGMETHODEXCEPTION_T1274661534_H
 #ifdef __clang__
@@ -4633,16 +4502,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // MISSINGMETHODEXCEPTION_T1274661534_H
-#ifndef TYPEFILTER_T2356120900_H
-#define TYPEFILTER_T2356120900_H
+#ifndef TIMERCALLBACK_T1438585625_H
+#define TIMERCALLBACK_T1438585625_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Reflection.TypeFilter
-struct  TypeFilter_t2356120900  : public MulticastDelegate_t
+// System.Threading.TimerCallback
+struct  TimerCallback_t1438585625  : public MulticastDelegate_t
 {
 public:
 
@@ -4652,117 +4521,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // TYPEFILTER_T2356120900_H
-#ifndef MONOTYPE_T_H
-#define MONOTYPE_T_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.MonoType
-struct  MonoType_t  : public Type_t
-{
-public:
-	// System.MonoTypeInfo System.MonoType::type_info
-	MonoTypeInfo_t3366989025 * ___type_info_7;
-
-public:
-	inline static int32_t get_offset_of_type_info_7() { return static_cast<int32_t>(offsetof(MonoType_t, ___type_info_7)); }
-	inline MonoTypeInfo_t3366989025 * get_type_info_7() const { return ___type_info_7; }
-	inline MonoTypeInfo_t3366989025 ** get_address_of_type_info_7() { return &___type_info_7; }
-	inline void set_type_info_7(MonoTypeInfo_t3366989025 * value)
-	{
-		___type_info_7 = value;
-		Il2CppCodeGenWriteBarrier((&___type_info_7), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MONOTYPE_T_H
-#ifndef MEMBERFILTER_T426314064_H
-#define MEMBERFILTER_T426314064_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Reflection.MemberFilter
-struct  MemberFilter_t426314064  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MEMBERFILTER_T426314064_H
-#ifndef PRIMALITYTEST_T1539325943_H
-#define PRIMALITYTEST_T1539325943_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// Mono.Math.Prime.PrimalityTest
-struct  PrimalityTest_t1539325943  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // PRIMALITYTEST_T1539325943_H
-#ifndef SENDORPOSTCALLBACK_T2750080073_H
-#define SENDORPOSTCALLBACK_T2750080073_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Threading.SendOrPostCallback
-struct  SendOrPostCallback_t2750080073  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // SENDORPOSTCALLBACK_T2750080073_H
-#ifndef HEADERHANDLER_T2878040134_H
-#define HEADERHANDLER_T2878040134_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Runtime.Remoting.Messaging.HeaderHandler
-struct  HeaderHandler_t2878040134  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // HEADERHANDLER_T2878040134_H
+#endif // TIMERCALLBACK_T1438585625_H
 #ifndef THREADSTART_T1006689297_H
 #define THREADSTART_T1006689297_H
 #ifdef __clang__
@@ -4783,6 +4542,276 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // THREADSTART_T1006689297_H
+#ifndef MEMBERFILTER_T426314064_H
+#define MEMBERFILTER_T426314064_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Reflection.MemberFilter
+struct  MemberFilter_t426314064  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // MEMBERFILTER_T426314064_H
+#ifndef TYPEFILTER_T2356120900_H
+#define TYPEFILTER_T2356120900_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Reflection.TypeFilter
+struct  TypeFilter_t2356120900  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // TYPEFILTER_T2356120900_H
+#ifndef CROSSCONTEXTDELEGATE_T387175271_H
+#define CROSSCONTEXTDELEGATE_T387175271_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Runtime.Remoting.Contexts.CrossContextDelegate
+struct  CrossContextDelegate_t387175271  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // CROSSCONTEXTDELEGATE_T387175271_H
+#ifndef HEADERHANDLER_T2878040134_H
+#define HEADERHANDLER_T2878040134_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Runtime.Remoting.Messaging.HeaderHandler
+struct  HeaderHandler_t2878040134  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // HEADERHANDLER_T2878040134_H
+#ifndef SENDORPOSTCALLBACK_T2750080073_H
+#define SENDORPOSTCALLBACK_T2750080073_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Threading.SendOrPostCallback
+struct  SendOrPostCallback_t2750080073  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // SENDORPOSTCALLBACK_T2750080073_H
+#ifndef UNHANDLEDEXCEPTIONEVENTHANDLER_T3101989324_H
+#define UNHANDLEDEXCEPTIONEVENTHANDLER_T3101989324_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.UnhandledExceptionEventHandler
+struct  UnhandledExceptionEventHandler_t3101989324  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // UNHANDLEDEXCEPTIONEVENTHANDLER_T3101989324_H
+#ifndef RESOLVEEVENTHANDLER_T2775508208_H
+#define RESOLVEEVENTHANDLER_T2775508208_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.ResolveEventHandler
+struct  ResolveEventHandler_t2775508208  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // RESOLVEEVENTHANDLER_T2775508208_H
+#ifndef EVENTHANDLER_T1348719766_H
+#define EVENTHANDLER_T1348719766_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.EventHandler
+struct  EventHandler_t1348719766  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EVENTHANDLER_T1348719766_H
+#ifndef ASSEMBLYLOADEVENTHANDLER_T107971893_H
+#define ASSEMBLYLOADEVENTHANDLER_T107971893_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.AssemblyLoadEventHandler
+struct  AssemblyLoadEventHandler_t107971893  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // ASSEMBLYLOADEVENTHANDLER_T107971893_H
+#ifndef APPDOMAININITIALIZER_T682969308_H
+#define APPDOMAININITIALIZER_T682969308_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.AppDomainInitializer
+struct  AppDomainInitializer_t682969308  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // APPDOMAININITIALIZER_T682969308_H
+#ifndef WAITCALLBACK_T2448485498_H
+#define WAITCALLBACK_T2448485498_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Threading.WaitCallback
+struct  WaitCallback_t2448485498  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // WAITCALLBACK_T2448485498_H
+#ifndef MONOTYPE_T_H
+#define MONOTYPE_T_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.MonoType
+struct  MonoType_t  : public Type_t
+{
+public:
+	// System.MonoTypeInfo System.MonoType::type_info
+	MonoTypeInfo_t3366989025 * ___type_info_8;
+
+public:
+	inline static int32_t get_offset_of_type_info_8() { return static_cast<int32_t>(offsetof(MonoType_t, ___type_info_8)); }
+	inline MonoTypeInfo_t3366989025 * get_type_info_8() const { return ___type_info_8; }
+	inline MonoTypeInfo_t3366989025 ** get_address_of_type_info_8() { return &___type_info_8; }
+	inline void set_type_info_8(MonoTypeInfo_t3366989025 * value)
+	{
+		___type_info_8 = value;
+		Il2CppCodeGenWriteBarrier((&___type_info_8), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // MONOTYPE_T_H
+#ifndef PRIMALITYTEST_T1539325943_H
+#define PRIMALITYTEST_T1539325943_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Mono.Math.Prime.PrimalityTest
+struct  PrimalityTest_t1539325943  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // PRIMALITYTEST_T1539325943_H
 
 
 
@@ -4915,7 +4944,7 @@ extern const int32_t g_FieldOffsetTable821[2] =
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize822 = { sizeof (MonoType_t), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable822[1] = 
 {
-	MonoType_t::get_offset_of_type_info_7(),
+	MonoType_t::get_offset_of_type_info_8(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize823 = { sizeof (MulticastNotSupportedException_t3095221246), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize824 = { sizeof (NonSerializedAttribute_t2945079482), -1, 0, 0 };

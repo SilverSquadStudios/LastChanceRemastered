@@ -1,6 +1,6 @@
 WebGL
 PlayerPath?
-/Users/pradeepkumar/Desktop/LastChanceHtml
+/Users/pradeepkumar/Desktop/Website Stuff/LastChanceHtml
 SceneListBegin?
 Assets/Scenes/game.unity
 SceneListEnd?

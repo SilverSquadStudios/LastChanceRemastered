@@ -268,106 +268,106 @@ RegisterBuiltinTypes();
 	RegisterClass<Camera>("Core");
 	//4. Behaviour
 	RegisterClass<Behaviour>("Core");
-	//5. MonoBehaviour
-	RegisterClass<MonoBehaviour>("Core");
-	//6. Texture
-	RegisterClass<Texture>("Core");
-	//7. NamedObject
-	RegisterClass<NamedObject>("Core");
-	//8. RenderTexture
-	RegisterClass<RenderTexture>("Core");
-	//9. GameObject
-	RegisterClass<GameObject>("Core");
-	//10. GUIElement
-	RegisterClass<GUIElement>("Core");
-	//11. GUILayer
-	RegisterClass<GUILayer>("Core");
-	//12. Transform
-	RegisterClass<Transform>("Core");
-	//13. UI::RectTransform
-	RegisterClass<UI::RectTransform>("Core");
-	//14. Collider2D
-	RegisterClass<Collider2D>("Physics2D");
-	//15. PreloadData
-	RegisterClass<PreloadData>("Core");
-	//16. Material
-	RegisterClass<Material>("Core");
-	//17. Cubemap
-	RegisterClass<Cubemap>("Core");
-	//18. Texture2D
-	RegisterClass<Texture2D>("Core");
-	//19. Texture3D
-	RegisterClass<Texture3D>("Core");
-	//20. Texture2DArray
-	RegisterClass<Texture2DArray>("Core");
-	//21. Mesh
-	RegisterClass<Mesh>("Core");
-	//22. MeshFilter
-	RegisterClass<MeshFilter>("Core");
-	//23. MeshRenderer
-	RegisterClass<MeshRenderer>("Core");
-	//24. Renderer
+	//5. Renderer
 	RegisterClass<Renderer>("Core");
-	//25. Sprite
-	RegisterClass<Sprite>("Core");
-	//26. LowerResBlitTexture
-	RegisterClass<LowerResBlitTexture>("Core");
-	//27. GameManager
-	RegisterClass<GameManager>("Core");
-	//28. TagManager
-	RegisterClass<TagManager>("Core");
-	//29. GlobalGameManager
-	RegisterClass<GlobalGameManager>("Core");
-	//30. GraphicsSettings
-	RegisterClass<GraphicsSettings>("Core");
-	//31. Shader
-	RegisterClass<Shader>("Core");
-	//32. DelayedCallManager
-	RegisterClass<DelayedCallManager>("Core");
-	//33. QualitySettings
-	RegisterClass<QualitySettings>("Core");
-	//34. InputManager
-	RegisterClass<InputManager>("Core");
-	//35. TimeManager
-	RegisterClass<TimeManager>("Core");
-	//36. BuildSettings
-	RegisterClass<BuildSettings>("Core");
-	//37. ResourceManager
-	RegisterClass<ResourceManager>("Core");
-	//38. RuntimeInitializeOnLoadManager
-	RegisterClass<RuntimeInitializeOnLoadManager>("Core");
-	//39. ScriptMapper
-	RegisterClass<ScriptMapper>("Core");
-	//40. MonoManager
-	RegisterClass<MonoManager>("Core");
-	//41. MonoScript
-	RegisterClass<MonoScript>("Core");
-	//42. TextAsset
-	RegisterClass<TextAsset>("Core");
-	//43. AudioManager
-	RegisterClass<AudioManager>("Audio");
-	//44. PlayerSettings
-	RegisterClass<PlayerSettings>("Core");
-	//45. MasterServerInterface
-	//Skipping MasterServerInterface
-	//46. CloudWebServicesManager
-	RegisterClass<CloudWebServicesManager>("CloudWebServices");
-	//47. Physics2DSettings
-	RegisterClass<Physics2DSettings>("Physics2D");
-	//48. UnityConnectSettings
-	RegisterClass<UnityConnectSettings>("UnityConnect");
-	//49. FlareLayer
-	RegisterClass<FlareLayer>("Core");
-	//50. LightProbes
-	RegisterClass<LightProbes>("Core");
-	//51. RenderSettings
-	RegisterClass<RenderSettings>("Core");
-	//52. LevelGameManager
-	RegisterClass<LevelGameManager>("Core");
-	//53. LightmapSettings
-	RegisterClass<LightmapSettings>("Core");
-	//54. SpriteRenderer
+	//6. MonoBehaviour
+	RegisterClass<MonoBehaviour>("Core");
+	//7. Texture
+	RegisterClass<Texture>("Core");
+	//8. NamedObject
+	RegisterClass<NamedObject>("Core");
+	//9. RenderTexture
+	RegisterClass<RenderTexture>("Core");
+	//10. GameObject
+	RegisterClass<GameObject>("Core");
+	//11. GUIElement
+	RegisterClass<GUIElement>("Core");
+	//12. GUILayer
+	RegisterClass<GUILayer>("Core");
+	//13. Transform
+	RegisterClass<Transform>("Core");
+	//14. UI::RectTransform
+	RegisterClass<UI::RectTransform>("Core");
+	//15. Collider2D
+	RegisterClass<Collider2D>("Physics2D");
+	//16. SpriteRenderer
 	RegisterClass<SpriteRenderer>("Core");
+	//17. PreloadData
+	RegisterClass<PreloadData>("Core");
+	//18. Material
+	RegisterClass<Material>("Core");
+	//19. Cubemap
+	RegisterClass<Cubemap>("Core");
+	//20. Texture2D
+	RegisterClass<Texture2D>("Core");
+	//21. Texture3D
+	RegisterClass<Texture3D>("Core");
+	//22. Texture2DArray
+	RegisterClass<Texture2DArray>("Core");
+	//23. Mesh
+	RegisterClass<Mesh>("Core");
+	//24. MeshFilter
+	RegisterClass<MeshFilter>("Core");
+	//25. MeshRenderer
+	RegisterClass<MeshRenderer>("Core");
+	//26. Sprite
+	RegisterClass<Sprite>("Core");
+	//27. LowerResBlitTexture
+	RegisterClass<LowerResBlitTexture>("Core");
+	//28. GameManager
+	RegisterClass<GameManager>("Core");
+	//29. TagManager
+	RegisterClass<TagManager>("Core");
+	//30. GlobalGameManager
+	RegisterClass<GlobalGameManager>("Core");
+	//31. GraphicsSettings
+	RegisterClass<GraphicsSettings>("Core");
+	//32. Shader
+	RegisterClass<Shader>("Core");
+	//33. DelayedCallManager
+	RegisterClass<DelayedCallManager>("Core");
+	//34. QualitySettings
+	RegisterClass<QualitySettings>("Core");
+	//35. InputManager
+	RegisterClass<InputManager>("Core");
+	//36. TimeManager
+	RegisterClass<TimeManager>("Core");
+	//37. BuildSettings
+	RegisterClass<BuildSettings>("Core");
+	//38. ResourceManager
+	RegisterClass<ResourceManager>("Core");
+	//39. RuntimeInitializeOnLoadManager
+	RegisterClass<RuntimeInitializeOnLoadManager>("Core");
+	//40. ScriptMapper
+	RegisterClass<ScriptMapper>("Core");
+	//41. MonoManager
+	RegisterClass<MonoManager>("Core");
+	//42. MonoScript
+	RegisterClass<MonoScript>("Core");
+	//43. TextAsset
+	RegisterClass<TextAsset>("Core");
+	//44. AudioManager
+	RegisterClass<AudioManager>("Audio");
+	//45. PlayerSettings
+	RegisterClass<PlayerSettings>("Core");
+	//46. MasterServerInterface
+	//Skipping MasterServerInterface
+	//47. CloudWebServicesManager
+	RegisterClass<CloudWebServicesManager>("CloudWebServices");
+	//48. Physics2DSettings
+	RegisterClass<Physics2DSettings>("Physics2D");
+	//49. UnityConnectSettings
+	RegisterClass<UnityConnectSettings>("UnityConnect");
+	//50. FlareLayer
+	RegisterClass<FlareLayer>("Core");
+	//51. LightProbes
+	RegisterClass<LightProbes>("Core");
+	//52. RenderSettings
+	RegisterClass<RenderSettings>("Core");
+	//53. LevelGameManager
+	RegisterClass<LevelGameManager>("Core");
+	//54. LightmapSettings
+	RegisterClass<LightmapSettings>("Core");
 	//55. CircleCollider2D
 	RegisterClass<CircleCollider2D>("Physics2D");
 	//56. BoxCollider2D

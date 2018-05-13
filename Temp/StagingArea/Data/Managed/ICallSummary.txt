@@ -86,6 +86,7 @@ UnityEngine.PlayerConnectionInternal::UnregisterInternal
 UnityEngine.PropertyNameUtils::PropertyNameFromString_Injected
 UnityEngine.Random::Range
 UnityEngine.RemoteConfigSettings::Internal_Destroy
+UnityEngine.Renderer::get_bounds_Injected
 UnityEngine.Rigidbody2D::get_mass
 UnityEngine.Rigidbody2D::AddForce_Injected
 UnityEngine.SceneManagement.Scene::GetNameInternal

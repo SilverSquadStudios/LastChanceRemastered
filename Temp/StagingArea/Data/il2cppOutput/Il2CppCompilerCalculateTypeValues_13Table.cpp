@@ -124,16 +124,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // PROPERTYNAMEUTILS_T539849043_H
-#ifndef DISPATCHEVENTQUEUEEVENTS_T929081739_H
-#define DISPATCHEVENTQUEUEEVENTS_T929081739_H
+#ifndef UPDATEKINECT_T3392953923_H
+#define UPDATEKINECT_T3392953923_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Experimental.PlayerLoop.EarlyUpdate/DispatchEventQueueEvents
-struct  DispatchEventQueueEvents_t929081739 
+// UnityEngine.Experimental.PlayerLoop.EarlyUpdate/UpdateKinect
+struct  UpdateKinect_t3392953923 
 {
 public:
 	union
@@ -141,7 +141,7 @@ public:
 		struct
 		{
 		};
-		uint8_t DispatchEventQueueEvents_t929081739__padding[1];
+		uint8_t UpdateKinect_t3392953923__padding[1];
 	};
 
 public:
@@ -150,61 +150,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // DISPATCHEVENTQUEUEEVENTS_T929081739_H
-#ifndef BATCHMODEUPDATE_T2092978832_H
-#define BATCHMODEUPDATE_T2092978832_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/BatchModeUpdate
-struct  BatchModeUpdate_t2092978832 
-{
-public:
-	union
-	{
-		struct
-		{
-		};
-		uint8_t BatchModeUpdate_t2092978832__padding[1];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // BATCHMODEUPDATE_T2092978832_H
-#ifndef FINISHFRAMERENDERING_T1554225360_H
-#define FINISHFRAMERENDERING_T1554225360_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/FinishFrameRendering
-struct  FinishFrameRendering_t1554225360 
-{
-public:
-	union
-	{
-		struct
-		{
-		};
-		uint8_t FinishFrameRendering_t1554225360__padding[1];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // FINISHFRAMERENDERING_T1554225360_H
+#endif // UPDATEKINECT_T3392953923_H
 #ifndef PLAYEREMITCANVASGEOMETRY_T1638525882_H
 #define PLAYEREMITCANVASGEOMETRY_T1638525882_H
 #ifdef __clang__
@@ -394,16 +340,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // ENLIGHTENRUNTIMEUPDATE_T4260720146_H
-#ifndef UPDATESUBSTANCE_T2774222247_H
-#define UPDATESUBSTANCE_T2774222247_H
+#ifndef UPDATEALLRENDERERS_T4055013667_H
+#define UPDATEALLRENDERERS_T4055013667_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/UpdateSubstance
-struct  UpdateSubstance_t2774222247 
+// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/UpdateAllRenderers
+struct  UpdateAllRenderers_t4055013667 
 {
 public:
 	union
@@ -411,7 +357,7 @@ public:
 		struct
 		{
 		};
-		uint8_t UpdateSubstance_t2774222247__padding[1];
+		uint8_t UpdateAllRenderers_t4055013667__padding[1];
 	};
 
 public:
@@ -420,7 +366,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // UPDATESUBSTANCE_T2774222247_H
+#endif // UPDATEALLRENDERERS_T4055013667_H
 #ifndef UPDATECUSTOMRENDERTEXTURES_T3703755979_H
 #define UPDATECUSTOMRENDERTEXTURES_T3703755979_H
 #ifdef __clang__
@@ -448,60 +394,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // UPDATECUSTOMRENDERTEXTURES_T3703755979_H
-#ifndef PLAYERSENDFRAMECOMPLETE_T3284237406_H
-#define PLAYERSENDFRAMECOMPLETE_T3284237406_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/PlayerSendFrameComplete
-struct  PlayerSendFrameComplete_t3284237406 
-{
-public:
-	union
-	{
-		struct
-		{
-		};
-		uint8_t PlayerSendFrameComplete_t3284237406__padding[1];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // PLAYERSENDFRAMECOMPLETE_T3284237406_H
-#ifndef PARTICLESYSTEMENDUPDATEALL_T2836077351_H
-#define PARTICLESYSTEMENDUPDATEALL_T2836077351_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/ParticleSystemEndUpdateAll
-struct  ParticleSystemEndUpdateAll_t2836077351 
-{
-public:
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParticleSystemEndUpdateAll_t2836077351__padding[1];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // PARTICLESYSTEMENDUPDATEALL_T2836077351_H
 #ifndef PARTICLESLEGACYUPDATEALLPARTICLESYSTEMS_T554154943_H
 #define PARTICLESLEGACYUPDATEALLPARTICLESYSTEMS_T554154943_H
 #ifdef __clang__
@@ -529,6 +421,60 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // PARTICLESLEGACYUPDATEALLPARTICLESYSTEMS_T554154943_H
+#ifndef PARTICLESYSTEMENDUPDATEALL_T2836077351_H
+#define PARTICLESYSTEMENDUPDATEALL_T2836077351_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/ParticleSystemEndUpdateAll
+struct  ParticleSystemEndUpdateAll_t2836077351 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t ParticleSystemEndUpdateAll_t2836077351__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // PARTICLESYSTEMENDUPDATEALL_T2836077351_H
+#ifndef FINISHFRAMERENDERING_T1554225360_H
+#define FINISHFRAMERENDERING_T1554225360_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/FinishFrameRendering
+struct  FinishFrameRendering_t1554225360 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t FinishFrameRendering_t1554225360__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // FINISHFRAMERENDERING_T1554225360_H
 #ifndef SCRIPTRUNDELAYEDDYNAMICFRAMERATE_T3251018792_H
 #define SCRIPTRUNDELAYEDDYNAMICFRAMERATE_T3251018792_H
 #ifdef __clang__
@@ -637,6 +583,33 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // UPDATEAUDIO_T3497553982_H
+#ifndef PLAYERUPDATECANVASES_T4182350995_H
+#define PLAYERUPDATECANVASES_T4182350995_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/PlayerUpdateCanvases
+struct  PlayerUpdateCanvases_t4182350995 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t PlayerUpdateCanvases_t4182350995__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // PLAYERUPDATECANVASES_T4182350995_H
 #ifndef UPDATECANVASRECTTRANSFORM_T1832875547_H
 #define UPDATECANVASRECTTRANSFORM_T1832875547_H
 #ifdef __clang__
@@ -664,114 +637,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // UPDATECANVASRECTTRANSFORM_T1832875547_H
-#ifndef UPDATEALLRENDERERS_T4055013667_H
-#define UPDATEALLRENDERERS_T4055013667_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/UpdateAllRenderers
-struct  UpdateAllRenderers_t4055013667 
-{
-public:
-	union
-	{
-		struct
-		{
-		};
-		uint8_t UpdateAllRenderers_t4055013667__padding[1];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // UPDATEALLRENDERERS_T4055013667_H
-#ifndef UPDATECAPTURESCREENSHOT_T361950221_H
-#define UPDATECAPTURESCREENSHOT_T361950221_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/UpdateCaptureScreenshot
-struct  UpdateCaptureScreenshot_t361950221 
-{
-public:
-	union
-	{
-		struct
-		{
-		};
-		uint8_t UpdateCaptureScreenshot_t361950221__padding[1];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // UPDATECAPTURESCREENSHOT_T361950221_H
-#ifndef XRPOSTPRESENT_T2124473652_H
-#define XRPOSTPRESENT_T2124473652_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/XRPostPresent
-struct  XRPostPresent_t2124473652 
-{
-public:
-	union
-	{
-		struct
-		{
-		};
-		uint8_t XRPostPresent_t2124473652__padding[1];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // XRPOSTPRESENT_T2124473652_H
-#ifndef CLEARIMMEDIATERENDERERS_T365505584_H
-#define CLEARIMMEDIATERENDERERS_T365505584_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/ClearImmediateRenderers
-struct  ClearImmediateRenderers_t365505584 
-{
-public:
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ClearImmediateRenderers_t365505584__padding[1];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CLEARIMMEDIATERENDERERS_T365505584_H
 #ifndef VECTOR3_T3722313464_H
 #define VECTOR3_T3722313464_H
 #ifdef __clang__
@@ -927,6 +792,114 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // VECTOR3_T3722313464_H
+#ifndef UPDATESUBSTANCE_T2774222247_H
+#define UPDATESUBSTANCE_T2774222247_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/UpdateSubstance
+struct  UpdateSubstance_t2774222247 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t UpdateSubstance_t2774222247__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // UPDATESUBSTANCE_T2774222247_H
+#ifndef BATCHMODEUPDATE_T2092978832_H
+#define BATCHMODEUPDATE_T2092978832_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/BatchModeUpdate
+struct  BatchModeUpdate_t2092978832 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t BatchModeUpdate_t2092978832__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // BATCHMODEUPDATE_T2092978832_H
+#ifndef PRESENTAFTERDRAW_T3864494237_H
+#define PRESENTAFTERDRAW_T3864494237_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/PresentAfterDraw
+struct  PresentAfterDraw_t3864494237 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t PresentAfterDraw_t3864494237__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // PRESENTAFTERDRAW_T3864494237_H
+#ifndef UPDATECAPTURESCREENSHOT_T361950221_H
+#define UPDATECAPTURESCREENSHOT_T361950221_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/UpdateCaptureScreenshot
+struct  UpdateCaptureScreenshot_t361950221 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t UpdateCaptureScreenshot_t361950221__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // UPDATECAPTURESCREENSHOT_T361950221_H
 #ifndef VOID_T1185182177_H
 #define VOID_T1185182177_H
 #ifdef __clang__
@@ -992,65 +965,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // INTPTR_T_H
-#ifndef RECT_T2360479859_H
-#define RECT_T2360479859_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Rect
-struct  Rect_t2360479859 
-{
-public:
-	// System.Single UnityEngine.Rect::m_XMin
-	float ___m_XMin_0;
-	// System.Single UnityEngine.Rect::m_YMin
-	float ___m_YMin_1;
-	// System.Single UnityEngine.Rect::m_Width
-	float ___m_Width_2;
-	// System.Single UnityEngine.Rect::m_Height
-	float ___m_Height_3;
-
-public:
-	inline static int32_t get_offset_of_m_XMin_0() { return static_cast<int32_t>(offsetof(Rect_t2360479859, ___m_XMin_0)); }
-	inline float get_m_XMin_0() const { return ___m_XMin_0; }
-	inline float* get_address_of_m_XMin_0() { return &___m_XMin_0; }
-	inline void set_m_XMin_0(float value)
-	{
-		___m_XMin_0 = value;
-	}
-
-	inline static int32_t get_offset_of_m_YMin_1() { return static_cast<int32_t>(offsetof(Rect_t2360479859, ___m_YMin_1)); }
-	inline float get_m_YMin_1() const { return ___m_YMin_1; }
-	inline float* get_address_of_m_YMin_1() { return &___m_YMin_1; }
-	inline void set_m_YMin_1(float value)
-	{
-		___m_YMin_1 = value;
-	}
-
-	inline static int32_t get_offset_of_m_Width_2() { return static_cast<int32_t>(offsetof(Rect_t2360479859, ___m_Width_2)); }
-	inline float get_m_Width_2() const { return ___m_Width_2; }
-	inline float* get_address_of_m_Width_2() { return &___m_Width_2; }
-	inline void set_m_Width_2(float value)
-	{
-		___m_Width_2 = value;
-	}
-
-	inline static int32_t get_offset_of_m_Height_3() { return static_cast<int32_t>(offsetof(Rect_t2360479859, ___m_Height_3)); }
-	inline float get_m_Height_3() const { return ___m_Height_3; }
-	inline float* get_address_of_m_Height_3() { return &___m_Height_3; }
-	inline void set_m_Height_3(float value)
-	{
-		___m_Height_3 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // RECT_T2360479859_H
 #ifndef PROPERTYNAME_T3749835189_H
 #define PROPERTYNAME_T3749835189_H
 #ifdef __clang__
@@ -1188,33 +1102,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // PLAYERSENDFRAMEPOSTPRESENT_T1043377270_H
-#ifndef PRESENTAFTERDRAW_T3864494237_H
-#define PRESENTAFTERDRAW_T3864494237_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/PresentAfterDraw
-struct  PresentAfterDraw_t3864494237 
-{
-public:
-	union
-	{
-		struct
-		{
-		};
-		uint8_t PresentAfterDraw_t3864494237__padding[1];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // PRESENTAFTERDRAW_T3864494237_H
 #ifndef PROFILERENDFRAME_T852348665_H
 #define PROFILERENDFRAME_T852348665_H
 #ifdef __clang__
@@ -1242,6 +1129,60 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // PROFILERENDFRAME_T852348665_H
+#ifndef EXECUTEGAMECENTERCALLBACKS_T2005625669_H
+#define EXECUTEGAMECENTERCALLBACKS_T2005625669_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/ExecuteGameCenterCallbacks
+struct  ExecuteGameCenterCallbacks_t2005625669 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t ExecuteGameCenterCallbacks_t2005625669__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EXECUTEGAMECENTERCALLBACKS_T2005625669_H
+#ifndef PLAYERSENDFRAMECOMPLETE_T3284237406_H
+#define PLAYERSENDFRAMECOMPLETE_T3284237406_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/PlayerSendFrameComplete
+struct  PlayerSendFrameComplete_t3284237406 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t PlayerSendFrameComplete_t3284237406__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // PLAYERSENDFRAMECOMPLETE_T3284237406_H
 #ifndef MEMORYFRAMEMAINTENANCE_T1219312215_H
 #define MEMORYFRAMEMAINTENANCE_T1219312215_H
 #ifdef __clang__
@@ -1269,33 +1210,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // MEMORYFRAMEMAINTENANCE_T1219312215_H
-#ifndef PROFILERSYNCHRONIZESTATS_T1082371934_H
-#define PROFILERSYNCHRONIZESTATS_T1082371934_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/ProfilerSynchronizeStats
-struct  ProfilerSynchronizeStats_t1082371934 
-{
-public:
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ProfilerSynchronizeStats_t1082371934__padding[1];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // PROFILERSYNCHRONIZESTATS_T1082371934_H
 #ifndef THREADEDLOADINGDEBUG_T53594427_H
 #define THREADEDLOADINGDEBUG_T53594427_H
 #ifdef __clang__
@@ -1458,16 +1372,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // UPDATERESOLUTION_T864018525_H
-#ifndef UPDATERECTTRANSFORM_T1757116547_H
-#define UPDATERECTTRANSFORM_T1757116547_H
+#ifndef XRPOSTPRESENT_T2124473652_H
+#define XRPOSTPRESENT_T2124473652_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/UpdateRectTransform
-struct  UpdateRectTransform_t1757116547 
+// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/XRPostPresent
+struct  XRPostPresent_t2124473652 
 {
 public:
 	union
@@ -1475,7 +1389,7 @@ public:
 		struct
 		{
 		};
-		uint8_t UpdateRectTransform_t1757116547__padding[1];
+		uint8_t XRPostPresent_t2124473652__padding[1];
 	};
 
 public:
@@ -1484,17 +1398,17 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // UPDATERECTTRANSFORM_T1757116547_H
-#ifndef EXECUTEGAMECENTERCALLBACKS_T2005625669_H
-#define EXECUTEGAMECENTERCALLBACKS_T2005625669_H
+#endif // XRPOSTPRESENT_T2124473652_H
+#ifndef CLEARIMMEDIATERENDERERS_T365505584_H
+#define CLEARIMMEDIATERENDERERS_T365505584_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/ExecuteGameCenterCallbacks
-struct  ExecuteGameCenterCallbacks_t2005625669 
+// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/ClearImmediateRenderers
+struct  ClearImmediateRenderers_t365505584 
 {
 public:
 	union
@@ -1502,7 +1416,7 @@ public:
 		struct
 		{
 		};
-		uint8_t ExecuteGameCenterCallbacks_t2005625669__padding[1];
+		uint8_t ClearImmediateRenderers_t365505584__padding[1];
 	};
 
 public:
@@ -1511,7 +1425,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // EXECUTEGAMECENTERCALLBACKS_T2005625669_H
+#endif // CLEARIMMEDIATERENDERERS_T365505584_H
 #ifndef PLAYERSENDFRAMESTARTED_T3968901418_H
 #define PLAYERSENDFRAMESTARTED_T3968901418_H
 #ifdef __clang__
@@ -1539,16 +1453,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // PLAYERSENDFRAMESTARTED_T3968901418_H
-#ifndef PLAYERUPDATECANVASES_T4182350995_H
-#define PLAYERUPDATECANVASES_T4182350995_H
+#ifndef PROFILERSYNCHRONIZESTATS_T1082371934_H
+#define PROFILERSYNCHRONIZESTATS_T1082371934_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/PlayerUpdateCanvases
-struct  PlayerUpdateCanvases_t4182350995 
+// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/ProfilerSynchronizeStats
+struct  ProfilerSynchronizeStats_t1082371934 
 {
 public:
 	union
@@ -1556,7 +1470,7 @@ public:
 		struct
 		{
 		};
-		uint8_t PlayerUpdateCanvases_t4182350995__padding[1];
+		uint8_t ProfilerSynchronizeStats_t1082371934__padding[1];
 	};
 
 public:
@@ -1565,61 +1479,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // PLAYERUPDATECANVASES_T4182350995_H
-#ifndef CONSTRAINTMANAGERUPDATE_T4053002372_H
-#define CONSTRAINTMANAGERUPDATE_T4053002372_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Experimental.PlayerLoop.PreLateUpdate/ConstraintManagerUpdate
-struct  ConstraintManagerUpdate_t4053002372 
-{
-public:
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ConstraintManagerUpdate_t4053002372__padding[1];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CONSTRAINTMANAGERUPDATE_T4053002372_H
-#ifndef PREUPDATE_T1260694976_H
-#define PREUPDATE_T1260694976_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Experimental.PlayerLoop.PreUpdate
-struct  PreUpdate_t1260694976 
-{
-public:
-	union
-	{
-		struct
-		{
-		};
-		uint8_t PreUpdate_t1260694976__padding[1];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // PREUPDATE_T1260694976_H
+#endif // PROFILERSYNCHRONIZESTATS_T1082371934_H
 #ifndef POSTLATEUPDATE_T2796323918_H
 #define POSTLATEUPDATE_T2796323918_H
 #ifdef __clang__
@@ -1647,16 +1507,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // POSTLATEUPDATE_T2796323918_H
-#ifndef NEWINPUTBEGINFIXEDUPDATE_T434282217_H
-#define NEWINPUTBEGINFIXEDUPDATE_T434282217_H
+#ifndef UPDATERECTTRANSFORM_T1757116547_H
+#define UPDATERECTTRANSFORM_T1757116547_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Experimental.PlayerLoop.FixedUpdate/NewInputBeginFixedUpdate
-struct  NewInputBeginFixedUpdate_t434282217 
+// UnityEngine.Experimental.PlayerLoop.PostLateUpdate/UpdateRectTransform
+struct  UpdateRectTransform_t1757116547 
 {
 public:
 	union
@@ -1664,7 +1524,7 @@ public:
 		struct
 		{
 		};
-		uint8_t NewInputBeginFixedUpdate_t434282217__padding[1];
+		uint8_t UpdateRectTransform_t1757116547__padding[1];
 	};
 
 public:
@@ -1673,7 +1533,61 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // NEWINPUTBEGINFIXEDUPDATE_T434282217_H
+#endif // UPDATERECTTRANSFORM_T1757116547_H
+#ifndef SCRIPTRUNBEHAVIOURLATEUPDATE_T2082815220_H
+#define SCRIPTRUNBEHAVIOURLATEUPDATE_T2082815220_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Experimental.PlayerLoop.PreLateUpdate/ScriptRunBehaviourLateUpdate
+struct  ScriptRunBehaviourLateUpdate_t2082815220 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t ScriptRunBehaviourLateUpdate_t2082815220__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // SCRIPTRUNBEHAVIOURLATEUPDATE_T2082815220_H
+#ifndef CONSTRAINTMANAGERUPDATE_T4053002372_H
+#define CONSTRAINTMANAGERUPDATE_T4053002372_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Experimental.PlayerLoop.PreLateUpdate/ConstraintManagerUpdate
+struct  ConstraintManagerUpdate_t4053002372 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t ConstraintManagerUpdate_t4053002372__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // CONSTRAINTMANAGERUPDATE_T4053002372_H
 #ifndef SCRIPTRUNDELAYEDTASKS_T2734668064_H
 #define SCRIPTRUNDELAYEDTASKS_T2734668064_H
 #ifdef __clang__
@@ -1863,33 +1777,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // LEGACYFIXEDANIMATIONUPDATE_T457569808_H
-#ifndef PHYSICSUPDATE_T81124440_H
-#define PHYSICSUPDATE_T81124440_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Experimental.PlayerLoop.PreUpdate/PhysicsUpdate
-struct  PhysicsUpdate_t81124440 
-{
-public:
-	union
-	{
-		struct
-		{
-		};
-		uint8_t PhysicsUpdate_t81124440__padding[1];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // PHYSICSUPDATE_T81124440_H
 #ifndef DIRECTORFIXEDUPDATE_T303986765_H
 #define DIRECTORFIXEDUPDATE_T303986765_H
 #ifdef __clang__
@@ -1917,6 +1804,60 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // DIRECTORFIXEDUPDATE_T303986765_H
+#ifndef SCRIPTRUNBEHAVIOURFIXEDUPDATE_T2814082390_H
+#define SCRIPTRUNBEHAVIOURFIXEDUPDATE_T2814082390_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Experimental.PlayerLoop.FixedUpdate/ScriptRunBehaviourFixedUpdate
+struct  ScriptRunBehaviourFixedUpdate_t2814082390 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t ScriptRunBehaviourFixedUpdate_t2814082390__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // SCRIPTRUNBEHAVIOURFIXEDUPDATE_T2814082390_H
+#ifndef NEWINPUTENDFIXEDUPDATE_T3418907705_H
+#define NEWINPUTENDFIXEDUPDATE_T3418907705_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Experimental.PlayerLoop.FixedUpdate/NewInputEndFixedUpdate
+struct  NewInputEndFixedUpdate_t3418907705 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t NewInputEndFixedUpdate_t3418907705__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // NEWINPUTENDFIXEDUPDATE_T3418907705_H
 #ifndef AUDIOFIXEDUPDATE_T3174230782_H
 #define AUDIOFIXEDUPDATE_T3174230782_H
 #ifdef __clang__
@@ -1944,33 +1885,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // AUDIOFIXEDUPDATE_T3174230782_H
-#ifndef DIRECTORFIXEDSAMPLETIME_T1712077364_H
-#define DIRECTORFIXEDSAMPLETIME_T1712077364_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Experimental.PlayerLoop.FixedUpdate/DirectorFixedSampleTime
-struct  DirectorFixedSampleTime_t1712077364 
-{
-public:
-	union
-	{
-		struct
-		{
-		};
-		uint8_t DirectorFixedSampleTime_t1712077364__padding[1];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // DIRECTORFIXEDSAMPLETIME_T1712077364_H
 #ifndef CLEARLINES_T78737613_H
 #define CLEARLINES_T78737613_H
 #ifdef __clang__
@@ -2187,16 +2101,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // DIRECTORSAMPLETIME_T115137244_H
-#ifndef SCRIPTRUNBEHAVIOURFIXEDUPDATE_T2814082390_H
-#define SCRIPTRUNBEHAVIOURFIXEDUPDATE_T2814082390_H
+#ifndef DISPATCHEVENTQUEUEEVENTS_T929081739_H
+#define DISPATCHEVENTQUEUEEVENTS_T929081739_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Experimental.PlayerLoop.FixedUpdate/ScriptRunBehaviourFixedUpdate
-struct  ScriptRunBehaviourFixedUpdate_t2814082390 
+// UnityEngine.Experimental.PlayerLoop.EarlyUpdate/DispatchEventQueueEvents
+struct  DispatchEventQueueEvents_t929081739 
 {
 public:
 	union
@@ -2204,7 +2118,7 @@ public:
 		struct
 		{
 		};
-		uint8_t ScriptRunBehaviourFixedUpdate_t2814082390__padding[1];
+		uint8_t DispatchEventQueueEvents_t929081739__padding[1];
 	};
 
 public:
@@ -2213,7 +2127,115 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // SCRIPTRUNBEHAVIOURFIXEDUPDATE_T2814082390_H
+#endif // DISPATCHEVENTQUEUEEVENTS_T929081739_H
+#ifndef DELIVERIOSPLATFORMEVENTS_T1576278647_H
+#define DELIVERIOSPLATFORMEVENTS_T1576278647_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Experimental.PlayerLoop.EarlyUpdate/DeliverIosPlatformEvents
+struct  DeliverIosPlatformEvents_t1576278647 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DeliverIosPlatformEvents_t1576278647__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DELIVERIOSPLATFORMEVENTS_T1576278647_H
+#ifndef DIRECTORFIXEDSAMPLETIME_T1712077364_H
+#define DIRECTORFIXEDSAMPLETIME_T1712077364_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Experimental.PlayerLoop.FixedUpdate/DirectorFixedSampleTime
+struct  DirectorFixedSampleTime_t1712077364 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DirectorFixedSampleTime_t1712077364__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DIRECTORFIXEDSAMPLETIME_T1712077364_H
+#ifndef PREUPDATE_T1260694976_H
+#define PREUPDATE_T1260694976_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Experimental.PlayerLoop.PreUpdate
+struct  PreUpdate_t1260694976 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t PreUpdate_t1260694976__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // PREUPDATE_T1260694976_H
+#ifndef NEWINPUTBEGINFIXEDUPDATE_T434282217_H
+#define NEWINPUTBEGINFIXEDUPDATE_T434282217_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Experimental.PlayerLoop.FixedUpdate/NewInputBeginFixedUpdate
+struct  NewInputBeginFixedUpdate_t434282217 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t NewInputBeginFixedUpdate_t434282217__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // NEWINPUTBEGINFIXEDUPDATE_T434282217_H
 #ifndef PHYSICS2DUPDATE_T552651870_H
 #define PHYSICS2DUPDATE_T552651870_H
 #ifdef __clang__
@@ -2241,87 +2263,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // PHYSICS2DUPDATE_T552651870_H
-#ifndef NEWINPUTENDFIXEDUPDATE_T3418907705_H
-#define NEWINPUTENDFIXEDUPDATE_T3418907705_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Experimental.PlayerLoop.FixedUpdate/NewInputEndFixedUpdate
-struct  NewInputEndFixedUpdate_t3418907705 
-{
-public:
-	union
-	{
-		struct
-		{
-		};
-		uint8_t NewInputEndFixedUpdate_t3418907705__padding[1];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // NEWINPUTENDFIXEDUPDATE_T3418907705_H
-#ifndef IMGUISENDQUEUEDEVENTS_T65887646_H
-#define IMGUISENDQUEUEDEVENTS_T65887646_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Experimental.PlayerLoop.PreUpdate/IMGUISendQueuedEvents
-struct  IMGUISendQueuedEvents_t65887646 
-{
-public:
-	union
-	{
-		struct
-		{
-		};
-		uint8_t IMGUISendQueuedEvents_t65887646__padding[1];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // IMGUISENDQUEUEDEVENTS_T65887646_H
-#ifndef UPDATEMASTERSERVERINTERFACE_T2428268314_H
-#define UPDATEMASTERSERVERINTERFACE_T2428268314_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Experimental.PlayerLoop.PreLateUpdate/UpdateMasterServerInterface
-struct  UpdateMasterServerInterface_t2428268314 
-{
-public:
-	union
-	{
-		struct
-		{
-		};
-		uint8_t UpdateMasterServerInterface_t2428268314__padding[1];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // UPDATEMASTERSERVERINTERFACE_T2428268314_H
 #ifndef PARTICLESYSTEMBEGINUPDATEALL_T1600980369_H
 #define PARTICLESYSTEMBEGINUPDATEALL_T1600980369_H
 #ifdef __clang__
@@ -2349,6 +2290,87 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // PARTICLESYSTEMBEGINUPDATEALL_T1600980369_H
+#ifndef ENDGRAPHICSJOBSLATE_T3823419272_H
+#define ENDGRAPHICSJOBSLATE_T3823419272_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Experimental.PlayerLoop.PreLateUpdate/EndGraphicsJobsLate
+struct  EndGraphicsJobsLate_t3823419272 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t EndGraphicsJobsLate_t3823419272__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // ENDGRAPHICSJOBSLATE_T3823419272_H
+#ifndef UNETUPDATE_T4184253373_H
+#define UNETUPDATE_T4184253373_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Experimental.PlayerLoop.PreLateUpdate/UNetUpdate
+struct  UNetUpdate_t4184253373 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t UNetUpdate_t4184253373__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // UNETUPDATE_T4184253373_H
+#ifndef UPDATEMASTERSERVERINTERFACE_T2428268314_H
+#define UPDATEMASTERSERVERINTERFACE_T2428268314_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Experimental.PlayerLoop.PreLateUpdate/UpdateMasterServerInterface
+struct  UpdateMasterServerInterface_t2428268314 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t UpdateMasterServerInterface_t2428268314__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // UPDATEMASTERSERVERINTERFACE_T2428268314_H
 #ifndef UPDATENETWORKMANAGER_T3986463995_H
 #define UPDATENETWORKMANAGER_T3986463995_H
 #ifdef __clang__
@@ -2430,60 +2452,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // DIRECTORUPDATEANIMATIONEND_T3538632984_H
-#ifndef CHECKTEXFIELDINPUT_T4138810349_H
-#define CHECKTEXFIELDINPUT_T4138810349_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Experimental.PlayerLoop.PreUpdate/CheckTexFieldInput
-struct  CheckTexFieldInput_t4138810349 
-{
-public:
-	union
-	{
-		struct
-		{
-		};
-		uint8_t CheckTexFieldInput_t4138810349__padding[1];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CHECKTEXFIELDINPUT_T4138810349_H
-#ifndef SCRIPTRUNBEHAVIOURLATEUPDATE_T2082815220_H
-#define SCRIPTRUNBEHAVIOURLATEUPDATE_T2082815220_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Experimental.PlayerLoop.PreLateUpdate/ScriptRunBehaviourLateUpdate
-struct  ScriptRunBehaviourLateUpdate_t2082815220 
-{
-public:
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ScriptRunBehaviourLateUpdate_t2082815220__padding[1];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // SCRIPTRUNBEHAVIOURLATEUPDATE_T2082815220_H
 #ifndef LEGACYANIMATIONUPDATE_T466524488_H
 #define LEGACYANIMATIONUPDATE_T466524488_H
 #ifdef __clang__
@@ -2511,16 +2479,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // LEGACYANIMATIONUPDATE_T466524488_H
-#ifndef DIRECTORUPDATEANIMATIONBEGIN_T3483220745_H
-#define DIRECTORUPDATEANIMATIONBEGIN_T3483220745_H
+#ifndef PHYSICSUPDATE_T81124440_H
+#define PHYSICSUPDATE_T81124440_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Experimental.PlayerLoop.PreLateUpdate/DirectorUpdateAnimationBegin
-struct  DirectorUpdateAnimationBegin_t3483220745 
+// UnityEngine.Experimental.PlayerLoop.PreUpdate/PhysicsUpdate
+struct  PhysicsUpdate_t81124440 
 {
 public:
 	union
@@ -2528,7 +2496,7 @@ public:
 		struct
 		{
 		};
-		uint8_t DirectorUpdateAnimationBegin_t3483220745__padding[1];
+		uint8_t PhysicsUpdate_t81124440__padding[1];
 	};
 
 public:
@@ -2537,34 +2505,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // DIRECTORUPDATEANIMATIONBEGIN_T3483220745_H
-#ifndef ENDGRAPHICSJOBSLATE_T3823419272_H
-#define ENDGRAPHICSJOBSLATE_T3823419272_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Experimental.PlayerLoop.PreLateUpdate/EndGraphicsJobsLate
-struct  EndGraphicsJobsLate_t3823419272 
-{
-public:
-	union
-	{
-		struct
-		{
-		};
-		uint8_t EndGraphicsJobsLate_t3823419272__padding[1];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // ENDGRAPHICSJOBSLATE_T3823419272_H
+#endif // PHYSICSUPDATE_T81124440_H
 #ifndef AIUPDATEPOSTSCRIPT_T1991765663_H
 #define AIUPDATEPOSTSCRIPT_T1991765663_H
 #ifdef __clang__
@@ -2592,16 +2533,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // AIUPDATEPOSTSCRIPT_T1991765663_H
-#ifndef SCRIPTRUNDELAYEDDYNAMICFRAMERATE_T3844766269_H
-#define SCRIPTRUNDELAYEDDYNAMICFRAMERATE_T3844766269_H
+#ifndef PRELATEUPDATE_T3194249939_H
+#define PRELATEUPDATE_T3194249939_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Experimental.PlayerLoop.Update/ScriptRunDelayedDynamicFrameRate
-struct  ScriptRunDelayedDynamicFrameRate_t3844766269 
+// UnityEngine.Experimental.PlayerLoop.PreLateUpdate
+struct  PreLateUpdate_t3194249939 
 {
 public:
 	union
@@ -2609,7 +2550,7 @@ public:
 		struct
 		{
 		};
-		uint8_t ScriptRunDelayedDynamicFrameRate_t3844766269__padding[1];
+		uint8_t PreLateUpdate_t3194249939__padding[1];
 	};
 
 public:
@@ -2618,7 +2559,34 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // SCRIPTRUNDELAYEDDYNAMICFRAMERATE_T3844766269_H
+#endif // PRELATEUPDATE_T3194249939_H
+#ifndef DIRECTORUPDATEANIMATIONBEGIN_T3483220745_H
+#define DIRECTORUPDATEANIMATIONBEGIN_T3483220745_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Experimental.PlayerLoop.PreLateUpdate/DirectorUpdateAnimationBegin
+struct  DirectorUpdateAnimationBegin_t3483220745 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DirectorUpdateAnimationBegin_t3483220745__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DIRECTORUPDATEANIMATIONBEGIN_T3483220745_H
 #ifndef DIRECTORUPDATE_T2427988364_H
 #define DIRECTORUPDATE_T2427988364_H
 #ifdef __clang__
@@ -2646,16 +2614,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // DIRECTORUPDATE_T2427988364_H
-#ifndef SCRIPTRUNBEHAVIOURUPDATE_T1852625933_H
-#define SCRIPTRUNBEHAVIOURUPDATE_T1852625933_H
+#ifndef CHECKTEXFIELDINPUT_T4138810349_H
+#define CHECKTEXFIELDINPUT_T4138810349_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Experimental.PlayerLoop.Update/ScriptRunBehaviourUpdate
-struct  ScriptRunBehaviourUpdate_t1852625933 
+// UnityEngine.Experimental.PlayerLoop.PreUpdate/CheckTexFieldInput
+struct  CheckTexFieldInput_t4138810349 
 {
 public:
 	union
@@ -2663,7 +2631,7 @@ public:
 		struct
 		{
 		};
-		uint8_t ScriptRunBehaviourUpdate_t1852625933__padding[1];
+		uint8_t CheckTexFieldInput_t4138810349__padding[1];
 	};
 
 public:
@@ -2672,17 +2640,17 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // SCRIPTRUNBEHAVIOURUPDATE_T1852625933_H
-#ifndef UPDATE_T723921334_H
-#define UPDATE_T723921334_H
+#endif // CHECKTEXFIELDINPUT_T4138810349_H
+#ifndef IMGUISENDQUEUEDEVENTS_T65887646_H
+#define IMGUISENDQUEUEDEVENTS_T65887646_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Experimental.PlayerLoop.Update
-struct  Update_t723921334 
+// UnityEngine.Experimental.PlayerLoop.PreUpdate/IMGUISendQueuedEvents
+struct  IMGUISendQueuedEvents_t65887646 
 {
 public:
 	union
@@ -2690,7 +2658,7 @@ public:
 		struct
 		{
 		};
-		uint8_t Update_t723921334__padding[1];
+		uint8_t IMGUISendQueuedEvents_t65887646__padding[1];
 	};
 
 public:
@@ -2699,17 +2667,17 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // UPDATE_T723921334_H
-#ifndef NEWINPUTUPDATE_T4285063962_H
-#define NEWINPUTUPDATE_T4285063962_H
+#endif // IMGUISENDQUEUEDEVENTS_T65887646_H
+#ifndef SENDMOUSEEVENTS_T3944192294_H
+#define SENDMOUSEEVENTS_T3944192294_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Experimental.PlayerLoop.PreUpdate/NewInputUpdate
-struct  NewInputUpdate_t4285063962 
+// UnityEngine.Experimental.PlayerLoop.PreUpdate/SendMouseEvents
+struct  SendMouseEvents_t3944192294 
 {
 public:
 	union
@@ -2717,7 +2685,7 @@ public:
 		struct
 		{
 		};
-		uint8_t NewInputUpdate_t4285063962__padding[1];
+		uint8_t SendMouseEvents_t3944192294__padding[1];
 	};
 
 public:
@@ -2726,7 +2694,61 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // NEWINPUTUPDATE_T4285063962_H
+#endif // SENDMOUSEEVENTS_T3944192294_H
+#ifndef AIUPDATE_T2336814084_H
+#define AIUPDATE_T2336814084_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Experimental.PlayerLoop.PreUpdate/AIUpdate
+struct  AIUpdate_t2336814084 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t AIUpdate_t2336814084__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // AIUPDATE_T2336814084_H
+#ifndef SCRIPTRUNDELAYEDDYNAMICFRAMERATE_T3844766269_H
+#define SCRIPTRUNDELAYEDDYNAMICFRAMERATE_T3844766269_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Experimental.PlayerLoop.Update/ScriptRunDelayedDynamicFrameRate
+struct  ScriptRunDelayedDynamicFrameRate_t3844766269 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t ScriptRunDelayedDynamicFrameRate_t3844766269__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // SCRIPTRUNDELAYEDDYNAMICFRAMERATE_T3844766269_H
 #ifndef UPDATEVIDEO_T1599856004_H
 #define UPDATEVIDEO_T1599856004_H
 #ifdef __clang__
@@ -2781,16 +2803,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // WINDUPDATE_T2266304656_H
-#ifndef AIUPDATE_T2336814084_H
-#define AIUPDATE_T2336814084_H
+#ifndef UPDATE_T723921334_H
+#define UPDATE_T723921334_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Experimental.PlayerLoop.PreUpdate/AIUpdate
-struct  AIUpdate_t2336814084 
+// UnityEngine.Experimental.PlayerLoop.Update
+struct  Update_t723921334 
 {
 public:
 	union
@@ -2798,7 +2820,7 @@ public:
 		struct
 		{
 		};
-		uint8_t AIUpdate_t2336814084__padding[1];
+		uint8_t Update_t723921334__padding[1];
 	};
 
 public:
@@ -2807,17 +2829,17 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // AIUPDATE_T2336814084_H
-#ifndef SENDMOUSEEVENTS_T3944192294_H
-#define SENDMOUSEEVENTS_T3944192294_H
+#endif // UPDATE_T723921334_H
+#ifndef SCRIPTRUNBEHAVIOURUPDATE_T1852625933_H
+#define SCRIPTRUNBEHAVIOURUPDATE_T1852625933_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Experimental.PlayerLoop.PreUpdate/SendMouseEvents
-struct  SendMouseEvents_t3944192294 
+// UnityEngine.Experimental.PlayerLoop.Update/ScriptRunBehaviourUpdate
+struct  ScriptRunBehaviourUpdate_t1852625933 
 {
 public:
 	union
@@ -2825,7 +2847,7 @@ public:
 		struct
 		{
 		};
-		uint8_t SendMouseEvents_t3944192294__padding[1];
+		uint8_t ScriptRunBehaviourUpdate_t1852625933__padding[1];
 	};
 
 public:
@@ -2834,17 +2856,17 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // SENDMOUSEEVENTS_T3944192294_H
-#ifndef PRELATEUPDATE_T3194249939_H
-#define PRELATEUPDATE_T3194249939_H
+#endif // SCRIPTRUNBEHAVIOURUPDATE_T1852625933_H
+#ifndef NEWINPUTUPDATE_T4285063962_H
+#define NEWINPUTUPDATE_T4285063962_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Experimental.PlayerLoop.PreLateUpdate
-struct  PreLateUpdate_t3194249939 
+// UnityEngine.Experimental.PlayerLoop.PreUpdate/NewInputUpdate
+struct  NewInputUpdate_t4285063962 
 {
 public:
 	union
@@ -2852,7 +2874,7 @@ public:
 		struct
 		{
 		};
-		uint8_t PreLateUpdate_t3194249939__padding[1];
+		uint8_t NewInputUpdate_t4285063962__padding[1];
 	};
 
 public:
@@ -2861,89 +2883,46 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // PRELATEUPDATE_T3194249939_H
-#ifndef UNETUPDATE_T4184253373_H
-#define UNETUPDATE_T4184253373_H
+#endif // NEWINPUTUPDATE_T4285063962_H
+#ifndef RAY_T3785851493_H
+#define RAY_T3785851493_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Experimental.PlayerLoop.PreLateUpdate/UNetUpdate
-struct  UNetUpdate_t4184253373 
+// UnityEngine.Ray
+struct  Ray_t3785851493 
 {
 public:
-	union
+	// UnityEngine.Vector3 UnityEngine.Ray::m_Origin
+	Vector3_t3722313464  ___m_Origin_0;
+	// UnityEngine.Vector3 UnityEngine.Ray::m_Direction
+	Vector3_t3722313464  ___m_Direction_1;
+
+public:
+	inline static int32_t get_offset_of_m_Origin_0() { return static_cast<int32_t>(offsetof(Ray_t3785851493, ___m_Origin_0)); }
+	inline Vector3_t3722313464  get_m_Origin_0() const { return ___m_Origin_0; }
+	inline Vector3_t3722313464 * get_address_of_m_Origin_0() { return &___m_Origin_0; }
+	inline void set_m_Origin_0(Vector3_t3722313464  value)
 	{
-		struct
-		{
-		};
-		uint8_t UNetUpdate_t4184253373__padding[1];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // UNETUPDATE_T4184253373_H
-#ifndef OBJECT_T631007953_H
-#define OBJECT_T631007953_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Object
-struct  Object_t631007953  : public RuntimeObject
-{
-public:
-	// System.IntPtr UnityEngine.Object::m_CachedPtr
-	intptr_t ___m_CachedPtr_0;
-
-public:
-	inline static int32_t get_offset_of_m_CachedPtr_0() { return static_cast<int32_t>(offsetof(Object_t631007953, ___m_CachedPtr_0)); }
-	inline intptr_t get_m_CachedPtr_0() const { return ___m_CachedPtr_0; }
-	inline intptr_t* get_address_of_m_CachedPtr_0() { return &___m_CachedPtr_0; }
-	inline void set_m_CachedPtr_0(intptr_t value)
-	{
-		___m_CachedPtr_0 = value;
+		___m_Origin_0 = value;
 	}
-};
 
-struct Object_t631007953_StaticFields
-{
-public:
-	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
-
-public:
-	inline static int32_t get_offset_of_OffsetOfInstanceIDInCPlusPlusObject_1() { return static_cast<int32_t>(offsetof(Object_t631007953_StaticFields, ___OffsetOfInstanceIDInCPlusPlusObject_1)); }
-	inline int32_t get_OffsetOfInstanceIDInCPlusPlusObject_1() const { return ___OffsetOfInstanceIDInCPlusPlusObject_1; }
-	inline int32_t* get_address_of_OffsetOfInstanceIDInCPlusPlusObject_1() { return &___OffsetOfInstanceIDInCPlusPlusObject_1; }
-	inline void set_OffsetOfInstanceIDInCPlusPlusObject_1(int32_t value)
+	inline static int32_t get_offset_of_m_Direction_1() { return static_cast<int32_t>(offsetof(Ray_t3785851493, ___m_Direction_1)); }
+	inline Vector3_t3722313464  get_m_Direction_1() const { return ___m_Direction_1; }
+	inline Vector3_t3722313464 * get_address_of_m_Direction_1() { return &___m_Direction_1; }
+	inline void set_m_Direction_1(Vector3_t3722313464  value)
 	{
-		___OffsetOfInstanceIDInCPlusPlusObject_1 = value;
+		___m_Direction_1 = value;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Native definition for P/Invoke marshalling of UnityEngine.Object
-struct Object_t631007953_marshaled_pinvoke
-{
-	intptr_t ___m_CachedPtr_0;
-};
-// Native definition for COM marshalling of UnityEngine.Object
-struct Object_t631007953_marshaled_com
-{
-	intptr_t ___m_CachedPtr_0;
-};
-#endif // OBJECT_T631007953_H
+#endif // RAY_T3785851493_H
 #ifndef PLAYERLOOPSYSTEM_T105772105_H
 #define PLAYERLOOPSYSTEM_T105772105_H
 #ifdef __clang__
@@ -3034,45 +3013,6 @@ struct PlayerLoopSystem_t105772105_marshaled_com
 	intptr_t ___loopConditionFunction_4;
 };
 #endif // PLAYERLOOPSYSTEM_T105772105_H
-#ifndef RAY_T3785851493_H
-#define RAY_T3785851493_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Ray
-struct  Ray_t3785851493 
-{
-public:
-	// UnityEngine.Vector3 UnityEngine.Ray::m_Origin
-	Vector3_t3722313464  ___m_Origin_0;
-	// UnityEngine.Vector3 UnityEngine.Ray::m_Direction
-	Vector3_t3722313464  ___m_Direction_1;
-
-public:
-	inline static int32_t get_offset_of_m_Origin_0() { return static_cast<int32_t>(offsetof(Ray_t3785851493, ___m_Origin_0)); }
-	inline Vector3_t3722313464  get_m_Origin_0() const { return ___m_Origin_0; }
-	inline Vector3_t3722313464 * get_address_of_m_Origin_0() { return &___m_Origin_0; }
-	inline void set_m_Origin_0(Vector3_t3722313464  value)
-	{
-		___m_Origin_0 = value;
-	}
-
-	inline static int32_t get_offset_of_m_Direction_1() { return static_cast<int32_t>(offsetof(Ray_t3785851493, ___m_Direction_1)); }
-	inline Vector3_t3722313464  get_m_Direction_1() const { return ___m_Direction_1; }
-	inline Vector3_t3722313464 * get_address_of_m_Direction_1() { return &___m_Direction_1; }
-	inline void set_m_Direction_1(Vector3_t3722313464  value)
-	{
-		___m_Direction_1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // RAY_T3785851493_H
 #ifndef PLAYERLOOPSYSTEMINTERNAL_T2185485283_H
 #define PLAYERLOOPSYSTEMINTERNAL_T2185485283_H
 #ifdef __clang__
@@ -3316,34 +3256,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // MULTICASTDELEGATE_T_H
-#ifndef SCRIPTABLEOBJECT_T2528358522_H
-#define SCRIPTABLEOBJECT_T2528358522_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.ScriptableObject
-struct  ScriptableObject_t2528358522  : public Object_t631007953
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-// Native definition for P/Invoke marshalling of UnityEngine.ScriptableObject
-struct ScriptableObject_t2528358522_marshaled_pinvoke : public Object_t631007953_marshaled_pinvoke
-{
-};
-// Native definition for COM marshalling of UnityEngine.ScriptableObject
-struct ScriptableObject_t2528358522_marshaled_com : public Object_t631007953_marshaled_com
-{
-};
-#endif // SCRIPTABLEOBJECT_T2528358522_H
 #ifndef UPDATEFUNCTION_T377278577_H
 #define UPDATEFUNCTION_T377278577_H
 #ifdef __clang__
@@ -3374,99 +3286,101 @@ public:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1300 = { sizeof (DispatchEventQueueEvents_t929081739)+ sizeof (RuntimeObject), sizeof(DispatchEventQueueEvents_t929081739 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1301 = { sizeof (DirectorSampleTime_t115137244)+ sizeof (RuntimeObject), sizeof(DirectorSampleTime_t115137244 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1302 = { sizeof (PhysicsResetInterpolatedTransformPosition_t4228954803)+ sizeof (RuntimeObject), sizeof(PhysicsResetInterpolatedTransformPosition_t4228954803 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1303 = { sizeof (NewInputBeginFrame_t3911897700)+ sizeof (RuntimeObject), sizeof(NewInputBeginFrame_t3911897700 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1304 = { sizeof (SpriteAtlasManagerUpdate_t2882383376)+ sizeof (RuntimeObject), sizeof(SpriteAtlasManagerUpdate_t2882383376 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1305 = { sizeof (TangoUpdate_t85607497)+ sizeof (RuntimeObject), sizeof(TangoUpdate_t85607497 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1306 = { sizeof (PerformanceAnalyticsUpdate_t1497089951)+ sizeof (RuntimeObject), sizeof(PerformanceAnalyticsUpdate_t1497089951 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1307 = { sizeof (FixedUpdate_t2729551173)+ sizeof (RuntimeObject), sizeof(FixedUpdate_t2729551173 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1308 = { sizeof (ClearLines_t78737613)+ sizeof (RuntimeObject), sizeof(ClearLines_t78737613 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1309 = { sizeof (DirectorFixedSampleTime_t1712077364)+ sizeof (RuntimeObject), sizeof(DirectorFixedSampleTime_t1712077364 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1310 = { sizeof (AudioFixedUpdate_t3174230782)+ sizeof (RuntimeObject), sizeof(AudioFixedUpdate_t3174230782 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1311 = { sizeof (ScriptRunBehaviourFixedUpdate_t2814082390)+ sizeof (RuntimeObject), sizeof(ScriptRunBehaviourFixedUpdate_t2814082390 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1312 = { sizeof (DirectorFixedUpdate_t303986765)+ sizeof (RuntimeObject), sizeof(DirectorFixedUpdate_t303986765 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1313 = { sizeof (LegacyFixedAnimationUpdate_t457569808)+ sizeof (RuntimeObject), sizeof(LegacyFixedAnimationUpdate_t457569808 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1314 = { sizeof (XRFixedUpdate_t322762781)+ sizeof (RuntimeObject), sizeof(XRFixedUpdate_t322762781 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1315 = { sizeof (PhysicsFixedUpdate_t2503573795)+ sizeof (RuntimeObject), sizeof(PhysicsFixedUpdate_t2503573795 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1316 = { sizeof (Physics2DFixedUpdate_t3234482501)+ sizeof (RuntimeObject), sizeof(Physics2DFixedUpdate_t3234482501 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1317 = { sizeof (DirectorFixedUpdatePostPhysics_t1695763577)+ sizeof (RuntimeObject), sizeof(DirectorFixedUpdatePostPhysics_t1695763577 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1318 = { sizeof (ScriptRunDelayedFixedFrameRate_t597857925)+ sizeof (RuntimeObject), sizeof(ScriptRunDelayedFixedFrameRate_t597857925 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1319 = { sizeof (ScriptRunDelayedTasks_t2734668064)+ sizeof (RuntimeObject), sizeof(ScriptRunDelayedTasks_t2734668064 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1320 = { sizeof (NewInputBeginFixedUpdate_t434282217)+ sizeof (RuntimeObject), sizeof(NewInputBeginFixedUpdate_t434282217 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1321 = { sizeof (NewInputEndFixedUpdate_t3418907705)+ sizeof (RuntimeObject), sizeof(NewInputEndFixedUpdate_t3418907705 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1322 = { sizeof (PreUpdate_t1260694976)+ sizeof (RuntimeObject), sizeof(PreUpdate_t1260694976 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1323 = { sizeof (PhysicsUpdate_t81124440)+ sizeof (RuntimeObject), sizeof(PhysicsUpdate_t81124440 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1324 = { sizeof (Physics2DUpdate_t552651870)+ sizeof (RuntimeObject), sizeof(Physics2DUpdate_t552651870 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1325 = { sizeof (CheckTexFieldInput_t4138810349)+ sizeof (RuntimeObject), sizeof(CheckTexFieldInput_t4138810349 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1326 = { sizeof (IMGUISendQueuedEvents_t65887646)+ sizeof (RuntimeObject), sizeof(IMGUISendQueuedEvents_t65887646 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1327 = { sizeof (SendMouseEvents_t3944192294)+ sizeof (RuntimeObject), sizeof(SendMouseEvents_t3944192294 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1328 = { sizeof (AIUpdate_t2336814084)+ sizeof (RuntimeObject), sizeof(AIUpdate_t2336814084 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1329 = { sizeof (WindUpdate_t2266304656)+ sizeof (RuntimeObject), sizeof(WindUpdate_t2266304656 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1330 = { sizeof (UpdateVideo_t1599856004)+ sizeof (RuntimeObject), sizeof(UpdateVideo_t1599856004 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1331 = { sizeof (NewInputUpdate_t4285063962)+ sizeof (RuntimeObject), sizeof(NewInputUpdate_t4285063962 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1332 = { sizeof (Update_t723921334)+ sizeof (RuntimeObject), sizeof(Update_t723921334 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1333 = { sizeof (ScriptRunBehaviourUpdate_t1852625933)+ sizeof (RuntimeObject), sizeof(ScriptRunBehaviourUpdate_t1852625933 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1334 = { sizeof (DirectorUpdate_t2427988364)+ sizeof (RuntimeObject), sizeof(DirectorUpdate_t2427988364 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1335 = { sizeof (ScriptRunDelayedDynamicFrameRate_t3844766269)+ sizeof (RuntimeObject), sizeof(ScriptRunDelayedDynamicFrameRate_t3844766269 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1336 = { sizeof (PreLateUpdate_t3194249939)+ sizeof (RuntimeObject), sizeof(PreLateUpdate_t3194249939 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1337 = { sizeof (AIUpdatePostScript_t1991765663)+ sizeof (RuntimeObject), sizeof(AIUpdatePostScript_t1991765663 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1338 = { sizeof (DirectorUpdateAnimationBegin_t3483220745)+ sizeof (RuntimeObject), sizeof(DirectorUpdateAnimationBegin_t3483220745 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1339 = { sizeof (LegacyAnimationUpdate_t466524488)+ sizeof (RuntimeObject), sizeof(LegacyAnimationUpdate_t466524488 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1340 = { sizeof (DirectorUpdateAnimationEnd_t3538632984)+ sizeof (RuntimeObject), sizeof(DirectorUpdateAnimationEnd_t3538632984 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1341 = { sizeof (DirectorDeferredEvaluate_t3162759259)+ sizeof (RuntimeObject), sizeof(DirectorDeferredEvaluate_t3162759259 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1342 = { sizeof (UpdateNetworkManager_t3986463995)+ sizeof (RuntimeObject), sizeof(UpdateNetworkManager_t3986463995 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1343 = { sizeof (UpdateMasterServerInterface_t2428268314)+ sizeof (RuntimeObject), sizeof(UpdateMasterServerInterface_t2428268314 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1344 = { sizeof (UNetUpdate_t4184253373)+ sizeof (RuntimeObject), sizeof(UNetUpdate_t4184253373 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1345 = { sizeof (EndGraphicsJobsLate_t3823419272)+ sizeof (RuntimeObject), sizeof(EndGraphicsJobsLate_t3823419272 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1346 = { sizeof (ParticleSystemBeginUpdateAll_t1600980369)+ sizeof (RuntimeObject), sizeof(ParticleSystemBeginUpdateAll_t1600980369 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1347 = { sizeof (ScriptRunBehaviourLateUpdate_t2082815220)+ sizeof (RuntimeObject), sizeof(ScriptRunBehaviourLateUpdate_t2082815220 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1348 = { sizeof (ConstraintManagerUpdate_t4053002372)+ sizeof (RuntimeObject), sizeof(ConstraintManagerUpdate_t4053002372 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1349 = { sizeof (PostLateUpdate_t2796323918)+ sizeof (RuntimeObject), sizeof(PostLateUpdate_t2796323918 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1350 = { sizeof (PlayerSendFrameStarted_t3968901418)+ sizeof (RuntimeObject), sizeof(PlayerSendFrameStarted_t3968901418 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1351 = { sizeof (UpdateRectTransform_t1757116547)+ sizeof (RuntimeObject), sizeof(UpdateRectTransform_t1757116547 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1352 = { sizeof (UpdateCanvasRectTransform_t1832875547)+ sizeof (RuntimeObject), sizeof(UpdateCanvasRectTransform_t1832875547 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1353 = { sizeof (PlayerUpdateCanvases_t4182350995)+ sizeof (RuntimeObject), sizeof(PlayerUpdateCanvases_t4182350995 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1354 = { sizeof (UpdateAudio_t3497553982)+ sizeof (RuntimeObject), sizeof(UpdateAudio_t3497553982 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1355 = { sizeof (UpdateVideo_t1157864926)+ sizeof (RuntimeObject), sizeof(UpdateVideo_t1157864926 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1356 = { sizeof (DirectorLateUpdate_t457202392)+ sizeof (RuntimeObject), sizeof(DirectorLateUpdate_t457202392 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1357 = { sizeof (ScriptRunDelayedDynamicFrameRate_t3251018792)+ sizeof (RuntimeObject), sizeof(ScriptRunDelayedDynamicFrameRate_t3251018792 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1358 = { sizeof (ParticlesLegacyUpdateAllParticleSystems_t554154943)+ sizeof (RuntimeObject), sizeof(ParticlesLegacyUpdateAllParticleSystems_t554154943 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1359 = { sizeof (ParticleSystemEndUpdateAll_t2836077351)+ sizeof (RuntimeObject), sizeof(ParticleSystemEndUpdateAll_t2836077351 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1360 = { sizeof (UpdateSubstance_t2774222247)+ sizeof (RuntimeObject), sizeof(UpdateSubstance_t2774222247 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1361 = { sizeof (UpdateCustomRenderTextures_t3703755979)+ sizeof (RuntimeObject), sizeof(UpdateCustomRenderTextures_t3703755979 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1362 = { sizeof (UpdateAllRenderers_t4055013667)+ sizeof (RuntimeObject), sizeof(UpdateAllRenderers_t4055013667 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1363 = { sizeof (EnlightenRuntimeUpdate_t4260720146)+ sizeof (RuntimeObject), sizeof(EnlightenRuntimeUpdate_t4260720146 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1364 = { sizeof (UpdateAllSkinnedMeshes_t1333460471)+ sizeof (RuntimeObject), sizeof(UpdateAllSkinnedMeshes_t1333460471 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1365 = { sizeof (ProcessWebSendMessages_t2589893390)+ sizeof (RuntimeObject), sizeof(ProcessWebSendMessages_t2589893390 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1366 = { sizeof (SortingGroupsUpdate_t3400410071)+ sizeof (RuntimeObject), sizeof(SortingGroupsUpdate_t3400410071 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1367 = { sizeof (UpdateVideoTextures_t2815897475)+ sizeof (RuntimeObject), sizeof(UpdateVideoTextures_t2815897475 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1368 = { sizeof (DirectorRenderImage_t101067038)+ sizeof (RuntimeObject), sizeof(DirectorRenderImage_t101067038 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1369 = { sizeof (PlayerEmitCanvasGeometry_t1638525882)+ sizeof (RuntimeObject), sizeof(PlayerEmitCanvasGeometry_t1638525882 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1370 = { sizeof (FinishFrameRendering_t1554225360)+ sizeof (RuntimeObject), sizeof(FinishFrameRendering_t1554225360 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1371 = { sizeof (BatchModeUpdate_t2092978832)+ sizeof (RuntimeObject), sizeof(BatchModeUpdate_t2092978832 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1372 = { sizeof (PlayerSendFrameComplete_t3284237406)+ sizeof (RuntimeObject), sizeof(PlayerSendFrameComplete_t3284237406 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1373 = { sizeof (UpdateCaptureScreenshot_t361950221)+ sizeof (RuntimeObject), sizeof(UpdateCaptureScreenshot_t361950221 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1374 = { sizeof (PresentAfterDraw_t3864494237)+ sizeof (RuntimeObject), sizeof(PresentAfterDraw_t3864494237 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1375 = { sizeof (ClearImmediateRenderers_t365505584)+ sizeof (RuntimeObject), sizeof(ClearImmediateRenderers_t365505584 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1376 = { sizeof (XRPostPresent_t2124473652)+ sizeof (RuntimeObject), sizeof(XRPostPresent_t2124473652 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1377 = { sizeof (UpdateResolution_t864018525)+ sizeof (RuntimeObject), sizeof(UpdateResolution_t864018525 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1378 = { sizeof (InputEndFrame_t4083110122)+ sizeof (RuntimeObject), sizeof(InputEndFrame_t4083110122 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1379 = { sizeof (GUIClearEvents_t3875064483)+ sizeof (RuntimeObject), sizeof(GUIClearEvents_t3875064483 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1380 = { sizeof (ShaderHandleErrors_t2219336884)+ sizeof (RuntimeObject), sizeof(ShaderHandleErrors_t2219336884 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1381 = { sizeof (ResetInputAxis_t866062302)+ sizeof (RuntimeObject), sizeof(ResetInputAxis_t866062302 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1382 = { sizeof (ThreadedLoadingDebug_t53594427)+ sizeof (RuntimeObject), sizeof(ThreadedLoadingDebug_t53594427 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1383 = { sizeof (ProfilerSynchronizeStats_t1082371934)+ sizeof (RuntimeObject), sizeof(ProfilerSynchronizeStats_t1082371934 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1384 = { sizeof (MemoryFrameMaintenance_t1219312215)+ sizeof (RuntimeObject), sizeof(MemoryFrameMaintenance_t1219312215 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1385 = { sizeof (ExecuteGameCenterCallbacks_t2005625669)+ sizeof (RuntimeObject), sizeof(ExecuteGameCenterCallbacks_t2005625669 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1386 = { sizeof (ProfilerEndFrame_t852348665)+ sizeof (RuntimeObject), sizeof(ProfilerEndFrame_t852348665 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1387 = { sizeof (PlayerSendFramePostPresent_t1043377270)+ sizeof (RuntimeObject), sizeof(PlayerSendFramePostPresent_t1043377270 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1388 = { sizeof (PhysicsSkinnedClothBeginUpdate_t2520621450)+ sizeof (RuntimeObject), sizeof(PhysicsSkinnedClothBeginUpdate_t2520621450 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1389 = { sizeof (PhysicsSkinnedClothFinishUpdate_t2050201317)+ sizeof (RuntimeObject), sizeof(PhysicsSkinnedClothFinishUpdate_t2050201317 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1390 = { sizeof (TriggerEndOfFrameCallbacks_t2165224221)+ sizeof (RuntimeObject), sizeof(TriggerEndOfFrameCallbacks_t2165224221 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1391 = { sizeof (PlayerLoopSystemInternal_t2185485283)+ sizeof (RuntimeObject), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1391[5] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1300 = { sizeof (UpdateKinect_t3392953923)+ sizeof (RuntimeObject), sizeof(UpdateKinect_t3392953923 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1301 = { sizeof (DeliverIosPlatformEvents_t1576278647)+ sizeof (RuntimeObject), sizeof(DeliverIosPlatformEvents_t1576278647 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1302 = { sizeof (DispatchEventQueueEvents_t929081739)+ sizeof (RuntimeObject), sizeof(DispatchEventQueueEvents_t929081739 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1303 = { sizeof (DirectorSampleTime_t115137244)+ sizeof (RuntimeObject), sizeof(DirectorSampleTime_t115137244 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1304 = { sizeof (PhysicsResetInterpolatedTransformPosition_t4228954803)+ sizeof (RuntimeObject), sizeof(PhysicsResetInterpolatedTransformPosition_t4228954803 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1305 = { sizeof (NewInputBeginFrame_t3911897700)+ sizeof (RuntimeObject), sizeof(NewInputBeginFrame_t3911897700 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1306 = { sizeof (SpriteAtlasManagerUpdate_t2882383376)+ sizeof (RuntimeObject), sizeof(SpriteAtlasManagerUpdate_t2882383376 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1307 = { sizeof (TangoUpdate_t85607497)+ sizeof (RuntimeObject), sizeof(TangoUpdate_t85607497 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1308 = { sizeof (PerformanceAnalyticsUpdate_t1497089951)+ sizeof (RuntimeObject), sizeof(PerformanceAnalyticsUpdate_t1497089951 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1309 = { sizeof (FixedUpdate_t2729551173)+ sizeof (RuntimeObject), sizeof(FixedUpdate_t2729551173 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1310 = { sizeof (ClearLines_t78737613)+ sizeof (RuntimeObject), sizeof(ClearLines_t78737613 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1311 = { sizeof (DirectorFixedSampleTime_t1712077364)+ sizeof (RuntimeObject), sizeof(DirectorFixedSampleTime_t1712077364 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1312 = { sizeof (AudioFixedUpdate_t3174230782)+ sizeof (RuntimeObject), sizeof(AudioFixedUpdate_t3174230782 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1313 = { sizeof (ScriptRunBehaviourFixedUpdate_t2814082390)+ sizeof (RuntimeObject), sizeof(ScriptRunBehaviourFixedUpdate_t2814082390 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1314 = { sizeof (DirectorFixedUpdate_t303986765)+ sizeof (RuntimeObject), sizeof(DirectorFixedUpdate_t303986765 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1315 = { sizeof (LegacyFixedAnimationUpdate_t457569808)+ sizeof (RuntimeObject), sizeof(LegacyFixedAnimationUpdate_t457569808 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1316 = { sizeof (XRFixedUpdate_t322762781)+ sizeof (RuntimeObject), sizeof(XRFixedUpdate_t322762781 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1317 = { sizeof (PhysicsFixedUpdate_t2503573795)+ sizeof (RuntimeObject), sizeof(PhysicsFixedUpdate_t2503573795 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1318 = { sizeof (Physics2DFixedUpdate_t3234482501)+ sizeof (RuntimeObject), sizeof(Physics2DFixedUpdate_t3234482501 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1319 = { sizeof (DirectorFixedUpdatePostPhysics_t1695763577)+ sizeof (RuntimeObject), sizeof(DirectorFixedUpdatePostPhysics_t1695763577 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1320 = { sizeof (ScriptRunDelayedFixedFrameRate_t597857925)+ sizeof (RuntimeObject), sizeof(ScriptRunDelayedFixedFrameRate_t597857925 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1321 = { sizeof (ScriptRunDelayedTasks_t2734668064)+ sizeof (RuntimeObject), sizeof(ScriptRunDelayedTasks_t2734668064 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1322 = { sizeof (NewInputBeginFixedUpdate_t434282217)+ sizeof (RuntimeObject), sizeof(NewInputBeginFixedUpdate_t434282217 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1323 = { sizeof (NewInputEndFixedUpdate_t3418907705)+ sizeof (RuntimeObject), sizeof(NewInputEndFixedUpdate_t3418907705 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1324 = { sizeof (PreUpdate_t1260694976)+ sizeof (RuntimeObject), sizeof(PreUpdate_t1260694976 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1325 = { sizeof (PhysicsUpdate_t81124440)+ sizeof (RuntimeObject), sizeof(PhysicsUpdate_t81124440 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1326 = { sizeof (Physics2DUpdate_t552651870)+ sizeof (RuntimeObject), sizeof(Physics2DUpdate_t552651870 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1327 = { sizeof (CheckTexFieldInput_t4138810349)+ sizeof (RuntimeObject), sizeof(CheckTexFieldInput_t4138810349 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1328 = { sizeof (IMGUISendQueuedEvents_t65887646)+ sizeof (RuntimeObject), sizeof(IMGUISendQueuedEvents_t65887646 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1329 = { sizeof (SendMouseEvents_t3944192294)+ sizeof (RuntimeObject), sizeof(SendMouseEvents_t3944192294 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1330 = { sizeof (AIUpdate_t2336814084)+ sizeof (RuntimeObject), sizeof(AIUpdate_t2336814084 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1331 = { sizeof (WindUpdate_t2266304656)+ sizeof (RuntimeObject), sizeof(WindUpdate_t2266304656 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1332 = { sizeof (UpdateVideo_t1599856004)+ sizeof (RuntimeObject), sizeof(UpdateVideo_t1599856004 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1333 = { sizeof (NewInputUpdate_t4285063962)+ sizeof (RuntimeObject), sizeof(NewInputUpdate_t4285063962 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1334 = { sizeof (Update_t723921334)+ sizeof (RuntimeObject), sizeof(Update_t723921334 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1335 = { sizeof (ScriptRunBehaviourUpdate_t1852625933)+ sizeof (RuntimeObject), sizeof(ScriptRunBehaviourUpdate_t1852625933 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1336 = { sizeof (DirectorUpdate_t2427988364)+ sizeof (RuntimeObject), sizeof(DirectorUpdate_t2427988364 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1337 = { sizeof (ScriptRunDelayedDynamicFrameRate_t3844766269)+ sizeof (RuntimeObject), sizeof(ScriptRunDelayedDynamicFrameRate_t3844766269 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1338 = { sizeof (PreLateUpdate_t3194249939)+ sizeof (RuntimeObject), sizeof(PreLateUpdate_t3194249939 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1339 = { sizeof (AIUpdatePostScript_t1991765663)+ sizeof (RuntimeObject), sizeof(AIUpdatePostScript_t1991765663 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1340 = { sizeof (DirectorUpdateAnimationBegin_t3483220745)+ sizeof (RuntimeObject), sizeof(DirectorUpdateAnimationBegin_t3483220745 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1341 = { sizeof (LegacyAnimationUpdate_t466524488)+ sizeof (RuntimeObject), sizeof(LegacyAnimationUpdate_t466524488 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1342 = { sizeof (DirectorUpdateAnimationEnd_t3538632984)+ sizeof (RuntimeObject), sizeof(DirectorUpdateAnimationEnd_t3538632984 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1343 = { sizeof (DirectorDeferredEvaluate_t3162759259)+ sizeof (RuntimeObject), sizeof(DirectorDeferredEvaluate_t3162759259 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1344 = { sizeof (UpdateNetworkManager_t3986463995)+ sizeof (RuntimeObject), sizeof(UpdateNetworkManager_t3986463995 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1345 = { sizeof (UpdateMasterServerInterface_t2428268314)+ sizeof (RuntimeObject), sizeof(UpdateMasterServerInterface_t2428268314 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1346 = { sizeof (UNetUpdate_t4184253373)+ sizeof (RuntimeObject), sizeof(UNetUpdate_t4184253373 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1347 = { sizeof (EndGraphicsJobsLate_t3823419272)+ sizeof (RuntimeObject), sizeof(EndGraphicsJobsLate_t3823419272 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1348 = { sizeof (ParticleSystemBeginUpdateAll_t1600980369)+ sizeof (RuntimeObject), sizeof(ParticleSystemBeginUpdateAll_t1600980369 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1349 = { sizeof (ScriptRunBehaviourLateUpdate_t2082815220)+ sizeof (RuntimeObject), sizeof(ScriptRunBehaviourLateUpdate_t2082815220 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1350 = { sizeof (ConstraintManagerUpdate_t4053002372)+ sizeof (RuntimeObject), sizeof(ConstraintManagerUpdate_t4053002372 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1351 = { sizeof (PostLateUpdate_t2796323918)+ sizeof (RuntimeObject), sizeof(PostLateUpdate_t2796323918 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1352 = { sizeof (PlayerSendFrameStarted_t3968901418)+ sizeof (RuntimeObject), sizeof(PlayerSendFrameStarted_t3968901418 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1353 = { sizeof (UpdateRectTransform_t1757116547)+ sizeof (RuntimeObject), sizeof(UpdateRectTransform_t1757116547 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1354 = { sizeof (UpdateCanvasRectTransform_t1832875547)+ sizeof (RuntimeObject), sizeof(UpdateCanvasRectTransform_t1832875547 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1355 = { sizeof (PlayerUpdateCanvases_t4182350995)+ sizeof (RuntimeObject), sizeof(PlayerUpdateCanvases_t4182350995 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1356 = { sizeof (UpdateAudio_t3497553982)+ sizeof (RuntimeObject), sizeof(UpdateAudio_t3497553982 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1357 = { sizeof (UpdateVideo_t1157864926)+ sizeof (RuntimeObject), sizeof(UpdateVideo_t1157864926 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1358 = { sizeof (DirectorLateUpdate_t457202392)+ sizeof (RuntimeObject), sizeof(DirectorLateUpdate_t457202392 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1359 = { sizeof (ScriptRunDelayedDynamicFrameRate_t3251018792)+ sizeof (RuntimeObject), sizeof(ScriptRunDelayedDynamicFrameRate_t3251018792 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1360 = { sizeof (ParticlesLegacyUpdateAllParticleSystems_t554154943)+ sizeof (RuntimeObject), sizeof(ParticlesLegacyUpdateAllParticleSystems_t554154943 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1361 = { sizeof (ParticleSystemEndUpdateAll_t2836077351)+ sizeof (RuntimeObject), sizeof(ParticleSystemEndUpdateAll_t2836077351 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1362 = { sizeof (UpdateSubstance_t2774222247)+ sizeof (RuntimeObject), sizeof(UpdateSubstance_t2774222247 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1363 = { sizeof (UpdateCustomRenderTextures_t3703755979)+ sizeof (RuntimeObject), sizeof(UpdateCustomRenderTextures_t3703755979 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1364 = { sizeof (UpdateAllRenderers_t4055013667)+ sizeof (RuntimeObject), sizeof(UpdateAllRenderers_t4055013667 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1365 = { sizeof (EnlightenRuntimeUpdate_t4260720146)+ sizeof (RuntimeObject), sizeof(EnlightenRuntimeUpdate_t4260720146 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1366 = { sizeof (UpdateAllSkinnedMeshes_t1333460471)+ sizeof (RuntimeObject), sizeof(UpdateAllSkinnedMeshes_t1333460471 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1367 = { sizeof (ProcessWebSendMessages_t2589893390)+ sizeof (RuntimeObject), sizeof(ProcessWebSendMessages_t2589893390 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1368 = { sizeof (SortingGroupsUpdate_t3400410071)+ sizeof (RuntimeObject), sizeof(SortingGroupsUpdate_t3400410071 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1369 = { sizeof (UpdateVideoTextures_t2815897475)+ sizeof (RuntimeObject), sizeof(UpdateVideoTextures_t2815897475 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1370 = { sizeof (DirectorRenderImage_t101067038)+ sizeof (RuntimeObject), sizeof(DirectorRenderImage_t101067038 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1371 = { sizeof (PlayerEmitCanvasGeometry_t1638525882)+ sizeof (RuntimeObject), sizeof(PlayerEmitCanvasGeometry_t1638525882 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1372 = { sizeof (FinishFrameRendering_t1554225360)+ sizeof (RuntimeObject), sizeof(FinishFrameRendering_t1554225360 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1373 = { sizeof (BatchModeUpdate_t2092978832)+ sizeof (RuntimeObject), sizeof(BatchModeUpdate_t2092978832 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1374 = { sizeof (PlayerSendFrameComplete_t3284237406)+ sizeof (RuntimeObject), sizeof(PlayerSendFrameComplete_t3284237406 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1375 = { sizeof (UpdateCaptureScreenshot_t361950221)+ sizeof (RuntimeObject), sizeof(UpdateCaptureScreenshot_t361950221 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1376 = { sizeof (PresentAfterDraw_t3864494237)+ sizeof (RuntimeObject), sizeof(PresentAfterDraw_t3864494237 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1377 = { sizeof (ClearImmediateRenderers_t365505584)+ sizeof (RuntimeObject), sizeof(ClearImmediateRenderers_t365505584 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1378 = { sizeof (XRPostPresent_t2124473652)+ sizeof (RuntimeObject), sizeof(XRPostPresent_t2124473652 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1379 = { sizeof (UpdateResolution_t864018525)+ sizeof (RuntimeObject), sizeof(UpdateResolution_t864018525 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1380 = { sizeof (InputEndFrame_t4083110122)+ sizeof (RuntimeObject), sizeof(InputEndFrame_t4083110122 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1381 = { sizeof (GUIClearEvents_t3875064483)+ sizeof (RuntimeObject), sizeof(GUIClearEvents_t3875064483 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1382 = { sizeof (ShaderHandleErrors_t2219336884)+ sizeof (RuntimeObject), sizeof(ShaderHandleErrors_t2219336884 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1383 = { sizeof (ResetInputAxis_t866062302)+ sizeof (RuntimeObject), sizeof(ResetInputAxis_t866062302 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1384 = { sizeof (ThreadedLoadingDebug_t53594427)+ sizeof (RuntimeObject), sizeof(ThreadedLoadingDebug_t53594427 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1385 = { sizeof (ProfilerSynchronizeStats_t1082371934)+ sizeof (RuntimeObject), sizeof(ProfilerSynchronizeStats_t1082371934 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1386 = { sizeof (MemoryFrameMaintenance_t1219312215)+ sizeof (RuntimeObject), sizeof(MemoryFrameMaintenance_t1219312215 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1387 = { sizeof (ExecuteGameCenterCallbacks_t2005625669)+ sizeof (RuntimeObject), sizeof(ExecuteGameCenterCallbacks_t2005625669 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1388 = { sizeof (ProfilerEndFrame_t852348665)+ sizeof (RuntimeObject), sizeof(ProfilerEndFrame_t852348665 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1389 = { sizeof (PlayerSendFramePostPresent_t1043377270)+ sizeof (RuntimeObject), sizeof(PlayerSendFramePostPresent_t1043377270 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1390 = { sizeof (PhysicsSkinnedClothBeginUpdate_t2520621450)+ sizeof (RuntimeObject), sizeof(PhysicsSkinnedClothBeginUpdate_t2520621450 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1391 = { sizeof (PhysicsSkinnedClothFinishUpdate_t2050201317)+ sizeof (RuntimeObject), sizeof(PhysicsSkinnedClothFinishUpdate_t2050201317 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1392 = { sizeof (TriggerEndOfFrameCallbacks_t2165224221)+ sizeof (RuntimeObject), sizeof(TriggerEndOfFrameCallbacks_t2165224221 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1393 = { sizeof (PlayerLoopSystemInternal_t2185485283)+ sizeof (RuntimeObject), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1393[5] = 
 {
 	PlayerLoopSystemInternal_t2185485283::get_offset_of_type_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	PlayerLoopSystemInternal_t2185485283::get_offset_of_updateDelegate_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
@@ -3474,8 +3388,8 @@ extern const int32_t g_FieldOffsetTable1391[5] =
 	PlayerLoopSystemInternal_t2185485283::get_offset_of_loopConditionFunction_3() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	PlayerLoopSystemInternal_t2185485283::get_offset_of_numSubSystems_4() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1392 = { sizeof (PlayerLoopSystem_t105772105)+ sizeof (RuntimeObject), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1392[5] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1394 = { sizeof (PlayerLoopSystem_t105772105)+ sizeof (RuntimeObject), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1394[5] = 
 {
 	PlayerLoopSystem_t105772105::get_offset_of_type_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	PlayerLoopSystem_t105772105::get_offset_of_subSystemList_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
@@ -3483,29 +3397,20 @@ extern const int32_t g_FieldOffsetTable1392[5] =
 	PlayerLoopSystem_t105772105::get_offset_of_updateFunction_3() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	PlayerLoopSystem_t105772105::get_offset_of_loopConditionFunction_4() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1393 = { sizeof (UpdateFunction_t377278577), sizeof(Il2CppMethodPointer), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1394 = { sizeof (PropertyNameUtils_t539849043), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1395 = { sizeof (PropertyName_t3749835189)+ sizeof (RuntimeObject), sizeof(PropertyName_t3749835189 ), 0, 0 };
-extern const int32_t g_FieldOffsetTable1395[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1395 = { sizeof (UpdateFunction_t377278577), sizeof(Il2CppMethodPointer), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1396 = { sizeof (PropertyNameUtils_t539849043), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1397 = { sizeof (PropertyName_t3749835189)+ sizeof (RuntimeObject), sizeof(PropertyName_t3749835189 ), 0, 0 };
+extern const int32_t g_FieldOffsetTable1397[1] = 
 {
 	PropertyName_t3749835189::get_offset_of_id_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1396 = { sizeof (Random_t635017412), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1397 = { sizeof (Ray_t3785851493)+ sizeof (RuntimeObject), sizeof(Ray_t3785851493 ), 0, 0 };
-extern const int32_t g_FieldOffsetTable1397[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1398 = { sizeof (Random_t635017412), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1399 = { sizeof (Ray_t3785851493)+ sizeof (RuntimeObject), sizeof(Ray_t3785851493 ), 0, 0 };
+extern const int32_t g_FieldOffsetTable1399[2] = 
 {
 	Ray_t3785851493::get_offset_of_m_Origin_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	Ray_t3785851493::get_offset_of_m_Direction_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1398 = { sizeof (Rect_t2360479859)+ sizeof (RuntimeObject), sizeof(Rect_t2360479859 ), 0, 0 };
-extern const int32_t g_FieldOffsetTable1398[4] = 
-{
-	Rect_t2360479859::get_offset_of_m_XMin_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	Rect_t2360479859::get_offset_of_m_YMin_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	Rect_t2360479859::get_offset_of_m_Width_2() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	Rect_t2360479859::get_offset_of_m_Height_3() + static_cast<int32_t>(sizeof(RuntimeObject)),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1399 = { sizeof (ScriptableObject_t2528358522), sizeof(ScriptableObject_t2528358522_marshaled_pinvoke), 0, 0 };
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

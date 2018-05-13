@@ -72,9 +72,14 @@ public class playerScript : MonoBehaviour {
             case "Ground":
                 isGrounded = true;
                 break;
-            case "coin":
-                Destroy(other.gameObject);
-                break;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.GetComponent<Collider2D>().tag == "coin")
+        {
+            Destroy(other.gameObject);
         }
     }
 
