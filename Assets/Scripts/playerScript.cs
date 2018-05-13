@@ -67,9 +67,14 @@ public class playerScript : MonoBehaviour {
      */
     void OnCollisionEnter2D(Collision2D other)
     {
-        if(other.collider.tag == "Ground")
+        switch (other.collider.tag)
         {
-            isGrounded = true;
+            case "Ground":
+                isGrounded = true;
+                break;
+            case "coin":
+                Destroy(other.gameObject);
+                break;
         }
     }
 
@@ -94,4 +99,5 @@ public class playerScript : MonoBehaviour {
             isGrounded = false;
         }
     }
+
 }

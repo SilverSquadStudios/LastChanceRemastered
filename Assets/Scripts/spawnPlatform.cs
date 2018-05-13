@@ -10,6 +10,9 @@ public class spawnPlatform : MonoBehaviour {
     //The actuall game platform itself
     public GameObject platform;
 
+    //Convert to RECT
+    private RectTransform _platformRectTrans;
+
     //Horizontal discrepency min
     public float horizontalMin = 7.5f;
 
@@ -36,7 +39,6 @@ public class spawnPlatform : MonoBehaviour {
 
     void Start()
     {
-
         originPosition = transform.position;
         Spawn();
 
@@ -44,30 +46,38 @@ public class spawnPlatform : MonoBehaviour {
 
     void Spawn()
     {
-        //For loop form 0 --> number set to be as max platforms.    
+        //For loop form 0 --> number set to be as max platforms.
         for (int i = 0; i < maxPlatforms; i++)
         {
-            xCor = Random.Range(horizontalMin, horizontalMax);
-            yCor = Random.Range(verticalMin, verticalMax) - originPosition.y;
-
-            //Creates a new vector within the ranges of horizontal min/max and vertical min/max
-            Vector2 pos = originPosition + new Vector2(xCor, yCor);
-
-            //Creates a new object with properties from the vector.
-            Instantiate(platform, pos, Quaternion.identity);
-
-            int rnd = 1;//Random.Range(1, 10);
-
-            Vector2 pos3 = originPosition + new Vector2(xCor, yCor + 10);
-
-            if (rnd == 1)
-            {
-                //Create a new coin object with same location as the platform.
-                Instantiate(coin, pos3, Quaternion.identity);
-            }
-
-            //Sets original position as vector.
-            originPosition = pos;
+            spawnPlatformCoin();
         }
+    }
+
+    private void spawnPlatformCoin()
+    {
+        float height = platform.GetComponent<SpriteRenderer>().bounds.size.y;
+        
+        xCor = Random.Range(horizontalMin, horizontalMax);
+        yCor = Random.Range(verticalMin, verticalMax) - originPosition.y;
+
+        //Creates a new vector within the ranges of horizontal min/max and vertical min/max
+        Vector2 pos = originPosition + new Vector2(xCor, yCor);
+
+        //Creates a new object with properties from the vector.
+        Instantiate(platform, pos, Quaternion.identity);
+
+        int rnd = 1;//Random.Range(1, 10);
+            
+        //Height the yCor is offset by height / scale factor to get the proportion of where it would be based on how big the platform is.
+        Vector2 pos3 = originPosition + new Vector2(xCor, yCor + (height / 1.85f));
+
+        if (rnd == 1)
+        {
+            //Create a new coin object with same location as the platform.
+            Instantiate(coin, pos3, Quaternion.identity);
+        }
+
+        //Sets original position as vector.
+        originPosition = pos;
     }
 }

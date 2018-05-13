@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="beb6a53a-c287-499c-98ce-ed8c34832b93" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/deathRestart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/deathRestart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/spawnPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/spawnPlatform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CrashedAssetImports.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/LastBuild.buildreport" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastBuild.buildreport" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/Mono.Security.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/Mono.Security.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/System.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/System.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/System.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/System.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.AIModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.AIModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.AIModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.ARModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.ARModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.ARModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.AccessibilityModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.AccessibilityModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.AccessibilityModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.AnimationModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.AnimationModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.AnimationModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.AudioModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.AudioModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.AudioModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.ClothModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.ClothModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.ClothModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.CoreModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.CoreModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.CoreModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.CrashReportingModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.CrashReportingModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.CrashReportingModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.DirectorModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.DirectorModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.DirectorModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.GameCenterModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.GameCenterModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.GameCenterModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.GridModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.GridModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.GridModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.IMGUIModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.IMGUIModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.IMGUIModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.ImageConversionModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.ImageConversionModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.ImageConversionModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.InputModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.InputModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.InputModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.JSONSerializeModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.JSONSerializeModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.JSONSerializeModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.Networking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.Networking.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.ParticleSystemModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.ParticleSystemModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.ParticleSystemModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.ParticlesLegacyModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.ParticlesLegacyModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.ParticlesLegacyModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.PerformanceReportingModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.PerformanceReportingModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.PerformanceReportingModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.Physics2DModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.Physics2DModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.Physics2DModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.PhysicsModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.PhysicsModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.PhysicsModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.ScreenCaptureModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.ScreenCaptureModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.ScreenCaptureModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.SpriteMaskModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.SpriteMaskModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.SpriteMaskModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.StyleSheetsModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.StyleSheetsModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.StyleSheetsModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.TerrainModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.TerrainModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.TerrainModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.TerrainPhysicsModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.TerrainPhysicsModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.TerrainPhysicsModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.TextRenderingModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.TextRenderingModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.TextRenderingModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.TilemapModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.TilemapModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.TilemapModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.Timeline.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UIElementsModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UIElementsModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UIElementsModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UIModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UIModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UIModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UNETModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UNETModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UNETModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UnityAnalyticsModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UnityAnalyticsModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UnityAnalyticsModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UnityConnectModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UnityConnectModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UnityConnectModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UnityWebRequestModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UnityWebRequestModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UnityWebRequestModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.VRModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.VRModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.VRModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.VehiclesModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.VehiclesModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.VehiclesModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.VideoModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.VideoModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.VideoModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.WebModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.WebModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.WebModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.WindModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.WindModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.WindModule.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/UnityEngine.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/mscorlib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/mscorlib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/boot.config" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/boot.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/data.unity3d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/data.unity3d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/ScriptLayoutHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/ScriptLayoutHashes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/0186CDB6B569991FC0EBD173843A0E54.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/089C5A848DE8F00F2784A12A2AA1D6D0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/0FA84F5361FA1E82AAEA17001D993682.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/107506490349BE60B696EC2713E2470B.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/1A81133E87EC0229EAE3AFB4A916C145.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/1C586EFFDDE0A5268AA51BE5D2FDFF54.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/2119AC351B2210669978A0F4442AF9C9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/2126FA1BB62ADFCCD9E3BB14558A75E8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/22FD6CA65F8C65A2F4791BF517533A97.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/2B08F40D036F385E51736DBC2CA5F4BC.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/2D95BEBD15E3F4C7E4E286F5B4679A32.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/2DD749282B2607A6FF5D2574FEC4A72F.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/2EAA2E81F3A596127FEB09A3B345EE9C.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/2FADD1B670AA65317E752C1CA641790B.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/30080A623858A3AC0AA842F37A258BA7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/32D4AFC3F4233A703E0CA395CD5956A7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/3D745FC3AE0CF396158CB2F83268017D.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/41F4D577C90339EF9B45601118CBC97C.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/42940D6572D6622B87CE93CA180E6725.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/4417BFA715959BE85ABEE8D400AE4A91.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/449C877F54BB89C0C812081010B24BD9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/4FA46862EAE730A0D84A830FDDCBA5B7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/513106C7A6226A19AB9E535C8860241E.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/53166179CF787CBB1560EAFA049440D6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/54539019358A322C1A829A59F353350C.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/55DD4CE313C6FFA15F65B9A9C8B2C88B.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/5BA062CB02569FB16781ED2F9DF9EB74.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/5F52F98EDBFA01153977FF174F1EA7F1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/631776730D9AC02A4E2BDEB2E15D1323.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/686303304E4BB3D0626757D7C29F1EA6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/68D8ED865985C6B01272D7DE4D7AF0B7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/70AA6AA312ADD0463ED4CE2C8DF4551D.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/71D34FFA11325110AF278C9582F0C67D.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/76B87FFEF002FEDDC1933F59628FDD3A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/7DDA1C79FAD3832121A4519BB75508FB.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/7DEC8D45C957DB3A572488D279A6B89A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/7E51FE31C0B89F19CD1123BCF9B68E03.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/8161AE11C41A4B2D125C00BA661D5522.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/8642BAB1447EE3C4518FD32BB6FCD8E4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/8E71E1B8608C554301D27768F633D1AD.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/90A10824FB564C27149625EB7D0ACD2E.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/9ACAD120991A877C19FF51A33E008A50.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/9C5ECCFF9CB3839C31D3B58E9121D2BC.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/9C9388492D55CA722F1616394034D7F8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/9C95F502DF05FE7C7B251D94F617694A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/9CA402748B03CE96BD397B405CA8EF56.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/A1F4D04701F8EE7A8181074C3CCFCDAD.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/A7F1370B2555A55BB6E17DCADDD4F73A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/A9A45D37D7B67EAC4EBADA3DBD5B9065.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/AA67C5EEE87DFA69A0901A564A69B343.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/AAFBC61FB9C6C75ADE9AB7A8B29EA273.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/AB2BF033D81FB6C738F9A1FB0E30C8CB.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/AEC259277763AB776B1621138939C16F.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/AF006A6AECB6C113684C028E19DBEA92.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/B160FB553BCC0212FFCAE42C6BB4702A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/B23006A07ADF565A598D0CE4EBF162A5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/B40A575F00080AB4DB17D56D5CE506F2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/B59AC094B8D7AE96E2BBC9BFA2C8270F.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/B6DD4ADA30583BA4E2150A35B312BA2C.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/CAA10A9D6A2A594169D5AD4E9126BFD4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/CB94A6B49108E696E4834EC4AB2D7771.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/D50E3768592118A17DBCC0EEA21236C4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/D5AADD03C44802547C67408388E41E86.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/D6B4EDC2F3BEC30A62EC12F96E3489B4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/D86277ADB10D0F2D3CC1E59DC74E66B2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/D8A7E8D6F3AC2B2F03E368FDBF37E115.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/DD23EB03CFB8EF4A696023ED2574029F.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/E42081FFBFBC34261DF0C41F46C9443A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/E43219CB9F121E2A93BF04A87928BD12.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/F5A5E2C7A0340299B896B3AFDE68FE50.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/F7699BE9FC8BBDECCFC406B5B6CD6AFB.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/F8574B5624FA76EFFDDEEF879723455C.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/F86EE457EBCC51CBA37D0D0C23C48CCD.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/FC40F2F32CB78602B2408EC538A9FA03.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/0074C2077C95D6769BE58D1CCFAB685C.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/01956B1E0E831349DB46DEBB4E6958FE.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/0266C0B15BE3CFA317E19E3D60AD12B3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/0336FD0412A4C7FD44A682287AD0AB40.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/034C57897D6049FE3EFA055EF6EA4BB3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/037C5AD2487BFAB6A4C2A749EB06326E.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/0627E9F67AE82C5AE3683CA7738FCA91.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/063A1E7FA100E2E7B93CC9E1FD029C64.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/07023E8220E80BEFA4C62841A9FC6D9B.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/074C00DB0DEBACE84E8A4CE95C2C7153.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/07D156C5A8788D7DE0EF185FAA1C19E2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/08E26E7B9AB307E89052AB6CCE277D06.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/08E4FB8FDB1A22116D8C7786F812B596.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/0BDAAED282E11006F9996E9CD42782C2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/0C7E67713880FDEDB83114886C30EB83.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/0D09E0212E7DAD33450B42FB0CB59F28.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/0D4F11AD85ED17192C93C085F5A4D972.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/0EEEF97EC695B18B0302BA0DC2D50452.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/0F3EF1FC04B87C6DB15ED4C7C8A40B93.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/0F7B623EB79A5202504DB4438878B59B.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/0FCB26DBEBB7ED9B396C8D6CE4B7235E.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/10162DD0D5711D29EEBB11A7BF6E079F.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/101E6AE86F1E20C5955E0FE209028CF7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/108275EF58035F0675D53186EE6F9936.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/10D988CA853D480DF224F053693E6356.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/1152D94AFB5E439B2C11FDAE9D1CBA6B.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/126003E3D5FF5E01DFA84BF72890B617.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/12A3CCA4892B42DF59FBE923C711D581.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/12A664A19986C447F44B3B2CB4942674.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/12A6EF03DCADE59BC6DB7BD8E903537C.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/13583654C0D224F2611DC49ABD7A1B2F.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/1505BCFB02DAE339B4AF2CAD4E9C76E0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/171CD9E6F7D4C2F7591C9CCECC678C8B.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/173F15E9D24B051133BC8E868BD710B9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/175F8556CA39D0541E406FB8073127DD.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/17B35B36DB056CE16C5A5D71881DD873.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/181466875509174DCAD69D4CE8C717DA.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/18C761ACA1C0EA40B12CACCE805BCE11.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/198028CB3BC929F31D220A727493F610.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/1AE5875D6233B39D8629F7DC169CB15D.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/1B48DD1787E3EE5122F6747FEA9D3D73.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/1BCE5974AC314D2C7313DE5129C9FFF2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/1CD9D1481A5B5D0E0E874673BBB398F0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/1D329881CFB443D0D6178D223A069619.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/1D877F700FD6C709B8A30047A0F5F9F4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/1D9E2D23810EEBD9A37D5C1CE3CF1AE1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/1DED8B32CCBBA575E72B7090704705F2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/1DFCC4B3815952F51E0A1660CADC8F48.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/1E2787212C80B87A4CBAB701B484C6DA.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/1E5601B6B33A53A9FBAC91C360C8385E.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/1E824E41A9DE08D71F085915A1940CAB.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/1F92C9E47C0133915934B001B7B3DE5F.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/1F9AD0B2BDD598525115B70961BE88C8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/20342543E74F7D2A8023A754EAB02D0D.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/209C6F21F1E89E57C04ABBB09BC707B2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/218E3219E7B9AFE070674790513E3841.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/21C7293A7EBB2D3FCBC561DCA0405972.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/221CD07838B3624341AB153BC5C60FC6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/224F43AF57A24F17AABF6A96B928FA87.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/22D74FBDB6AFFE67AEBA0F2D3FDB137C.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/2327E8C62D144DFD501D78BA5CAEA9EC.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/236E0D05031F9F76D6EAA5C45A3BFD4C.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/237915212D9115BF7BDA70C4FDFD49B1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/2434B42BCF5004F644087214AA4CB638.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/26746FEC4A2183D550375A16206DB0C0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/284A56ACD21772B22E1D60D3DFBFFE00.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/28585CA74C5FA0415487D9F703704EC9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/28A64D443573C7917EC2F586A845AA16.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/29212BD024A389DA3FD2D4EECC9D1BD5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/299B7D86D22E37707F1701BCBE785C94.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/2A0545439D79E23A2441D3275FAEAC16.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/2A220D8DAD0BEA33E0A27CADA85FFEC6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/2A58601945D8385A2F19E8FABE0BFBC3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/2B6B48194D6E4185E795F7983118AC28.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/2BAC0D6C3D90127BFB55A50316B19C18.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/2BCBAE1A96DAEAD241AB163E7BA9877A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/2CBB9B47D24AB87FE2FC3BDE4BF8195B.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/2F27E4CCBEE901152F617DE9C3C4182F.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/301D204587E313BFB982708AC96B38A8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/30D295BBF7AC953746A84A5D6E66DA21.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/317B282A0DB4C5155551BD91C9FF8F74.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/31D8690A3516ADE8A4530D00ED1BAA9E.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/3200B23C8890FDF94BF22F4EABAB5255.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/321CC966B9E952D56C3604CA90D613A9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/32D0794DF30FB9EBDB77C2C5BDE751C9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/32DBE92940C0E686ADC3A2A49EF81B9E.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/336759D152B8AB2D207DBCC794880ACF.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/33B2C2A61CE399E94A58D34705093F5A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/34599FD3A72154550CD950DBFA5C4944.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/3528C47B072B3BAC26BFCEA6645C2AF0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/36905AD421C4FA559349521300970C23.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/36992013167475DAAB7D53EF65C6D976.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/36C0D419D52C1B1440B6EB52B6FF069F.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/3A1610B4149258A3E5A327F0D9F47923.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/3A9EB0270B0ABF3F173672ED34B882F4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/3ACFBBE6ADD06A74F276AC7612C604F4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/3B33316D391711D07EE59B0C1CFB107A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/3B5B6D488F1CF35A7F8D587ED43E1B3E.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/3BBF5FB1E5290EC6D2E8E5ABA5146512.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/3C631B96184194D8C6F9FDDD2122BB5A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/3CEB40BFFDCD948487BC7DD67B04084F.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/3D46E90617B3DA99D83D5F3BFB6EEFD8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/3DF860EBBB291CC8D84E3114FBAFDD72.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/3DFC1E34DB7BCEBF0CAEE9AE1F141385.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/3F194EE8145756EE670EE71F009697F9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/3FD941945AB92B915289BCF94DF3B5AA.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/403F6E5B6023216FE4E290D6B49A5D6E.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/4087CCD7E0F4E493F0525DC13C448861.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/409F5023B955765D0C950D41C85BF93C.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/4134E082743181B20397E98D05A0E42A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/4149CD23A3D53003F0EC7F6F558452E5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/418A952B3DEDC684F3168A19C86D03EA.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/41F339CF7B9F055678683616724B504A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/422698BF8F2399A9BF6376B2BD769645.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/42C34099AA322D3A4C025F40D7733EC2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/43831D137D9056596AB6C7D3B9A0F814.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/43B3BF9DA9BF90A14FD6991184323BD6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/4424B03E602BD192BC69544AD64F72C5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/44364BF0C89E2D88E6D0D42F8D2D52D4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/4570CE802BF2A239655F3375AB71D115.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/4602A6D5E1FCBDC8368060FE7C570356.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/46EB14BEAD3BA8744D6283305416CCA8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/478470651EE60A54087F577A0F6C1D01.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/47AB54A5DC799A4383AC1D36CD2ABA7A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/4848E8013C7B9ECF798CF5EA4EB619DE.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/49F5151BE52BC93590C05EEAB9737392.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/4AC6B8B91FB396D0A36DB427D729C3B4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/4B39082BC3692E6FEE59F5AA2723D551.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/4B50AEEE7228EFEE6FB12163F04E4A19.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/4BCC36E329B2988CC8FB24068D6662C9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/4C12EC73ADD3612F07A992148172D7A6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/4CDDE0CFC53EC8D56D26F2C131DA9F66.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/4D39F31E6B9DA868E1ACFE994BC75E49.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/4D3BED49DE62FDE088D3E720FE201A1A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/4D6B3C06EFAD1DF18D2D0F03C826B744.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/4DDC1FD44D21A0CC0815844E28B09CF7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/4ECFCEF311590E357DB14F78E7351169.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/4F5930F1D415CA76119805E4B4DEF643.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/4F71964DE30792E44A61D65C657C68C8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/4FD040D6CB546DD231F78E2141F8EF0A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/4FF9BB83489DDE03B9DC4C47F6D4B310.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/50719139D50A9BD82FC3EB9A292275A6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/509309CBEEA3764AC6316A88C276545E.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/50A2A07DD5D9D43F19B0F94CDC0371CE.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/50E25733089613851025ECE3BD1DD0F0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/50ED0397593DD4DFCF097889A376E8D8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/5246D4E30D20919FFE7F8DF01C7A2144.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/52956AA0BF80FD491B34266924EDA17F.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/52A1053A6A883BFCADBE9121D5079AF6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/531E5EF9A368C3FAFB0D90BD55A0B725.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/53658F5A7875EBF8C18ED10B02FC71ED.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/54334339379B081E395C2D7CC8C2B71A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/54ECB5EFBB8D60C27F517EF85FAD7B3B.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/55757B6C82558F6F5399ECEDF7E51297.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/55903F4F8882B75A54E5926BFA4C4797.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/55D4C9CC7BF34CB7546D359726B86C2A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/55FA1BF9C46D2E5E00F760A7FFD29D25.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/561ADE5B4F4C8E198044F701BC8AAE40.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/58DD48BF2B147238FCEAA98F7205F895.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/58F1A53791F44AEC85757B9EA0B55FF9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/596EDD6892EBCAD7F89243D0EC67DE4C.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/59D38D53AF4A7F2C9BF5BB21F5698F81.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/5A1873ACD75539DC1AEB9EDBA5FFB862.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/5A329DF1C44FB9535C2D8DC6DC60506E.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/5A905C3E48D46C230B5DAE89C57627B4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/5AC88317DD6097D10DE9754800BFD449.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/5B225D8226C7B6FB89650ABCB97092F3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/5B85E7B5597605CED22321149306785B.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/5BC8847FFD8BEAEC9B305252EBDF4736.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/5C4E22ACF757458C5E8F72EA4E58943A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/5CAF1033884ED223DD42741F8208435F.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/5D2072044E94556E8DB244BFA48F1EDD.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/5EA91551563333958FC38C190732C044.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/5F7595EBAC72FDFF7BF5F874D9DE2796.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/5F96E3952D242810430F68C9485E7266.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/6019F2DD411A876ADEB9E580AE1F800F.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/603B77FD91FBCAA41F555CA9AB776F8D.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/60624FE0C4FFE046B624A63D80F847F4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/60DC35D9E5DA8CB397D5AF680F7B7012.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/60E2494E08726EEE8F9F7107AC11B9D8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/60E28A70FA30FD01271F367E7D65F8D8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/61FCAC0CD34888E1C4137EF29B55EC4C.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/621B4AC18ECDBB64C5862CA8874DF41B.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/62891706F9E5993566BA18C738629AB5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/65FC121665A1C670C3D6F62C79298A58.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/66F00BFA2050D7A527B631BC2EFB95DA.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/66FEE2E7076D3892A92C4D76181363B3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/675F6E5748E8365A301EC3FD876B013A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/6826A62E35B9598F5DD59CDEF6DD6389.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/6881AC6B95294A4FB7BEC7B8B4D9E01B.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/6A5097C3C9AA1AA2A27ABAFAC955D42C.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/6AB9ED42C315202D7A23D10669832170.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/6C346B3F4FBC49166FFB52683887DCCC.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/6DEB5B3FC0B1B730E20429094ECE4840.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/70454695D0F3CF57AE9B1A73736E00D0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/725FADC4C2F7DC3BB5C038C113514FDC.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/72932B92F101C5BC09B203F0843D61EA.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/72D6AC8F57BE2743C28A3FDBE80DBCB7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/72D745706C64595084A18A0E289B9503.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/7305150186138940A5A024B96B45E3D0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/736C464E73F10009BFF99AD121C12329.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/741F99B3B3D0402346BD7F3CD9A6731A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/74F8C998D1332771687B9E17F6E38754.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/762F4CD426ED616421D8324F3606FC78.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/76383E5BEA4DB82CB339D16511B26DDB.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/765403BC7EA618751A0A7D03D70A8849.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/7659C0FFFB919329B5569649BE0EB490.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/769C6892B3BD207B0D41122B8B7AC46F.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/7737624444BEB76D994324FD52CCF551.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/7852339CEAA98B3D1A2CD020E27731D6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/7945AAA556093B6ED3C3E67AF4EAC70C.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/794C00E197FE4A6B27DBCFB095D067E0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/7A2E80F484361DD35E097E42255F0540.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/7A4778BBB928E5EAFD1A8F42B455F586.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/7D8E0412F148003EA31B688D7218D8D4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/7E57A4F1D5685EEC622F79ABF9EB1121.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/7E5A1E949C6C2EE3CE33A9D04AB295F4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/7E9D7E3E9967DCA8F6CE98B0784D6D57.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/7EE4EC70395D68D1286045F63E8972C1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/7F37046E38B2ADA1693DCF8C2A09AC3C.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/80AB6E7C080DF33156E575FE6B851C0E.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/81CF8634FDFE3E2AD071B7EBBB7E9D40.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/82CF2770E074913E88F1F3E177519A6E.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/8311F822B726520DE123718B61DB4ADB.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/833E40CD590354474F799E1C2B3321AD.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/83DE2604A0183FE145403851604F4235.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/84936E705E08ADB5841B799849E17F0D.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/84CDB9D3BD9C02ED0F4BC7DD881F8D24.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/8530FF632C7FA00DBA605E4C0EBC4E11.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/872D1FF145BD9EBC4D2520C98BC389C5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/876128E26158040875F1EF546C1977BF.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/8769255B3C9330EF9EE57479E7977A5D.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/876F5AD5BB0CA065BDB50E74E8603236.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/877CD6A2DB9949F84078DE72ED589B22.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/878B72FAB530E76A13C48C4C26B40745.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/897458CA01B04233AFE907AAEB935BBC.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/899D65453BD6151C40AE611DECEFFEBB.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/8AA74F0EE6C414F7444507F531A2348C.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/8C0AE64ED4A855C170407C9722634566.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/8D5B1309610F96459A9F1A6318B6325C.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/8D952F776A47991F3090C3E5F96DF70D.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/8E7E923DBB8BEE04DA7B9B44E355F1C7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/8E949127E752FDD186F3509C42E48641.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/8F1EDC0518977A964D709917792A89E5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/90D0E5F28E5E93A39BBFE7A26C32E8A6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/90E0E4231A3E5156A4B76AAF2C8C30D6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/9126CDE0B5107CA65C8E79EEC7424C64.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/9140E2311DD93FAEB0F9C0A15948D1CF.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/9163919BC6244E397AABE723430C12D6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/91BCCD02AD46746B1FF95D8CC5FB1259.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/91E77E5967AAE349464B568927FB5484.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/925D030531276B3C8DD1ADDC6F1A443F.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/925F2CF039D984BAAE52524C875CF987.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/92CAC19B4C845664D7FCBA58C305B85A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/92D04DF8B90E31047E33DCE9C31AABFB.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/92E0EDB3E6B8DA8FD6BFA5D1253654EA.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/933BB2824ECD5F44F63DD48A47F2A9A4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/9358F0975CBD5D83A5BAF30430AA23D7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/944500C3C232430744619FAB6383C8BC.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/946E2D39A4F0C98C6ACAFADB86F403E5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/94E02CB796224C9401C99D05D3321A05.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/950A19F997D96E5C6F8CC335B825BE48.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/95F0EB02F9F05CB6EFBD98B23F7C9F6A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/968CA9B60E17A276C93777F7E9DFCD9E.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/96A9D6BBC6F84A48F80CF3AED967380D.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/96DCD4CA8A6F6C259A767C616605D536.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/970A677E5C4E8CECC23D54D4322A745A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/975ED9B7091CDD7C01AD115B14555D65.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/9769999D06838F6CC99C1FEA5F18694D.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/97873F3FD93B4A9EC1A4E24BC535F7E5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/9989D9714B9A9742D4FB49C76816C93B.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/9A04259CC83DB296C91048BD77E479D4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/9C74552D46694331CA10ADE1136A5B48.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/9D8BAAE592617E1143751E2D02ECCB57.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/9DD5F16B85840ACA22D22B48B87F5317.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/9EF471AD42E132E1FDF342FDEFB7A4D2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/9EFB9730E7AB4360FC2823439472D206.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/A097BE7AA83FF9ABECCD87DE8709DCDE.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/A0BE58BF85D35750BD81FCC7C0CF9A56.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/A0CB447E94B30CF2682EC7B5A1F3A9B7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/A1117BCFA2CCA69F0D9BB5C1C7B2DDC8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/A1230F6370CF4C2E8F98928CFC44D219.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/A15B9BD76541512EED17C061C4AB8926.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/A1C552115F05D709812E255E7B9ECC0F.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/A1FD698B84A4B21479167821719863A0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/A28B3CD338CA489CDEC62AC0054F0ADA.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/A2CFB60FAFD132C1A049E116D991FE5C.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/A3A9977A753326B4EE2DD937D3E19008.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/A3BFEB10B8A7B2EAB084442803FA2507.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/A4CAF336B7E1B6A43B36C148DDF56C0C.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/A5FFC1D05D27B295DB2754D7E7A68418.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/A6189C241DF8D607956143D04B368601.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/A6ACF91B95582FE467E631B68E1509F2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/A72691DA6C4330EA09CA203231A6CAD8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/A73B514BF9B4C403FF45D04F74A69ACB.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/A7EF56AF5E84683E8451B1F19B90F841.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/A805E13487F7FA1DC48A8B6F8E7CF8F4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/A85559E5B75DA68AB4E11C792A08E498.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/A92FB0A9EB809B811FA56906F3385065.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/A9E4007D1F17C1F841109770E004E82E.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/AA58D372B27A3B630483BC74AFD0442A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/AA7E0EB852E818F34493DDEF935989B8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/AAE29C11BBDC0D683A9157BA18A6EF25.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/AB03214A983398A548EE12C0A19ABC95.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/AB4E5CD2E7945259001600F1DB86D37F.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/AD36211F856CA989E5CC9B1B2D7E3543.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/AE255A32DC078B6DBE834D31DFF7244A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/AE57C4253968FF025486B2750D72784D.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/AE81744F71F128DE4CBEE550AC6A2AA6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/AF095CB3F12D741AC000833ABF03A1C7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/AF88B0830F0AD204B05B9810F9CAE8F3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/AF949FE722BF8003DFE00F4464EC1D72.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/B0F1051EDE6A5D723A7C5E8DFFEA60CB.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/B22C35C5047DFF7B2ED7F4AEB9EFB557.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/B2E2B2FE25177A7BFD0773BFD48F2B86.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/B3290DF183909460C809F6FB0D067D72.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/B53CE03E6DFE2634377531F7C9F879F4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/B5DE427E0D08FDC4CD40187D8F9E40F5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/B63FDD80A4908A3314DAB6F77C39EC22.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/B685C9E582D0D161C612B0387FA8730F.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/B6E300FAB7C363E501B30AC1435FE489.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/B8CB8E1160F82F29249D1482F03B059A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/B8CBFC28A642751D37CF324DEF77849E.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/B93892D2860390F4AF5361D41B0948B8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/B97D987724D444D6582BF3715C0B9BEA.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/BA69829BB7DE5ED5BB059B41C7EFEE42.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/BB8CC11B4B8CA940D29A2107E609EF74.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/BBC1B5B1D71BD4FF86C36FC018D17EFB.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/BC7EF7249DF82A9CE408A8AC78C6EDB0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/BC92BE06B2CF18C515AB61EE341E5858.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/BDD67746836C09C52BDEB0E6B114C7C1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/BEA49256AA3A9E5AFE730ED3F4CB520A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/BEE507035A7F0B67DF1F39DF5CBAE640.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/BF33D32146C333DC4AA4653C87C3A863.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/BF7F12BF61B5C9912C0726BF0643D0BD.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/BFBA2CA5298FBFF701CDCB5031962EA7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/C18617314B7216280119BF17991AFA07.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/C1F9A03725913AC794EBB4AF53294FBA.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/C3D0D67E2C7385BB841206CA8D5DD209.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/C3F3B7451B46B685BF627AB9F1CF1760.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/C4A2407AF6172469D0559719CB7D5CAE.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/C4B5C4CB42FC009E2C592D1BC60E1456.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/C6B10E617D3A098883D6FC42A3F3E080.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/C74EAA3C378918130E9660A3C5EB9782.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/C75430EABE9217138AB5A6C6784BE04C.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/C7696EE5EA7AD8496CC05619D1C329D3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/C7B5E1C4EA94A30885B5D5B549CEF0CC.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/C8DDCAABAAB45A5C48DA52EF1643F4AC.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/C95385C4922D1EF2690AB569D77C2DE7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/C957E56999266587B24F498BAB5A00EF.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/C9E20101045F646BE49A8F98C7899E68.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/CC18AABAA2BDF4299C3B30392CF64E7C.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/CC4D8CD7CCD11817919DFC26447DE9EF.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/CCDD88D756D758DE96146FD26AEB3345.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/CD0A550C1EDB99AA12DCB725AFF1FEF6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/CD2E933BD654B3FF49458A55D6D12F3B.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/CDBF7DF95FD5BEBC6CF6633EA2F3AFA0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/CE5FA55283274A059FC81095950732B5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/CE7893802453E6CFBBC88A0010A535E5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/CE8DECE96BFC6BFAB2702ED80C9A3384.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/D0052AA6398A7910F4D46AE4F76B475B.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/D10678ACB9B35DF9DC611A1D9539AE32.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/D143BFCA98C1E3AC201C0B99D34BDAAC.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/D1CAC1068CC418B1F70F0737B125A882.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/D1F62CD1C1BDE6B853E94DB58ABB40EA.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/D2CD9A21CD53F7534AE9BE5E0A659D5A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/D2D7F3F890E8BD0A100F6FFB9BAB2DF9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/D2DA54715C9F726FB441BB091C9CB891.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/D4D2B87576902767BF88D5D412FAB3E5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/D5EDAD41A6E1A5D2F5620B2FFFE1105C.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/D7E525B515F4530DA7F91E0EC9C0B619.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/D811C27E011F2045602773E9E8E0DD65.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/D8C1048461DC2AE708683FA7BCB54200.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/D911A54F966C9360BEC3E1BA366735D3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/D9B016E9D15443BF97E10439272A75A0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/DA7A6260029F75C6D897CA7F11921087.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/DB36A46EFF169BCDD486577237C6028B.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/DBB78EE17B41267EB684B6D8F149AE9D.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/DD5E3205DFA1C981D7167A48AB5926B5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/DD88D766473E5BF25D5A5CA1A7E4B26A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/DDBBA13A8B36A4932E84FEB3BB806E19.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/DE95ED8E2022DC260D6ECCD398C1CD5E.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/DF443E18A6CB5113347ABA91907B2DF8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/DF8ABBF14AFAB9B74F9485998D31EBF5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/DF9B71EC16A7989C5FF831FB06A050B0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/E147EA2B128106568E369B2EB9BF2BC5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/E2617B9BDB21A57DEED64C998A5CB408.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/E293DF2A6D06ED745068093D6BC23AD0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/E2D267C9E1F7B558A3615D6E28C0D73E.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/E35081F7991F5DDC9E04EFC572D64831.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/E48457A8A045003B9EA0869F479DAEFB.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/E535AF1479182FDC0E522C68DD7AA388.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/E54D094D5B0B0D4F838C3B331F08E725.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/E5B078F423368FFDC240F875D980A4E7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/E6D23121F6FA50CAE46AD2551479C625.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/E7105477C01413B9D552E84B73F0AF6C.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/E7A1E0BD62E15024FDCDB25C44B42A6B.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/E7AAB14F1918669F28EA9C96BD61ADED.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/E8CD1D9D0DD921990C30C2A8C7944BCB.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/E95BD01973A37E916FA63CF5A5F01301.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/EB5D22F62D5602B607DFBD08A3F1DBD0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/EBA48484365F669944F2CAB239CD212B.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/EBC031B417BB7C96AD457414DA5041BF.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/EBF8117075AB7747AC54391ABCA2CD1A.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/ECB51125BB00711BCF20F98BAB31C6A2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/ECB9DF6225116A237B989675425542B0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/EE29E7D6B84D7ED8964D1AD67C971808.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/EE3A8CCB8BDFF3C098E28F135FB1E566.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/EE4AEFEEB418CC41C11229BC666B49F5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/EE97F032600937399E6FF5A933369887.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/EEDE4771379A0978C88EBE60075ED157.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/EEE8B917626E39D4C33A20E2439D566C.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/EF0686085C2B65A0B2301904C5A4A7F7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/EF0D735E0B93256E8352E109C66E64B2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/F146269A8C9D295210312156AC70AAF4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/F15E314DEC99F13ABF2B14A17FED84B2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/F2432A164500A876C1D384C376C3BDF9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/F2EF9E50AD4887F3583F5A01F0D59D2E.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/F3277BE398D0FC8843F5CE7FAB1C54F2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/F3BFE99DF562C35C5D61A462822FF0DB.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/F45325E6E489123758B5A7A8D6E1782D.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/F5B1C6A7A6FD1F3EF88E6A37DBD63836.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/F6187955521DEAF39567B9F46A4BDEB4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/F683BAF758D1C45FC41A12168673B23E.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/F6F52CCC49508A75673AC03D1D867365.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/F7AE52BF1B3B80DB558CFA3967FCC739.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/F7BE47068770DC90FF7E13780E996952.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/F91320C99BD1032D0F15467A0042B4C9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/F9333BB2940A52CDFA068B5705DC35C2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/FB4752C24E59BEF0934FDC01182A2C93.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/FCB1885F0CDDBD7D601549C43C314B8F.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/FCECDFDFE71868F9E8D23E330E402233.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/FE1065F9DFBC95F9BC8DB53855B73FAC.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/FE29121E0714A02552F81DB0E9134DDE.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/FF81ABF3677690A80083ED7173A2988D.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/FF8E8A93DB6C96FE5712D6CA331BAE18.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/libil2cpp/FFC0A03B9CA3C619B6A04F1F79E46DDD.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/linkresult_6EA7F5610379D1BEA1C63AF74C40BBCE/build.bc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000004000000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000004000000000000000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/7b/7b055c2a7a617a845bd2e4aaf9ee189c" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/7b/7b055c2a7a617a845bd2e4aaf9ee189c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/c6/c6fd9ab4844fad24994a8586774536b8" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c6/c6fd9ab4844fad24994a8586774536b8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/webgl_cache/linkresult_asm_856ACE27959E605B72AC8B3BD19273A9/build.asm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/webgl_cache/linkresult_asm_856ACE27959E605B72AC8B3BD19273A9/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/webgl_cache/linkresult_asm_856ACE27959E605B72AC8B3BD19273A9/build.js.mem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/webgl_cache/linkresult_asm_856ACE27959E605B72AC8B3BD19273A9/build.js.symbols" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/webgl_cache/linkresult_asm_856ACE27959E605B72AC8B3BD19273A9/build.js.symbols.stripped" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="objMovement.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/objMovement.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="playerScript.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/playerScript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+              <folding>
+                <marker date="1523656001000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1523656001000" expanded="true" signature="122:2361" ph="{...}" />
+                <marker date="1523656001000" expanded="true" signature="129:206" ph="/* This is the value that determines how high chance will jump ... */" />
+                <marker date="1523656001000" expanded="true" signature="248:322" ph="/* This is the Rigidbody reference to the chance rigidbody. ... */" />
+                <marker date="1523656001000" expanded="true" signature="357:459" ph="/* This is the jump constant used to move the character up. Only change to tweak power. ... */" />
+                <marker date="1523656001000" expanded="true" signature="506:563" ph="/* Bool to determine if 1 jump per click. ... */" />
+                <marker date="1523656001000" expanded="true" signature="870:935" ph="{...}" />
+                <marker date="1523656001000" expanded="true" signature="990:1284" ph="{...}" />
+                <marker date="1523656001000" expanded="true" signature="1050:1197" ph="{...}" />
+                <marker date="1523656001000" expanded="true" signature="1290:1341" ph="/* Getter for the MOVEMENT_CONSTANT ... */" />
+                <marker date="1523656001000" expanded="true" signature="1379:1425" ph="{...}" />
+                <marker date="1523656001000" expanded="true" signature="1431:1482" ph="/* Setter for the MOVEMENT_CONSTANT ... */" />
+                <marker date="1523656001000" expanded="true" signature="1524:1571" ph="{...}" />
+                <marker date="1523656001000" expanded="true" signature="1577:1731" ph="/* This Function changes the boolean tag once the character hits the ground to ... */" />
+                <marker date="1523656001000" expanded="true" signature="1778:1884" ph="{...}" />
+                <marker date="1523656001000" expanded="true" signature="1827:1878" ph="{...}" />
+                <marker date="1523656001000" expanded="true" signature="1890:1968" ph="/* This function also does the same thing as the function above. ... */" />
+                <marker date="1523656001000" expanded="true" signature="2014:2121" ph="{...}" />
+                <marker date="1523656001000" expanded="true" signature="2064:2115" ph="{...}" />
+                <marker date="1523656001000" expanded="true" signature="2127:2205" ph="/* This turns the boolean off after chance leaves the platform. ... */" />
+                <marker date="1523656001000" expanded="true" signature="2251:2359" ph="{...}" />
+                <marker date="1523656001000" expanded="true" signature="2301:2353" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LastChanceRemastered1.sln" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LastChanceRemastered1.sln">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/playerScript.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/dObject.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/objMovement.cs" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/playerScript.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="LastChanceRemastered1" type="483dac07:UnityExplorerNode$Root" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="LastChanceRemastered1" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="beb6a53a-c287-499c-98ce-ed8c34832b93" name="Default" comment="" />
+      <created>1526199230027</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526199230027</updated>
+      <workItem from="1526199233281" duration="288000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="288000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15379113" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" isUnityUI="false" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/dObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastChanceRemastered1.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/objMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/playerScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+          <folding>
+            <marker date="1523656001000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1523656001000" expanded="true" signature="122:2361" ph="{...}" />
+            <marker date="1523656001000" expanded="true" signature="129:206" ph="/* This is the value that determines how high chance will jump ... */" />
+            <marker date="1523656001000" expanded="true" signature="248:322" ph="/* This is the Rigidbody reference to the chance rigidbody. ... */" />
+            <marker date="1523656001000" expanded="true" signature="357:459" ph="/* This is the jump constant used to move the character up. Only change to tweak power. ... */" />
+            <marker date="1523656001000" expanded="true" signature="506:563" ph="/* Bool to determine if 1 jump per click. ... */" />
+            <marker date="1523656001000" expanded="true" signature="870:935" ph="{...}" />
+            <marker date="1523656001000" expanded="true" signature="990:1284" ph="{...}" />
+            <marker date="1523656001000" expanded="true" signature="1050:1197" ph="{...}" />
+            <marker date="1523656001000" expanded="true" signature="1290:1341" ph="/* Getter for the MOVEMENT_CONSTANT ... */" />
+            <marker date="1523656001000" expanded="true" signature="1379:1425" ph="{...}" />
+            <marker date="1523656001000" expanded="true" signature="1431:1482" ph="/* Setter for the MOVEMENT_CONSTANT ... */" />
+            <marker date="1523656001000" expanded="true" signature="1524:1571" ph="{...}" />
+            <marker date="1523656001000" expanded="true" signature="1577:1731" ph="/* This Function changes the boolean tag once the character hits the ground to ... */" />
+            <marker date="1523656001000" expanded="true" signature="1778:1884" ph="{...}" />
+            <marker date="1523656001000" expanded="true" signature="1827:1878" ph="{...}" />
+            <marker date="1523656001000" expanded="true" signature="1890:1968" ph="/* This function also does the same thing as the function above. ... */" />
+            <marker date="1523656001000" expanded="true" signature="2014:2121" ph="{...}" />
+            <marker date="1523656001000" expanded="true" signature="2064:2115" ph="{...}" />
+            <marker date="1523656001000" expanded="true" signature="2127:2205" ph="/* This turns the boolean off after chance leaves the platform. ... */" />
+            <marker date="1523656001000" expanded="true" signature="2251:2359" ph="{...}" />
+            <marker date="1523656001000" expanded="true" signature="2301:2353" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
