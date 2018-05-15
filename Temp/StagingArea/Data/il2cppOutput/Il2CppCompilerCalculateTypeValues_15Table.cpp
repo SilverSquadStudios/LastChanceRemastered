@@ -5138,26 +5138,36 @@ struct  spawnPlatform_t4258035551  : public MonoBehaviour_t3962482529
 public:
 	// System.Int32 spawnPlatform::maxPlatforms
 	int32_t ___maxPlatforms_2;
+	// System.Single spawnPlatform::coinSpawnHeightDiv
+	float ___coinSpawnHeightDiv_3;
+	// System.Int32 spawnPlatform::coinXBuffer
+	int32_t ___coinXBuffer_4;
+	// System.Single spawnPlatform::xCorBuffer
+	float ___xCorBuffer_5;
 	// UnityEngine.GameObject spawnPlatform::platform
-	GameObject_t1113636619 * ___platform_3;
+	GameObject_t1113636619 * ___platform_6;
 	// UnityEngine.RectTransform spawnPlatform::_platformRectTrans
-	RectTransform_t3704657025 * ____platformRectTrans_4;
+	RectTransform_t3704657025 * ____platformRectTrans_7;
 	// System.Single spawnPlatform::horizontalMin
-	float ___horizontalMin_5;
+	float ___horizontalMin_8;
 	// System.Single spawnPlatform::horizontalMax
-	float ___horizontalMax_6;
+	float ___horizontalMax_9;
 	// System.Single spawnPlatform::verticalMin
-	float ___verticalMin_7;
+	float ___verticalMin_10;
 	// System.Single spawnPlatform::verticalMax
-	float ___verticalMax_8;
+	float ___verticalMax_11;
 	// UnityEngine.Vector2 spawnPlatform::originPosition
-	Vector2_t2156229523  ___originPosition_9;
+	Vector2_t2156229523  ___originPosition_12;
 	// System.Single spawnPlatform::xCor
-	float ___xCor_10;
+	float ___xCor_13;
 	// System.Single spawnPlatform::yCor
-	float ___yCor_11;
-	// UnityEngine.GameObject spawnPlatform::coin
-	GameObject_t1113636619 * ___coin_12;
+	float ___yCor_14;
+	// UnityEngine.GameObject spawnPlatform::coin1
+	GameObject_t1113636619 * ___coin1_15;
+	// UnityEngine.GameObject spawnPlatform::coin2
+	GameObject_t1113636619 * ___coin2_16;
+	// UnityEngine.GameObject spawnPlatform::coin3
+	GameObject_t1113636619 * ___coin3_17;
 
 public:
 	inline static int32_t get_offset_of_maxPlatforms_2() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ___maxPlatforms_2)); }
@@ -5168,87 +5178,129 @@ public:
 		___maxPlatforms_2 = value;
 	}
 
-	inline static int32_t get_offset_of_platform_3() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ___platform_3)); }
-	inline GameObject_t1113636619 * get_platform_3() const { return ___platform_3; }
-	inline GameObject_t1113636619 ** get_address_of_platform_3() { return &___platform_3; }
-	inline void set_platform_3(GameObject_t1113636619 * value)
+	inline static int32_t get_offset_of_coinSpawnHeightDiv_3() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ___coinSpawnHeightDiv_3)); }
+	inline float get_coinSpawnHeightDiv_3() const { return ___coinSpawnHeightDiv_3; }
+	inline float* get_address_of_coinSpawnHeightDiv_3() { return &___coinSpawnHeightDiv_3; }
+	inline void set_coinSpawnHeightDiv_3(float value)
 	{
-		___platform_3 = value;
-		Il2CppCodeGenWriteBarrier((&___platform_3), value);
+		___coinSpawnHeightDiv_3 = value;
 	}
 
-	inline static int32_t get_offset_of__platformRectTrans_4() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ____platformRectTrans_4)); }
-	inline RectTransform_t3704657025 * get__platformRectTrans_4() const { return ____platformRectTrans_4; }
-	inline RectTransform_t3704657025 ** get_address_of__platformRectTrans_4() { return &____platformRectTrans_4; }
-	inline void set__platformRectTrans_4(RectTransform_t3704657025 * value)
+	inline static int32_t get_offset_of_coinXBuffer_4() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ___coinXBuffer_4)); }
+	inline int32_t get_coinXBuffer_4() const { return ___coinXBuffer_4; }
+	inline int32_t* get_address_of_coinXBuffer_4() { return &___coinXBuffer_4; }
+	inline void set_coinXBuffer_4(int32_t value)
 	{
-		____platformRectTrans_4 = value;
-		Il2CppCodeGenWriteBarrier((&____platformRectTrans_4), value);
+		___coinXBuffer_4 = value;
 	}
 
-	inline static int32_t get_offset_of_horizontalMin_5() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ___horizontalMin_5)); }
-	inline float get_horizontalMin_5() const { return ___horizontalMin_5; }
-	inline float* get_address_of_horizontalMin_5() { return &___horizontalMin_5; }
-	inline void set_horizontalMin_5(float value)
+	inline static int32_t get_offset_of_xCorBuffer_5() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ___xCorBuffer_5)); }
+	inline float get_xCorBuffer_5() const { return ___xCorBuffer_5; }
+	inline float* get_address_of_xCorBuffer_5() { return &___xCorBuffer_5; }
+	inline void set_xCorBuffer_5(float value)
 	{
-		___horizontalMin_5 = value;
+		___xCorBuffer_5 = value;
 	}
 
-	inline static int32_t get_offset_of_horizontalMax_6() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ___horizontalMax_6)); }
-	inline float get_horizontalMax_6() const { return ___horizontalMax_6; }
-	inline float* get_address_of_horizontalMax_6() { return &___horizontalMax_6; }
-	inline void set_horizontalMax_6(float value)
+	inline static int32_t get_offset_of_platform_6() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ___platform_6)); }
+	inline GameObject_t1113636619 * get_platform_6() const { return ___platform_6; }
+	inline GameObject_t1113636619 ** get_address_of_platform_6() { return &___platform_6; }
+	inline void set_platform_6(GameObject_t1113636619 * value)
 	{
-		___horizontalMax_6 = value;
+		___platform_6 = value;
+		Il2CppCodeGenWriteBarrier((&___platform_6), value);
 	}
 
-	inline static int32_t get_offset_of_verticalMin_7() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ___verticalMin_7)); }
-	inline float get_verticalMin_7() const { return ___verticalMin_7; }
-	inline float* get_address_of_verticalMin_7() { return &___verticalMin_7; }
-	inline void set_verticalMin_7(float value)
+	inline static int32_t get_offset_of__platformRectTrans_7() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ____platformRectTrans_7)); }
+	inline RectTransform_t3704657025 * get__platformRectTrans_7() const { return ____platformRectTrans_7; }
+	inline RectTransform_t3704657025 ** get_address_of__platformRectTrans_7() { return &____platformRectTrans_7; }
+	inline void set__platformRectTrans_7(RectTransform_t3704657025 * value)
 	{
-		___verticalMin_7 = value;
+		____platformRectTrans_7 = value;
+		Il2CppCodeGenWriteBarrier((&____platformRectTrans_7), value);
 	}
 
-	inline static int32_t get_offset_of_verticalMax_8() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ___verticalMax_8)); }
-	inline float get_verticalMax_8() const { return ___verticalMax_8; }
-	inline float* get_address_of_verticalMax_8() { return &___verticalMax_8; }
-	inline void set_verticalMax_8(float value)
+	inline static int32_t get_offset_of_horizontalMin_8() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ___horizontalMin_8)); }
+	inline float get_horizontalMin_8() const { return ___horizontalMin_8; }
+	inline float* get_address_of_horizontalMin_8() { return &___horizontalMin_8; }
+	inline void set_horizontalMin_8(float value)
 	{
-		___verticalMax_8 = value;
+		___horizontalMin_8 = value;
 	}
 
-	inline static int32_t get_offset_of_originPosition_9() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ___originPosition_9)); }
-	inline Vector2_t2156229523  get_originPosition_9() const { return ___originPosition_9; }
-	inline Vector2_t2156229523 * get_address_of_originPosition_9() { return &___originPosition_9; }
-	inline void set_originPosition_9(Vector2_t2156229523  value)
+	inline static int32_t get_offset_of_horizontalMax_9() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ___horizontalMax_9)); }
+	inline float get_horizontalMax_9() const { return ___horizontalMax_9; }
+	inline float* get_address_of_horizontalMax_9() { return &___horizontalMax_9; }
+	inline void set_horizontalMax_9(float value)
 	{
-		___originPosition_9 = value;
+		___horizontalMax_9 = value;
 	}
 
-	inline static int32_t get_offset_of_xCor_10() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ___xCor_10)); }
-	inline float get_xCor_10() const { return ___xCor_10; }
-	inline float* get_address_of_xCor_10() { return &___xCor_10; }
-	inline void set_xCor_10(float value)
+	inline static int32_t get_offset_of_verticalMin_10() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ___verticalMin_10)); }
+	inline float get_verticalMin_10() const { return ___verticalMin_10; }
+	inline float* get_address_of_verticalMin_10() { return &___verticalMin_10; }
+	inline void set_verticalMin_10(float value)
 	{
-		___xCor_10 = value;
+		___verticalMin_10 = value;
 	}
 
-	inline static int32_t get_offset_of_yCor_11() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ___yCor_11)); }
-	inline float get_yCor_11() const { return ___yCor_11; }
-	inline float* get_address_of_yCor_11() { return &___yCor_11; }
-	inline void set_yCor_11(float value)
+	inline static int32_t get_offset_of_verticalMax_11() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ___verticalMax_11)); }
+	inline float get_verticalMax_11() const { return ___verticalMax_11; }
+	inline float* get_address_of_verticalMax_11() { return &___verticalMax_11; }
+	inline void set_verticalMax_11(float value)
 	{
-		___yCor_11 = value;
+		___verticalMax_11 = value;
 	}
 
-	inline static int32_t get_offset_of_coin_12() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ___coin_12)); }
-	inline GameObject_t1113636619 * get_coin_12() const { return ___coin_12; }
-	inline GameObject_t1113636619 ** get_address_of_coin_12() { return &___coin_12; }
-	inline void set_coin_12(GameObject_t1113636619 * value)
+	inline static int32_t get_offset_of_originPosition_12() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ___originPosition_12)); }
+	inline Vector2_t2156229523  get_originPosition_12() const { return ___originPosition_12; }
+	inline Vector2_t2156229523 * get_address_of_originPosition_12() { return &___originPosition_12; }
+	inline void set_originPosition_12(Vector2_t2156229523  value)
 	{
-		___coin_12 = value;
-		Il2CppCodeGenWriteBarrier((&___coin_12), value);
+		___originPosition_12 = value;
+	}
+
+	inline static int32_t get_offset_of_xCor_13() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ___xCor_13)); }
+	inline float get_xCor_13() const { return ___xCor_13; }
+	inline float* get_address_of_xCor_13() { return &___xCor_13; }
+	inline void set_xCor_13(float value)
+	{
+		___xCor_13 = value;
+	}
+
+	inline static int32_t get_offset_of_yCor_14() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ___yCor_14)); }
+	inline float get_yCor_14() const { return ___yCor_14; }
+	inline float* get_address_of_yCor_14() { return &___yCor_14; }
+	inline void set_yCor_14(float value)
+	{
+		___yCor_14 = value;
+	}
+
+	inline static int32_t get_offset_of_coin1_15() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ___coin1_15)); }
+	inline GameObject_t1113636619 * get_coin1_15() const { return ___coin1_15; }
+	inline GameObject_t1113636619 ** get_address_of_coin1_15() { return &___coin1_15; }
+	inline void set_coin1_15(GameObject_t1113636619 * value)
+	{
+		___coin1_15 = value;
+		Il2CppCodeGenWriteBarrier((&___coin1_15), value);
+	}
+
+	inline static int32_t get_offset_of_coin2_16() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ___coin2_16)); }
+	inline GameObject_t1113636619 * get_coin2_16() const { return ___coin2_16; }
+	inline GameObject_t1113636619 ** get_address_of_coin2_16() { return &___coin2_16; }
+	inline void set_coin2_16(GameObject_t1113636619 * value)
+	{
+		___coin2_16 = value;
+		Il2CppCodeGenWriteBarrier((&___coin2_16), value);
+	}
+
+	inline static int32_t get_offset_of_coin3_17() { return static_cast<int32_t>(offsetof(spawnPlatform_t4258035551, ___coin3_17)); }
+	inline GameObject_t1113636619 * get_coin3_17() const { return ___coin3_17; }
+	inline GameObject_t1113636619 ** get_address_of_coin3_17() { return &___coin3_17; }
+	inline void set_coin3_17(GameObject_t1113636619 * value)
+	{
+		___coin3_17 = value;
+		Il2CppCodeGenWriteBarrier((&___coin3_17), value);
 	}
 };
 
@@ -5955,19 +6007,24 @@ extern const int32_t g_FieldOffsetTable1585[6] =
 	playerScript_t1783615218_StaticFields::get_offset_of_score_7(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1586 = { sizeof (spawnPlatform_t4258035551), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1586[11] = 
+extern const int32_t g_FieldOffsetTable1586[16] = 
 {
 	spawnPlatform_t4258035551::get_offset_of_maxPlatforms_2(),
-	spawnPlatform_t4258035551::get_offset_of_platform_3(),
-	spawnPlatform_t4258035551::get_offset_of__platformRectTrans_4(),
-	spawnPlatform_t4258035551::get_offset_of_horizontalMin_5(),
-	spawnPlatform_t4258035551::get_offset_of_horizontalMax_6(),
-	spawnPlatform_t4258035551::get_offset_of_verticalMin_7(),
-	spawnPlatform_t4258035551::get_offset_of_verticalMax_8(),
-	spawnPlatform_t4258035551::get_offset_of_originPosition_9(),
-	spawnPlatform_t4258035551::get_offset_of_xCor_10(),
-	spawnPlatform_t4258035551::get_offset_of_yCor_11(),
-	spawnPlatform_t4258035551::get_offset_of_coin_12(),
+	spawnPlatform_t4258035551::get_offset_of_coinSpawnHeightDiv_3(),
+	spawnPlatform_t4258035551::get_offset_of_coinXBuffer_4(),
+	spawnPlatform_t4258035551::get_offset_of_xCorBuffer_5(),
+	spawnPlatform_t4258035551::get_offset_of_platform_6(),
+	spawnPlatform_t4258035551::get_offset_of__platformRectTrans_7(),
+	spawnPlatform_t4258035551::get_offset_of_horizontalMin_8(),
+	spawnPlatform_t4258035551::get_offset_of_horizontalMax_9(),
+	spawnPlatform_t4258035551::get_offset_of_verticalMin_10(),
+	spawnPlatform_t4258035551::get_offset_of_verticalMax_11(),
+	spawnPlatform_t4258035551::get_offset_of_originPosition_12(),
+	spawnPlatform_t4258035551::get_offset_of_xCor_13(),
+	spawnPlatform_t4258035551::get_offset_of_yCor_14(),
+	spawnPlatform_t4258035551::get_offset_of_coin1_15(),
+	spawnPlatform_t4258035551::get_offset_of_coin2_16(),
+	spawnPlatform_t4258035551::get_offset_of_coin3_17(),
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
