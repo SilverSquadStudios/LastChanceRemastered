@@ -677,8 +677,8 @@ MonoBehaviour:
   platform: {fileID: 448078748}
   horizontalMin: 25
   horizontalMax: 25
-  verticalMin: 2
-  verticalMax: -2
+  verticalMin: 2.5
+  verticalMax: -2.5
   coin1: {fileID: 835556838}
   coin2: {fileID: 835556838}
   coin3: {fileID: 835556838}
