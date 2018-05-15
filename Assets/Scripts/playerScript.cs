@@ -17,7 +17,7 @@ public class playerScript : MonoBehaviour {
     /*
      * This is the jump constant used to move the character up. Only change to tweak power.
      */
-    private float JUMP_CONSTANT = 20.0f;
+    public float JUMP_CONSTANT = 20.0f;
 
     /*
      * Bool to determine if 1 jump per click. 

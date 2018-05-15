@@ -4793,6 +4793,9 @@ extern const RuntimeType PlayerConnection_t3081694049_0_0_17 = { (void*)1487, 17
 extern const RuntimeType GUILayer_t2783472903_0_0_0 = { (void*)1519, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType GUILayer_t2783472903_1_0_0 = { (void*)1519, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
+extern const RuntimeType Collider2D_t2806799626_0_0_0 = { (void*)1569, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Collider2D_t2806799626_1_0_0 = { (void*)1569, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
 extern const RuntimeType SpriteRenderer_t3235626157_0_0_0 = { (void*)1528, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType SpriteRenderer_t3235626157_1_0_0 = { (void*)1528, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
@@ -10709,9 +10712,6 @@ extern const RuntimeType CachedContactPoints2D_t2523437281_0_0_3 = { (void*)1564
 extern const RuntimeType Collision2D_t2842956331_0_0_0 = { (void*)1565, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType Collision2D_t2842956331_1_0_0 = { (void*)1565, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Collider2D_t2806799626_0_0_0 = { (void*)1569, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Collider2D_t2806799626_1_0_0 = { (void*)1569, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-
 extern const RuntimeType ContactPoint2DU5BU5D_t96683501_0_0_3 = { (void*)&ContactPoint2D_t3390240644_0_0_0, 3, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
 extern const RuntimeType U3CModuleU3E_t692745533_0_0_0 = { (void*)1570, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
@@ -10753,23 +10753,20 @@ extern const RuntimeType U3CModuleU3E_t692745535_1_0_0 = { (void*)1580, 0, IL2CP
 extern const RuntimeType U3CModuleU3E_t692745536_0_0_0 = { (void*)1581, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType U3CModuleU3E_t692745536_1_0_0 = { (void*)1581, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType coin_t2227745108_0_0_0 = { (void*)1582, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType coin_t2227745108_1_0_0 = { (void*)1582, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType deathRestart_t88003869_0_0_0 = { (void*)1582, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType deathRestart_t88003869_1_0_0 = { (void*)1582, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType deathRestart_t88003869_0_0_0 = { (void*)1583, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType deathRestart_t88003869_1_0_0 = { (void*)1583, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType dObject_t2294010705_0_0_0 = { (void*)1583, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType dObject_t2294010705_1_0_0 = { (void*)1583, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType dObject_t2294010705_0_0_0 = { (void*)1584, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType dObject_t2294010705_1_0_0 = { (void*)1584, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType objMovement_t2497182213_0_0_0 = { (void*)1584, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType objMovement_t2497182213_1_0_0 = { (void*)1584, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType objMovement_t2497182213_0_0_0 = { (void*)1585, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType objMovement_t2497182213_1_0_0 = { (void*)1585, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType playerScript_t1783615218_0_0_0 = { (void*)1585, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType playerScript_t1783615218_1_0_0 = { (void*)1585, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType playerScript_t1783615218_0_0_0 = { (void*)1586, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType playerScript_t1783615218_1_0_0 = { (void*)1586, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-
-extern const RuntimeType spawnPlatform_t4258035551_0_0_0 = { (void*)1587, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType spawnPlatform_t4258035551_1_0_0 = { (void*)1587, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType spawnPlatform_t4258035551_0_0_0 = { (void*)1586, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType spawnPlatform_t4258035551_1_0_0 = { (void*)1586, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IComparer_1_t884274696_GenericClass = { 166, { &GenInst_DefaultComparer_t3277344064_gp_0_0_0_0, NULL }, NULL };
 extern const RuntimeType IComparer_1_t884274696_0_0_0 = { &IComparer_1_t884274696_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -10802,7 +10799,7 @@ extern const RuntimeType TimeSpanU5BU5D_t4291357516_0_0_0 = { (void*)&TimeSpan_t
 extern const RuntimeType TypeTagU5BU5D_t1563918664_0_0_0 = { (void*)&TypeTag_t3541821701_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
 extern const RuntimeType ITrackingHandlerU5BU5D_t3758023570_0_0_0 = { (void*)&ITrackingHandler_t1244553475_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
-extern const RuntimeType* const  g_Il2CppTypeTable[5937] = 
+extern const RuntimeType* const  g_Il2CppTypeTable[5935] = 
 {
 	&IEnumerator_1_t3512676632_0_0_0,
 	&RuntimeObject_0_0_0,
@@ -12124,6 +12121,7 @@ extern const RuntimeType* const  g_Il2CppTypeTable[5937] =
 	&CachedInvokableCall_1_t3153979999_0_0_0,
 	&PlayerConnection_t3081694049_0_0_0,
 	&GUILayer_t2783472903_0_0_0,
+	&Collider2D_t2806799626_0_0_0,
 	&SpriteRenderer_t3235626157_0_0_0,
 	&GameObject_t1113636619_0_0_0,
 	&GenericComparer_1_t3581574675_0_0_0,
@@ -16636,7 +16634,6 @@ extern const RuntimeType* const  g_Il2CppTypeTable[5937] =
 	&ContactPoint2D_t3390240644_0_0_1,
 	&Collision2D_t2842956331_0_0_0,
 	&Collision2D_t2842956331_1_0_0,
-	&Collider2D_t2806799626_0_0_0,
 	&Vector2_t2156229523_0_0_3,
 	&CachedContactPoints2D_t2523437281_0_0_3,
 	&ContactPoint2DU5BU5D_t96683501_0_0_3,
@@ -16676,8 +16673,6 @@ extern const RuntimeType* const  g_Il2CppTypeTable[5937] =
 	&U3CModuleU3E_t692745535_1_0_0,
 	&U3CModuleU3E_t692745536_0_0_0,
 	&U3CModuleU3E_t692745536_1_0_0,
-	&coin_t2227745108_0_0_0,
-	&coin_t2227745108_1_0_0,
 	&deathRestart_t88003869_0_0_0,
 	&deathRestart_t88003869_1_0_0,
 	&dObject_t2294010705_0_0_0,

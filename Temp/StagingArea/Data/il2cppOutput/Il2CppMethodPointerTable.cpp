@@ -7930,10 +7930,6 @@ extern "C" void CertificateHandler_ValidateCertificateNative_m2315002656 ();
 extern "C" void CertificateHandler_Dispose_m2100863831 ();
 extern "C" void WebRequestUtils_RedirectTo_m55747000 ();
 extern "C" void WebRequestUtils__cctor_m4190982137 ();
-extern "C" void coin__ctor_m1038076810 ();
-extern "C" void coin_Start_m2749682366 ();
-extern "C" void coin_Update_m1065496466 ();
-extern "C" void coin_OnCollisionEnter2D_m632602522 ();
 extern "C" void deathRestart__ctor_m4092779439 ();
 extern "C" void deathRestart_Start_m3983211373 ();
 extern "C" void deathRestart_Update_m3618990865 ();
@@ -7951,6 +7947,7 @@ extern "C" void playerScript_Update_m1807313470 ();
 extern "C" void playerScript_getMovement_m153307894 ();
 extern "C" void playerScript_setMovement_m2468495105 ();
 extern "C" void playerScript_OnCollisionEnter2D_m4179805582 ();
+extern "C" void playerScript_OnTriggerEnter2D_m3282349 ();
 extern "C" void playerScript_OnCollisionStay2D_m4168348825 ();
 extern "C" void playerScript_OnCollisionExit2D_m1079668395 ();
 extern "C" void playerScript__cctor_m1727565513 ();
@@ -7958,7 +7955,7 @@ extern "C" void spawnPlatform__ctor_m943267563 ();
 extern "C" void spawnPlatform_Start_m1139829075 ();
 extern "C" void spawnPlatform_Spawn_m3926395926 ();
 extern "C" void spawnPlatform_spawnPlatformCoin_m4150135144 ();
-extern const Il2CppMethodPointer g_MethodPointers[7939] = 
+extern const Il2CppMethodPointer g_MethodPointers[7936] = 
 {
 	Locale_GetText_m3374010885,
 	Locale_GetText_m1601577974,
@@ -15871,10 +15868,6 @@ extern const Il2CppMethodPointer g_MethodPointers[7939] =
 	CertificateHandler_Dispose_m2100863831,
 	WebRequestUtils_RedirectTo_m55747000,
 	WebRequestUtils__cctor_m4190982137,
-	coin__ctor_m1038076810,
-	coin_Start_m2749682366,
-	coin_Update_m1065496466,
-	coin_OnCollisionEnter2D_m632602522,
 	deathRestart__ctor_m4092779439,
 	deathRestart_Start_m3983211373,
 	deathRestart_Update_m3618990865,
@@ -15892,6 +15885,7 @@ extern const Il2CppMethodPointer g_MethodPointers[7939] =
 	playerScript_getMovement_m153307894,
 	playerScript_setMovement_m2468495105,
 	playerScript_OnCollisionEnter2D_m4179805582,
+	playerScript_OnTriggerEnter2D_m3282349,
 	playerScript_OnCollisionStay2D_m4168348825,
 	playerScript_OnCollisionExit2D_m1079668395,
 	playerScript__cctor_m1727565513,

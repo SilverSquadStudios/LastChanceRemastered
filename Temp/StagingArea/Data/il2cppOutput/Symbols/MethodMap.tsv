@@ -7909,10 +7909,6 @@ CertificateHandler_ValidateCertificateNative_m2315002656	System.Boolean UnityEng
 CertificateHandler_Dispose_m2100863831	System.Void UnityEngine.Networking.CertificateHandler::Dispose()	UnityEngine.UnityWebRequestModule
 WebRequestUtils_RedirectTo_m55747000	System.String UnityEngineInternal.WebRequestUtils::RedirectTo(System.String,System.String)	UnityEngine.UnityWebRequestModule
 WebRequestUtils__cctor_m4190982137	System.Void UnityEngineInternal.WebRequestUtils::.cctor()	UnityEngine.UnityWebRequestModule
-coin__ctor_m1038076810	System.Void coin::.ctor()	Assembly-CSharp
-coin_Start_m2749682366	System.Void coin::Start()	Assembly-CSharp
-coin_Update_m1065496466	System.Void coin::Update()	Assembly-CSharp
-coin_OnCollisionEnter2D_m632602522	System.Void coin::OnCollisionEnter2D(UnityEngine.Collision2D)	Assembly-CSharp
 deathRestart__ctor_m4092779439	System.Void deathRestart::.ctor()	Assembly-CSharp
 deathRestart_Start_m3983211373	System.Void deathRestart::Start()	Assembly-CSharp
 deathRestart_Update_m3618990865	System.Void deathRestart::Update()	Assembly-CSharp
@@ -7930,6 +7926,7 @@ playerScript_Update_m1807313470	System.Void playerScript::Update()	Assembly-CSha
 playerScript_getMovement_m153307894	System.Single playerScript::getMovement()	Assembly-CSharp
 playerScript_setMovement_m2468495105	System.Void playerScript::setMovement(System.Single)	Assembly-CSharp
 playerScript_OnCollisionEnter2D_m4179805582	System.Void playerScript::OnCollisionEnter2D(UnityEngine.Collision2D)	Assembly-CSharp
+playerScript_OnTriggerEnter2D_m3282349	System.Void playerScript::OnTriggerEnter2D(UnityEngine.Collider2D)	Assembly-CSharp
 playerScript_OnCollisionStay2D_m4168348825	System.Void playerScript::OnCollisionStay2D(UnityEngine.Collision2D)	Assembly-CSharp
 playerScript_OnCollisionExit2D_m1079668395	System.Void playerScript::OnCollisionExit2D(UnityEngine.Collision2D)	Assembly-CSharp
 playerScript__cctor_m1727565513	System.Void playerScript::.cctor()	Assembly-CSharp
@@ -8488,6 +8485,7 @@ List_1__ctor_m2321703786_gshared	System.Void System.Collections.Generic.List`1<U
 Action_1_Invoke_m2492370395_gshared	System.Void System.Action`1<System.Boolean>::Invoke(!0)	UnityEngine.UnityConnectModule
 Action_3_Invoke_m313705495_gshared	System.Void System.Action`3<System.Boolean,System.Boolean,System.Int32>::Invoke(!0,!1,!2)	UnityEngine.UnityConnectModule
 Component_GetComponent_TisRuntimeObject_m2906321015_gshared	!!0 UnityEngine.Component::GetComponent<UnityEngine.Rigidbody2D>()	Assembly-CSharp
+Component_GetComponent_TisRuntimeObject_m2906321015_gshared	!!0 UnityEngine.Component::GetComponent<UnityEngine.Collider2D>()	Assembly-CSharp
 GameObject_GetComponent_TisRuntimeObject_m3920941149_gshared	!!0 UnityEngine.GameObject::GetComponent<UnityEngine.SpriteRenderer>()	Assembly-CSharp
 Object_Instantiate_TisRuntimeObject_m1135049463_gshared	!!0 UnityEngine.Object::Instantiate<UnityEngine.GameObject>(!!0,UnityEngine.Vector3,UnityEngine.Quaternion)	Assembly-CSharp
 Array_InternalArray__ICollection_Contains_TisTableRange_t3332867892_m220823873_gshared	System.Boolean System.Array::InternalArray__ICollection_Contains<Mono.Globalization.Unicode.CodePointIndexer/TableRange>(T)	mscorlib

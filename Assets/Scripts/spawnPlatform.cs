@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class spawnPlatform : MonoBehaviour {
 
-    //Max number of platforms to be in the game at once.
+    //Constants
     public int maxPlatforms = 20;
+    private float coinSpawnHeightDiv = 1.85f;
+    private int coinXBuffer = 3;
+    private float xCorBuffer = 2.4f;
 
     //The actuall game platform itself
     public GameObject platform;
@@ -35,7 +38,9 @@ public class spawnPlatform : MonoBehaviour {
     private float yCor = 0;
 
     //Coin object to refrence.
-    public GameObject coin;
+    public GameObject coin1;
+    public GameObject coin2;
+    public GameObject coin3;
 
     void Start()
     {
@@ -69,12 +74,17 @@ public class spawnPlatform : MonoBehaviour {
         int rnd = 1;//Random.Range(1, 10);
             
         //Height the yCor is offset by height / scale factor to get the proportion of where it would be based on how big the platform is.
-        Vector2 pos3 = originPosition + new Vector2(xCor, yCor + (height / 1.85f));
+        Vector2 posCoin1 = originPosition + new Vector2(xCor - xCorBuffer, yCor + (height / coinSpawnHeightDiv));
+        Vector2 posCoin2 = originPosition + new Vector2(xCor - xCorBuffer + coinXBuffer, yCor + (height / coinSpawnHeightDiv));
+        Vector2 posCoin3 = originPosition + new Vector2(xCor - xCorBuffer + (coinXBuffer + coinXBuffer), yCor + (height / coinSpawnHeightDiv));
+
 
         if (rnd == 1)
         {
             //Create a new coin object with same location as the platform.
-            Instantiate(coin, pos3, Quaternion.identity);
+            Instantiate(coin1, posCoin1, Quaternion.identity);
+            Instantiate(coin2, posCoin2, Quaternion.identity);
+            Instantiate(coin3, posCoin3, Quaternion.identity);
         }
 
         //Sets original position as vector.
