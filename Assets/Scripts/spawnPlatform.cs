@@ -6,46 +6,70 @@ public class spawnPlatform : MonoBehaviour {
 
     //Constants
     public int maxPlatforms = 20;
-    private float coinSpawnHeightDiv = 1.85f;
-    private int coinXBuffer = 3;
-    private float xCorBuffer = 2.4f;
+    private static float coinSpawnHeightDiv = 1.85f;
+    private static int coinXBuffer = 3;
+    private static float xCorBuffer = 2.4f;
+    public int platformSpawnTime = 30;
 
     //The actuall game platform itself
-    public GameObject platform;
+    public GameObject floorObject;
+    public static GameObject platform;
+
+    public GameObject coinObj1;
+    public static GameObject coin1;
+    
+    public GameObject coinObj2;
+    public static GameObject coin2;
+    
+    public GameObject coinObj3;
+    public static GameObject coin3;
+    
+    private int spawnCounterTime = 0;
 
     //Convert to RECT
     private RectTransform _platformRectTrans;
 
     //Horizontal discrepency min
-    public float horizontalMin = 7.5f;
-
-    //Horizontal discrepency max
-    public float horizontalMax = 14f;
+    public float horizontalCons;
+    public static float horCons;
 
     //Vertical discrepency min
-    public float verticalMin = -6f;
+    public static float verticalMin = -6f;
 
     //Vertical discrepency max
-    public float verticalMax = 6;
+    public static float verticalMax = 6;
 
     //Vector to base the platforms off of.
-    private Vector2 originPosition;
+    private static Vector2 originPosition;
 
     //The x coordinate of the platform.
-    private float xCor = 0;
+    private static float xCor = 0;
 
     //The y coordinate of the platform.
-    private float yCor = 0;
+    private static float yCor = 0;
 
-    //Coin object to refrence.
-    public GameObject coin1;
-    public GameObject coin2;
-    public GameObject coin3;
 
     void Start()
     {
+        platform = floorObject;
+        coin1 = coinObj1;
+        coin2 = coinObj2;
+        coin3 = coinObj3;
+        horCons = horizontalCons;
         originPosition = transform.position;
         Spawn();
+
+    }
+
+    private void Update()
+    {
+        spawnCounterTime++;
+        if (spawnCounterTime == platformSpawnTime)
+        {
+            //spawnPlatformCoin();
+            spawnCounterTime = 0;
+
+        }
 
     }
 
@@ -58,11 +82,11 @@ public class spawnPlatform : MonoBehaviour {
         }
     }
 
-    private void spawnPlatformCoin()
+    public static void spawnPlatformCoin()
     {
         float height = platform.GetComponent<SpriteRenderer>().bounds.size.y;
-        
-        xCor = Random.Range(horizontalMin, horizontalMax);
+
+        xCor = horCons;
         yCor = Random.Range(verticalMin, verticalMax) - originPosition.y;
 
         //Creates a new vector within the ranges of horizontal min/max and vertical min/max

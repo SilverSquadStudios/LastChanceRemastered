@@ -17,6 +17,7 @@ public class dObject : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D other)
     {
+	    //spawnPlatform.spawnPlatformCoin();
         Destroy(other.gameObject);
     }
 
