@@ -6,20 +6,312 @@
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/dObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/dObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/playerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/playerScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/spawnPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/spawnPlatform.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Collab/CollabSnapshot_2faae1bc-2c86-4ee6-aefd-11d6ae70eae8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Collab/CollabSnapshot_2faae1bc-2c86-4ee6-aefd-11d6ae70eae8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/LastBuild.buildreport" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastBuild.buildreport" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/Managed/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Data/data.unity3d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Data/data.unity3d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/ScriptLayoutHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/ScriptLayoutHashes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/0FA2CA980068A461480082759E2AF8DA.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/30F518239B294B018C288C685AC7D053.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/7C3C535DE95D5012C8F4CB221916C22C.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/892F4B1E52CED6F6C10EF26A541B2874.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/96C23C80ECCCBCD2E10B0FD9565F08C2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/B2B18A2FF6B0AC8E520A4BD996CFEBFA.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/D0144D74075F4B3562DBB0CE32ED7178.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/F738F7EDF238667F7FD9E4D961FD6A77.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/il2cpp_cache/linkresult_632EAAA97DC922BD7AFEDC3B2D25EBA9/build.bc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/7b/7b055c2a7a617a845bd2e4aaf9ee189c" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/7b/7b055c2a7a617a845bd2e4aaf9ee189c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/c7/c7e63b92306253147b2c3dd86ff3fea8" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c7/c7e63b92306253147b2c3dd86ff3fea8" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/e8/e801c32e56a3dd04b870837378da65db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/e8/e801c32e56a3dd04b870837378da65db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler2.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler3.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/webgl_cache/linkresult_asm_4E41AC52D76B5A6864D92DC2AC82D774/build.asm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/webgl_cache/linkresult_asm_4E41AC52D76B5A6864D92DC2AC82D774/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/webgl_cache/linkresult_asm_4E41AC52D76B5A6864D92DC2AC82D774/build.js.mem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/webgl_cache/linkresult_asm_4E41AC52D76B5A6864D92DC2AC82D774/build.js.symbols" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/webgl_cache/linkresult_asm_4E41AC52D76B5A6864D92DC2AC82D774/build.js.symbols.stripped" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Il2CppData/Metadata/global-metadata.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Managed/ICallSummary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Managed/Mono.Security.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Managed/System.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Managed/System.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Managed/UnityEngine.UnityConnectModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Managed/UnityEngine.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Managed/UnityICallRegistration.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Managed/mono/2.0/machine.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Managed/mono/4.0/machine.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Managed/mscorlib.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Native/Data/Metadata/global-metadata.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Native/Data/Resources/mscorlib.dll-resources.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Native/Data/etc/mono/1.0/DefaultWsdlHelpGenerator.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Native/Data/etc/mono/1.0/machine.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Native/Data/etc/mono/2.0/Browsers/Compat.browser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Native/Data/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Native/Data/etc/mono/2.0/machine.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Native/Data/etc/mono/2.0/settings.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Native/Data/etc/mono/2.0/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Native/Data/etc/mono/browscap.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Native/Data/etc/mono/config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Native/Data/etc/mono/mconfig/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Native/build.bc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Output/Build/LastChanceHtml.asm.code.unityweb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Output/Build/LastChanceHtml.asm.framework.unityweb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Output/Build/LastChanceHtml.asm.memory.unityweb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Output/Build/LastChanceHtml.data.unityweb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Output/Build/LastChanceHtml.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Output/Build/UnityLoader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Output/TemplateData/UnityProgress.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Output/TemplateData/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Output/TemplateData/fullscreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Output/TemplateData/progressEmpty.Dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Output/TemplateData/progressEmpty.Light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Output/TemplateData/progressFull.Dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Output/TemplateData/progressFull.Light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Output/TemplateData/progressLogo.Dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Output/TemplateData/progressLogo.Light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Output/TemplateData/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Output/TemplateData/webgl-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Output/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/Resources/unity_default_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/boot.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/data.unity3d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Bulk_Assembly-CSharp_0.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Bulk_Generics_0.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Bulk_Generics_1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Bulk_Mono.Security_0.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Bulk_Mono.Security_1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Bulk_System.Core_0.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Bulk_System_0.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Bulk_System_1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Bulk_UnityEngine.AudioModule_0.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Bulk_UnityEngine.CoreModule_0.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Bulk_UnityEngine.Physics2DModule_0.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Bulk_UnityEngine.SharedInternalsModule_0.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Bulk_UnityEngine.UnityConnectModule_0.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Bulk_UnityEngine.UnityWebRequestModule_0.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Bulk_UnityEngine_0.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Bulk_mscorlib_0.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Bulk_mscorlib_1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Bulk_mscorlib_2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Bulk_mscorlib_3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Bulk_mscorlib_4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Bulk_mscorlib_5.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Bulk_mscorlib_6.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Bulk_mscorlib_7.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Bulk_mscorlib_8.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Bulk_mscorlib_9.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Data/Metadata/global-metadata.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Data/Resources/mscorlib.dll-resources.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Data/etc/mono/1.0/DefaultWsdlHelpGenerator.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Data/etc/mono/1.0/machine.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Data/etc/mono/2.0/Browsers/Compat.browser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Data/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Data/etc/mono/2.0/machine.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Data/etc/mono/2.0/settings.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Data/etc/mono/2.0/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Data/etc/mono/browscap.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Data/etc/mono/config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Data/etc/mono/mconfig/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/GenericMethods0.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/GenericMethods1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppAttributes.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppCodeRegistration.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppCompilerCalculateTypeValuesTable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppCompilerCalculateTypeValues_0Table.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppCompilerCalculateTypeValues_10Table.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppCompilerCalculateTypeValues_11Table.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppCompilerCalculateTypeValues_12Table.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppCompilerCalculateTypeValues_13Table.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppCompilerCalculateTypeValues_14Table.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppCompilerCalculateTypeValues_15Table.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppCompilerCalculateTypeValues_1Table.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppCompilerCalculateTypeValues_2Table.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppCompilerCalculateTypeValues_3Table.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppCompilerCalculateTypeValues_4Table.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppCompilerCalculateTypeValues_5Table.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppCompilerCalculateTypeValues_6Table.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppCompilerCalculateTypeValues_7Table.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppCompilerCalculateTypeValues_8Table.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppCompilerCalculateTypeValues_9Table.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppGenericClassTable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppGenericComDefinitions0.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppGenericInstDefinitions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppGenericMethodDefinitions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppGenericMethodPointerTable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppGenericMethodTable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppInteropDataTable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppInvokerTable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppMetadataRegistration.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppMetadataUsage.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppMethodPointerTable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Il2CppTypeDefinitions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/Symbols/MethodMap.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/UnityClassRegistration.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/UnityICallRegistration.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/il2cppOutput/UnresolvedVirtualCallStubs.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/linkresult_asm/build.asm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/linkresult_asm/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/linkresult_asm/build.js.mem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/linkresult_asm/build.js.symbols" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/StagingArea/Data/linkresult_asm/build.js.symbols.stripped" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityLockfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-01336251c6476475bafa13caff46fa38" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-01c16ae23817849f68b42da5323c7d6c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-01d2a4dd2acf0478cbe81df5f49f11f5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-02d971146571745ed89aad5f0d111eb7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-0542ecbd694224e9aaebd27e80236ed8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-0614ddc9bae874b0799f4bebdb666465" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-07a392ed9e2c44be38ccf02aea34522e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-09beab6a7bb854782b4b0fb566551fd1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-0be53b42349f74f6180b155d724489e8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-0d71846473e7e448689974d68414c765" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-101efb5750d7f41ce911ede491b7df61" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-10a07df45941c47189c0ed539108fa40" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-137ad5c41a36a49cabec9c89dabc0da5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-17012dc14377f4c8894ca3064716f992" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-18edf112f8ad544a0bec7a2effc41066" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-19fbf6aba463f435eba2b0850bdc2251" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-1ab1f066eb13f4440a65dd8467d5b427" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-1c9ee67a9c82c4b04b1e45f3df08d1e3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-1cebbb32e7f46470899a353f10c0501d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-1d3ff336fab554f829a2f77566090cd1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-1f0792d44eca643b69999fe63672cfd4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-21b7eecf3fcef4b47b585d9f562ccbb3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-25657293c64e14240b61f72f83aca2f2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-2b6a9d3ce2c6f47d6b39fbcf1d6f5cf9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-2d49419273a924626af26407507fbcbd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-2eb55d505bdd842aeb2d61b3ab322dd5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-2fab0fb67df1943469520d6764d592f4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-31029f567ea8e4178b77ce2746d4865b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-311847755baec4ac2b4d637092655822" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-31daca346398b4db4bcf4cea2a80549e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-3560aa1eaf11a4fe0b502784cb656cdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-35c3e99e9ccd54db787e3af26f144151" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-35f0491d129a14fe39fe6b08fff825ff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-380823130a4994bdd9e7fe88cf62c6f3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-3f49677e9707c4c64b50b655037293d1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-41fe18dff7c254ff4972990cd9785f7d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-432d2dc70ef9846a3941ee636c8891dd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-4a14d55013b9a4f5c83c02b9020c469b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-4cd290c06c07b40b3897e708a1fe537d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-5198ee584d6a84c528ed87765706bc27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-53f7ac464cdb14a8c8da301a910bd240" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-54f91c18bb98a431c93fc5f720b1ed81" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-574d7f6eff3d44160b1f5f0fd48ab90a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-57d94c99929b04f8a9097bcafe1f0020" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-5a12c4247903140ce95be71c61e6f1bc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-5a4a30efe1dd4443abcf442e90926274" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-5aa602615c3e1497c817ea6b2f85c5ee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-5d0a2198f51384eeaadd194987496981" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-689a70b417e664c848da823cc049e5fb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-68bf9696f1fb64356b20109123521bc4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-68cc14c2bbdb3439cb58fe168f14a341" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-69b788281e1204f6b8a22825bac7cd53" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-6a05a3c5367b944a1839578f9cd74bab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-6c5de59cd547244d1a65cefe102ff03b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-6d24db164a85443cd8ea5d5a9ddca411" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-6db786405a91d4384ad5575116e92334" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-6fae43888bf714a3d92b706fe5878ecb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-6fce0419057b54425bb3c57448a0b363" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-702e797c68f6d4e4c926ea70d8a8a0df" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-718117c6ece5b4805a79189c2243b532" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-75b5765c71af548dc9f571c0074fb3d7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-78bc9b9089fc4485eb15369916882e3c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-7dc3f910571f949f99c5b790cdedca7d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-7dedae3a932374b4181476416c319c79" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-7e00e74dc18d046578ce166b1571a23a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-847581d4a67a14b6196c24e10b0f77fd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-86254652037e04a3b97cc01b67d982de" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-86522c83e72de471f9b2af1db9d94a1c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-888c4ca6e6f314ef39e569e4dfd6a60c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-88f8b31f7ef5548b391f32f38e07ef66" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-89d870f0827f141c5bc615be0b17b007" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-8a50e49a30fc342808759dc16b364bfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-8e5e076148aea4ebd9293de589f40179" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-91703c79090284193a9f2b9bdd76e4ba" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-934c8b79e673c4e638d5dd8160dd9538" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-935b5bd726feb493c91a7f51f5e0f6e5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-952743a5b18d84eb6a5ef2e581ebc855" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-967a0c7c3e24b48539559f1a30beda3d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-9710b7d1aa52d46b7ade9298a666eeca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-9781cc8e447724d01af54cd2cce68ac0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-98d227420f7dd4c3cbd5a6d4da5a08f1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-9bedd5d7868484518b938340fbac7c53" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-9c75e32bb287d4b448a701d1e6dd3b53" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-9e8bbe654f0404524b8822476e0294a6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-9ede2bd78e93246089d17cd27ff3520a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-a40328f11d82a4c91974acd520ee9ef2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-a57399dc85fb4414d8d8b30e11357700" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-a7267b58bc88e4eb2a77faf52e5c3d14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-a734cec091e7a431396d33dff861c01f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-a8697167be136484199cceb6b97fb768" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-a87516d98e695412c9e9027d8c5eae52" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-ab635d36511764d469d6e59130afe78a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-abd3aaa69ce184dfc8830dfabc614eb4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-ad109a5578f654dd28c4982fd312dbbd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-b1ab7bfea25904641801ac2ffa423f72" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-b2f91ebb164624b0c939cc9d624b4872" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-b754972d7ce7f45fb92a3a51e62aa7bb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-b971fa9074f93441c8f04be6f9f8ad53" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-bad736a40530b45f885627380bbc3d98" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-bbc5819847e054d3181c6f36eb91653f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-bbdce777cb58f40c5bb1c84d02afb67a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-bd89050ef51f94691a7d58bb8f5f4030" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-bf39fd67bd9ba4ac6a5ea0a31b2c4e9d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-bf77b0342b2e640daa8536083f5cd566" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-c00d48c7d5f9f4b91b829c9dfc256786" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-c13f73bd85316467cbfa0d902a4e294a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-c32eb0a21792b4ce69a9a109e9836f4c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-c34a1f2c544cf43038dc009a0023f8d3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-c54279107390c4352844f112fd81811c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-c9ae9d9b1316a4331aca5221a4be07e9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-c9bde0c054da643e984113e5178960f1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-cc5cea9b9eb8b470fb73f72c899f4dd1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-cc9a985a39b3548b7928a40e888ec0a3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-d16c365b962e84e548cb9fdc183412f3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-d2ed556e92b264cca84d81753f837e6f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-d524df4d107164d4e9fd84fc94bbed44" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-d66f681d2e21f401ba10ce30e0405bec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-d6877bf8b4c2b4a7ba6faad810d86a0a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-db6e89999337e441d946c5e20ee79ce2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-dc522d80fb00b493a8d31e9b3794d53c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-deb12ccf0084c416a9cd7652a73532ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-e1f2a60ca904449118f1f021d6d13656" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-ecca78a2d56f14a34912adcd7349d29f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-f0a23391dd4b747ffa435bd09091e9fd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-f1ad2572379244a0b9dda66880cd0ad5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-f2aff244beeac4e80a1b4d5dcf16147f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-f39062d46102b4262a09c1d63077cbb4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-f6dd464efa2a94dcea465a996543b370" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-fad8c4b1635304e248edf2f2a1a8f223" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-fca8ea55a2bc64b80b5f7cda90e25251" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-fd22371cd6d4b457ebf913327b5dcfd7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-fd4eafb3bc2c44efe92fe97e67dce739" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-fd68ecf99bd1647a5913341b4f8780e2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-ff0e59d786288402f8eb290ea1023c63" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-ff26417f9623f4293bda86fcac745c44" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/emcc_arguments.resp" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,28 +321,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="dObject.cs" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="dObject.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/dObject.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            <state relative-caret-position="255">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding>
-                <marker date="1526461417000" expanded="true" signature="6:113" ph="..." />
-                <marker date="1526461417000" expanded="true" signature="152:411" ph="{...}" />
-                <marker date="1526461417000" expanded="true" signature="202:209" ph="{...}" />
-                <marker date="1526461417000" expanded="true" signature="264:271" ph="{...}" />
-                <marker date="1526461417000" expanded="true" signature="319:408" ph="{...}" />
+                <marker date="1528540329000" expanded="false" signature="6:113" ph="..." />
+                <marker date="1528540329000" expanded="true" signature="152:570" ph="{...}" />
+                <marker date="1528540329000" expanded="true" signature="202:209" ph="{...}" />
+                <marker date="1528540329000" expanded="true" signature="264:306" ph="{...}" />
+                <marker date="1528540329000" expanded="true" signature="354:441" ph="{...}" />
+                <marker date="1528540329000" expanded="true" signature="491:568" ph="{...}" />
+                <marker date="1528540329000" expanded="true" signature="497:564" ph="/* Destroy(other.gameObject); ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="objMovement.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="objMovement.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/objMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="27" />
+            <state relative-caret-position="210">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <marker date="1523656001000" expanded="false" signature="6:78" ph="..." />
                 <marker date="1523656001000" expanded="true" signature="121:331" ph="{...}" />
@@ -64,33 +358,34 @@
       <file leaf-file-name="playerScript.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/playerScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="336">
+              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
               <folding>
-                <marker date="1526243665000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1526243665000" expanded="true" signature="122:2592" ph="{...}" />
-                <marker date="1526243665000" expanded="true" signature="129:206" ph="/* This is the value that determines how high chance will jump ... */" />
-                <marker date="1526243665000" expanded="true" signature="248:322" ph="/* This is the Rigidbody reference to the chance rigidbody. ... */" />
-                <marker date="1526243665000" expanded="true" signature="357:459" ph="/* This is the jump constant used to move the character up. Only change to tweak power. ... */" />
-                <marker date="1526243665000" expanded="true" signature="505:562" ph="/* Bool to determine if 1 jump per click. ... */" />
-                <marker date="1526243665000" expanded="true" signature="869:934" ph="{...}" />
-                <marker date="1526243665000" expanded="true" signature="989:1283" ph="{...}" />
-                <marker date="1526243665000" expanded="true" signature="1049:1196" ph="{...}" />
-                <marker date="1526243665000" expanded="true" signature="1289:1340" ph="/* Getter for the MOVEMENT_CONSTANT ... */" />
-                <marker date="1526243665000" expanded="true" signature="1378:1424" ph="{...}" />
-                <marker date="1526243665000" expanded="true" signature="1430:1481" ph="/* Setter for the MOVEMENT_CONSTANT ... */" />
-                <marker date="1526243665000" expanded="true" signature="1523:1570" ph="{...}" />
-                <marker date="1526243665000" expanded="true" signature="1576:1730" ph="/* This Function changes the boolean tag once the character hits the ground to ... */" />
-                <marker date="1526243665000" expanded="true" signature="1777:1930" ph="{...}" />
-                <marker date="1526243665000" expanded="true" signature="1819:1924" ph="{...}" />
-                <marker date="1526243665000" expanded="true" signature="1983:2114" ph="{...}" />
-                <marker date="1526243665000" expanded="true" signature="2049:2108" ph="{...}" />
-                <marker date="1526243665000" expanded="true" signature="2120:2198" ph="/* This function also does the same thing as the function above. ... */" />
-                <marker date="1526243665000" expanded="true" signature="2244:2351" ph="{...}" />
-                <marker date="1526243665000" expanded="true" signature="2294:2345" ph="{...}" />
-                <marker date="1526243665000" expanded="true" signature="2357:2435" ph="/* This turns the boolean off after chance leaves the platform. ... */" />
-                <marker date="1526243665000" expanded="true" signature="2481:2589" ph="{...}" />
-                <marker date="1526243665000" expanded="true" signature="2531:2583" ph="{...}" />
+                <marker date="1527376467000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1527376467000" expanded="true" signature="122:2692" ph="{...}" />
+                <marker date="1527376467000" expanded="true" signature="129:206" ph="/* This is the value that determines how high chance will jump ... */" />
+                <marker date="1527376467000" expanded="true" signature="248:322" ph="/* This is the Rigidbody reference to the chance rigidbody. ... */" />
+                <marker date="1527376467000" expanded="true" signature="357:459" ph="/* This is the jump constant used to move the character up. Only change to tweak power. ... */" />
+                <marker date="1527376467000" expanded="true" signature="505:562" ph="/* Bool to determine if 1 jump per click. ... */" />
+                <marker date="1527376467000" expanded="true" signature="869:934" ph="{...}" />
+                <marker date="1527376467000" expanded="true" signature="989:1283" ph="{...}" />
+                <marker date="1527376467000" expanded="true" signature="1049:1196" ph="{...}" />
+                <marker date="1527376467000" expanded="true" signature="1289:1340" ph="/* Getter for the MOVEMENT_CONSTANT ... */" />
+                <marker date="1527376467000" expanded="true" signature="1378:1424" ph="{...}" />
+                <marker date="1527376467000" expanded="true" signature="1455:1510" ph="{...}" />
+                <marker date="1527376467000" expanded="true" signature="1525:1576" ph="/* Setter for the MOVEMENT_CONSTANT ... */" />
+                <marker date="1527376467000" expanded="true" signature="1618:1665" ph="{...}" />
+                <marker date="1527376467000" expanded="true" signature="1671:1825" ph="/* This Function changes the boolean tag once the character hits the ground to ... */" />
+                <marker date="1527376467000" expanded="true" signature="1872:2025" ph="{...}" />
+                <marker date="1527376467000" expanded="true" signature="1914:2019" ph="{...}" />
+                <marker date="1527376467000" expanded="true" signature="2083:2214" ph="{...}" />
+                <marker date="1527376467000" expanded="true" signature="2149:2208" ph="{...}" />
+                <marker date="1527376467000" expanded="true" signature="2220:2298" ph="/* This function also does the same thing as the function above. ... */" />
+                <marker date="1527376467000" expanded="true" signature="2344:2451" ph="{...}" />
+                <marker date="1527376467000" expanded="true" signature="2394:2445" ph="{...}" />
+                <marker date="1527376467000" expanded="true" signature="2457:2535" ph="/* This turns the boolean off after chance leaves the platform. ... */" />
+                <marker date="1527376467000" expanded="true" signature="2581:2689" ph="{...}" />
+                <marker date="1527376467000" expanded="true" signature="2631:2683" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -99,24 +394,29 @@
       <file leaf-file-name="spawnPlatform.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/spawnPlatform.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-160">
-              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+            <state relative-caret-position="1019">
+              <caret line="103" selection-start-line="103" selection-end-line="103" />
               <folding>
-                <marker date="1526459883000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1526459883000" expanded="true" signature="123:3399" ph="{...}" />
-                <marker date="1526459883000" expanded="true" signature="1298:1517" ph="{...}" />
-                <marker date="1526459883000" expanded="true" signature="1544:1726" ph="{...}" />
-                <marker date="1526459883000" expanded="true" signature="1629:1719" ph="{...}" />
-                <marker date="1526459883000" expanded="true" signature="1744:1921" ph="{...}" />
-                <marker date="1526459883000" expanded="true" signature="1862:1915" ph="{...}" />
-                <marker date="1526459883000" expanded="true" signature="1965:3397" ph="{...}" />
-                <marker date="1526459883000" expanded="true" signature="3032:3316" ph="{...}" />
+                <marker date="1527533642000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1527533642000" expanded="true" signature="123:3398" ph="{...}" />
+                <marker date="1527533642000" expanded="true" signature="1298:1517" ph="{...}" />
+                <marker date="1527533642000" expanded="true" signature="1544:1726" ph="{...}" />
+                <marker date="1527533642000" expanded="true" signature="1629:1719" ph="{...}" />
+                <marker date="1527533642000" expanded="true" signature="1744:1921" ph="{...}" />
+                <marker date="1527533642000" expanded="true" signature="1862:1915" ph="{...}" />
+                <marker date="1527533642000" expanded="true" signature="1965:3396" ph="{...}" />
+                <marker date="1527533642000" expanded="true" signature="3031:3315" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>layer</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -157,6 +457,7 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -174,7 +475,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,12 +510,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526199804427</updated>
-      <workItem from="1526199809770" duration="21499000" />
+      <workItem from="1526199809770" duration="27423000" />
+      <workItem from="1528539154627" duration="1278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21499000" />
+    <option name="totallyTimeSpent" value="28701000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -231,28 +532,28 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32969698" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13733906" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13876967" />
+      <window_info anchor="bottom" id="Unity" order="7" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,35 +565,23 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/spawnPlatform.cs</url>
-          <line>81</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/spawnPlatform.cs" initialLine="71">
-            <startOffsets>
-              <startOffset value="1914" />
-            </startOffsets>
-            <endOffsets>
-              <endOffset value="1915" />
-            </endOffsets>
-          </properties>
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/coin.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/dObject.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/antiCollision.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <marker date="1528540329000" expanded="false" signature="6:113" ph="..." />
+            <marker date="1528540329000" expanded="true" signature="152:570" ph="{...}" />
+            <marker date="1528540329000" expanded="true" signature="202:209" ph="{...}" />
+            <marker date="1528540329000" expanded="true" signature="264:306" ph="{...}" />
+            <marker date="1528540329000" expanded="true" signature="354:441" ph="{...}" />
+            <marker date="1528540329000" expanded="true" signature="491:568" ph="{...}" />
+            <marker date="1528540329000" expanded="true" signature="497:564" ph="/* Destroy(other.gameObject); ... */" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -311,65 +600,135 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/playerScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="825">
+          <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
           <folding>
-            <marker date="1526243665000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1526243665000" expanded="true" signature="122:2592" ph="{...}" />
-            <marker date="1526243665000" expanded="true" signature="129:206" ph="/* This is the value that determines how high chance will jump ... */" />
-            <marker date="1526243665000" expanded="true" signature="248:322" ph="/* This is the Rigidbody reference to the chance rigidbody. ... */" />
-            <marker date="1526243665000" expanded="true" signature="357:459" ph="/* This is the jump constant used to move the character up. Only change to tweak power. ... */" />
-            <marker date="1526243665000" expanded="true" signature="505:562" ph="/* Bool to determine if 1 jump per click. ... */" />
-            <marker date="1526243665000" expanded="true" signature="869:934" ph="{...}" />
-            <marker date="1526243665000" expanded="true" signature="989:1283" ph="{...}" />
-            <marker date="1526243665000" expanded="true" signature="1049:1196" ph="{...}" />
-            <marker date="1526243665000" expanded="true" signature="1289:1340" ph="/* Getter for the MOVEMENT_CONSTANT ... */" />
-            <marker date="1526243665000" expanded="true" signature="1378:1424" ph="{...}" />
-            <marker date="1526243665000" expanded="true" signature="1430:1481" ph="/* Setter for the MOVEMENT_CONSTANT ... */" />
-            <marker date="1526243665000" expanded="true" signature="1523:1570" ph="{...}" />
-            <marker date="1526243665000" expanded="true" signature="1576:1730" ph="/* This Function changes the boolean tag once the character hits the ground to ... */" />
-            <marker date="1526243665000" expanded="true" signature="1777:1930" ph="{...}" />
-            <marker date="1526243665000" expanded="true" signature="1819:1924" ph="{...}" />
-            <marker date="1526243665000" expanded="true" signature="1983:2114" ph="{...}" />
-            <marker date="1526243665000" expanded="true" signature="2049:2108" ph="{...}" />
-            <marker date="1526243665000" expanded="true" signature="2120:2198" ph="/* This function also does the same thing as the function above. ... */" />
-            <marker date="1526243665000" expanded="true" signature="2244:2351" ph="{...}" />
-            <marker date="1526243665000" expanded="true" signature="2294:2345" ph="{...}" />
-            <marker date="1526243665000" expanded="true" signature="2357:2435" ph="/* This turns the boolean off after chance leaves the platform. ... */" />
-            <marker date="1526243665000" expanded="true" signature="2481:2589" ph="{...}" />
-            <marker date="1526243665000" expanded="true" signature="2531:2583" ph="{...}" />
+            <marker date="1527376467000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527376467000" expanded="true" signature="122:2692" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="129:206" ph="/* This is the value that determines how high chance will jump ... */" />
+            <marker date="1527376467000" expanded="true" signature="248:322" ph="/* This is the Rigidbody reference to the chance rigidbody. ... */" />
+            <marker date="1527376467000" expanded="true" signature="357:459" ph="/* This is the jump constant used to move the character up. Only change to tweak power. ... */" />
+            <marker date="1527376467000" expanded="true" signature="505:562" ph="/* Bool to determine if 1 jump per click. ... */" />
+            <marker date="1527376467000" expanded="true" signature="869:934" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="989:1283" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="1049:1196" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="1289:1340" ph="/* Getter for the MOVEMENT_CONSTANT ... */" />
+            <marker date="1527376467000" expanded="true" signature="1378:1424" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="1455:1510" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="1525:1576" ph="/* Setter for the MOVEMENT_CONSTANT ... */" />
+            <marker date="1527376467000" expanded="true" signature="1618:1665" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="1671:1825" ph="/* This Function changes the boolean tag once the character hits the ground to ... */" />
+            <marker date="1527376467000" expanded="true" signature="1872:2025" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="1914:2019" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="2083:2214" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="2149:2208" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="2220:2298" ph="/* This function also does the same thing as the function above. ... */" />
+            <marker date="1527376467000" expanded="true" signature="2344:2451" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="2394:2445" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="2457:2535" ph="/* This turns the boolean off after chance leaves the platform. ... */" />
+            <marker date="1527376467000" expanded="true" signature="2581:2689" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="2631:2683" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/spawnPlatform.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160">
-          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+        <state relative-caret-position="1515">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
           <folding>
-            <marker date="1526459883000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1526459883000" expanded="true" signature="123:3399" ph="{...}" />
-            <marker date="1526459883000" expanded="true" signature="1298:1517" ph="{...}" />
-            <marker date="1526459883000" expanded="true" signature="1544:1726" ph="{...}" />
-            <marker date="1526459883000" expanded="true" signature="1629:1719" ph="{...}" />
-            <marker date="1526459883000" expanded="true" signature="1744:1921" ph="{...}" />
-            <marker date="1526459883000" expanded="true" signature="1862:1915" ph="{...}" />
-            <marker date="1526459883000" expanded="true" signature="1965:3397" ph="{...}" />
-            <marker date="1526459883000" expanded="true" signature="3032:3316" ph="{...}" />
+            <marker date="1527533642000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527533642000" expanded="true" signature="123:3398" ph="{...}" />
+            <marker date="1527533642000" expanded="true" signature="1298:1517" ph="{...}" />
+            <marker date="1527533642000" expanded="true" signature="1544:1726" ph="{...}" />
+            <marker date="1527533642000" expanded="true" signature="1629:1719" ph="{...}" />
+            <marker date="1527533642000" expanded="true" signature="1744:1921" ph="{...}" />
+            <marker date="1527533642000" expanded="true" signature="1862:1915" ph="{...}" />
+            <marker date="1527533642000" expanded="true" signature="1965:3396" ph="{...}" />
+            <marker date="1527533642000" expanded="true" signature="3031:3315" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/coin.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/antiCollision.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/spawnPlatform.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1019">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+          <folding>
+            <marker date="1527533642000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527533642000" expanded="true" signature="123:3398" ph="{...}" />
+            <marker date="1527533642000" expanded="true" signature="1298:1517" ph="{...}" />
+            <marker date="1527533642000" expanded="true" signature="1544:1726" ph="{...}" />
+            <marker date="1527533642000" expanded="true" signature="1629:1719" ph="{...}" />
+            <marker date="1527533642000" expanded="true" signature="1744:1921" ph="{...}" />
+            <marker date="1527533642000" expanded="true" signature="1862:1915" ph="{...}" />
+            <marker date="1527533642000" expanded="true" signature="1965:3396" ph="{...}" />
+            <marker date="1527533642000" expanded="true" signature="3031:3315" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/playerScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <marker date="1527376467000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527376467000" expanded="true" signature="122:2692" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="129:206" ph="/* This is the value that determines how high chance will jump ... */" />
+            <marker date="1527376467000" expanded="true" signature="248:322" ph="/* This is the Rigidbody reference to the chance rigidbody. ... */" />
+            <marker date="1527376467000" expanded="true" signature="357:459" ph="/* This is the jump constant used to move the character up. Only change to tweak power. ... */" />
+            <marker date="1527376467000" expanded="true" signature="505:562" ph="/* Bool to determine if 1 jump per click. ... */" />
+            <marker date="1527376467000" expanded="true" signature="869:934" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="989:1283" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="1049:1196" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="1289:1340" ph="/* Getter for the MOVEMENT_CONSTANT ... */" />
+            <marker date="1527376467000" expanded="true" signature="1378:1424" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="1455:1510" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="1525:1576" ph="/* Setter for the MOVEMENT_CONSTANT ... */" />
+            <marker date="1527376467000" expanded="true" signature="1618:1665" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="1671:1825" ph="/* This Function changes the boolean tag once the character hits the ground to ... */" />
+            <marker date="1527376467000" expanded="true" signature="1872:2025" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="1914:2019" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="2083:2214" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="2149:2208" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="2220:2298" ph="/* This function also does the same thing as the function above. ... */" />
+            <marker date="1527376467000" expanded="true" signature="2344:2451" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="2394:2445" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="2457:2535" ph="/* This turns the boolean off after chance leaves the platform. ... */" />
+            <marker date="1527376467000" expanded="true" signature="2581:2689" ph="{...}" />
+            <marker date="1527376467000" expanded="true" signature="2631:2683" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/dObject.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="255">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding>
-            <marker date="1526461417000" expanded="true" signature="6:113" ph="..." />
-            <marker date="1526461417000" expanded="true" signature="152:411" ph="{...}" />
-            <marker date="1526461417000" expanded="true" signature="202:209" ph="{...}" />
-            <marker date="1526461417000" expanded="true" signature="264:271" ph="{...}" />
-            <marker date="1526461417000" expanded="true" signature="319:408" ph="{...}" />
+            <marker date="1528540329000" expanded="false" signature="6:113" ph="..." />
+            <marker date="1528540329000" expanded="true" signature="152:570" ph="{...}" />
+            <marker date="1528540329000" expanded="true" signature="202:209" ph="{...}" />
+            <marker date="1528540329000" expanded="true" signature="264:306" ph="{...}" />
+            <marker date="1528540329000" expanded="true" signature="354:441" ph="{...}" />
+            <marker date="1528540329000" expanded="true" signature="491:568" ph="{...}" />
+            <marker date="1528540329000" expanded="true" signature="497:564" ph="/* Destroy(other.gameObject); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/objMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <marker date="1523656001000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1523656001000" expanded="true" signature="121:331" ph="{...}" />
+            <marker date="1523656001000" expanded="true" signature="171:178" ph="{...}" />
+            <marker date="1523656001000" expanded="true" signature="232:329" ph="{...}" />
           </folding>
         </state>
       </provider>

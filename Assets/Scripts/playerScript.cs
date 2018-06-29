@@ -53,6 +53,12 @@ public class playerScript : MonoBehaviour {
         return MOVEMENT_CONSTANT;
     }
 
+    public static void test()
+    {
+        spawnPlatform.spawnPlatformCoin();
+    }
+    
+    
     /**
      * Setter for the MOVEMENT_CONSTANT
      */
@@ -74,6 +80,7 @@ public class playerScript : MonoBehaviour {
                 break;
         }
     }
+    
 
     private void OnTriggerEnter2D(Collider2D other)
     {

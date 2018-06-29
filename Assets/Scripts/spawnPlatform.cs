@@ -102,7 +102,6 @@ public class spawnPlatform : MonoBehaviour {
         Vector2 posCoin2 = originPosition + new Vector2(xCor - xCorBuffer + coinXBuffer, yCor + (height / coinSpawnHeightDiv));
         Vector2 posCoin3 = originPosition + new Vector2(xCor - xCorBuffer + (coinXBuffer + coinXBuffer), yCor + (height / coinSpawnHeightDiv));
 
-
         if (rnd == 1)
         {
             //Create a new coin object with same location as the platform.
